@@ -10,7 +10,7 @@
 	#Ignore trees without connected leaves (can be toggled in-game)
 	treesMustHaveLeaves = true
 	#Enable chopping in creative mode (even when false, sneaking can still enable chopping) (can be toggled in-game)
-	chopInCreativeMode = false
+	chopInCreativeMode = true
 
 [visuals]
 	#Visually replace the interior sides of logs with a chopped texture instead of bark
