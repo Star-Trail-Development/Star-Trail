@@ -13,6 +13,7 @@ jei/*
 !defaultoptions/
 !shield_overhaul/
 !thirst/
+!voicechat/
 
 #files
 !.gitignore
@@ -42,11 +43,12 @@ jei/*
 !prettyrain.json5
 !scholar*.toml
 !SittingPlusConfig.json
-!smoothswapping.json
 !sodium*.*
 !structurify.json
 !supplementaries*.toml
+!toastcontrol-common.toml
 !travelersbackpack*.toml
 !treechop*.toml
 !tweakerge.json
+!voicechat-client.toml
 !xaero*.*

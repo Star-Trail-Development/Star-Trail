@@ -25,7 +25,16 @@
             "value": false
         },
         "continuous_crafting_checkbox_value": "UNCHECKED",
-        "continuous_crafting_saved_value": false
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        },
+        "show_move_all_button": {
+            "value": false
+        }
     },
     "LockedSlotsSettings": {
         "locked_slots_disable_throw_for_non_stackable": false,

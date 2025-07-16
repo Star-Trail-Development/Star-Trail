@@ -244,3 +244,13 @@ key.aotake_sweep.open_dustbin_pre
 key.aotake_sweep.open_dustbin_next
 Options Gui
 key.carbon_config.key
+key.push_to_talk
+key.whisper
+key.mute_microphone
+key.disable_voice_chat
+key.hide_icons
+key.voice_chat
+key.voice_chat_settings
+key.voice_chat_group
+key.voice_chat_toggle_recording
+key.voice_chat_adjust_volumes
