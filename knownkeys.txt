@@ -242,3 +242,5 @@ treechop.key.open_settings_overlay
 key.aotake_sweep.open_dustbin
 key.aotake_sweep.open_dustbin_pre
 key.aotake_sweep.open_dustbin_next
+Options Gui
+key.carbon_config.key

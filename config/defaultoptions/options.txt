@@ -30,7 +30,6 @@ glintSpeed:0.5
 glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
-gamma:0.5
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:2.0
@@ -42,7 +41,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","Moonlight Mods Dynamic Assets","distinguishedpotions:potion_overrides","xkdeco_mimic_wall"]
+resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","Moonlight Mods Dynamic Assets","distinguishedpotions:potion_overrides","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","xkdeco_mimic_wall"]
 incompatibleResourcePacks:["xkdeco_mimic_wall"]
 lastServer:
 lang:zh_cn
@@ -53,7 +52,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.0
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -77,7 +76,7 @@ skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 hideBundleTutorial:false
-syncChunkWrites:true
+syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
 onlyShowSecureChat:false
@@ -92,7 +91,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.40316901408450706
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
