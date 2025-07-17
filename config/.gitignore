@@ -3,8 +3,6 @@
 inventoryprofilesnext/*
 !jei/
 jei/*
-!voicechat/
-voicechat/*
 !defaultoptions/
 !incontrol/
 !InventoryHUD/
@@ -21,7 +19,6 @@ voicechat/*
 !amendments*.toml
 !inventoryprofilesnext/inventoryprofiles.json
 !jei/*.ini
-!voicechat/voicechat-client.properties
 !betterfpsdist.json
 !chat_tools.json
 !chloride-client.json
