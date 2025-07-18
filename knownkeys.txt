@@ -254,3 +254,6 @@ key.voice_chat_settings
 key.voice_chat_group
 key.voice_chat_toggle_recording
 key.voice_chat_adjust_volumes
+key.touhou_little_maid.stt_chat.desc
+key.maid_storage_manager.request_ingredient
+key.maid_storage_manager.see_through_mark_box
