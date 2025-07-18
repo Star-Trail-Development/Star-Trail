@@ -18,7 +18,7 @@ displayRedstone:true
 deathpoints:true
 oldDeathpoints:false
 distance:1
-lockNorth:true
+lockNorth:false
 zoom:0
 minimapSize:0
 chunkGrid:-1

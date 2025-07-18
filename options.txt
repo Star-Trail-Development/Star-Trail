@@ -120,7 +120,7 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.mimi.midi.gui.filecaster:key.keyboard.unknown
-key_key.mimi.midi.gui.transmitter:key.keyboard.delete
+key_key.mimi.midi.gui.transmitter:key.keyboard.unknown
 key_key.mimi.midi.gui.settings:key.keyboard.unknown
 key_key.mimi.midi.alloff:key.keyboard.end
 key_key.mimi.midi.gui.main:key.keyboard.unknown
