@@ -28,7 +28,6 @@ jei/*
 !emotecraft.json
 !fastbench.cfg
 !forgematica.json
-!ftbbackups2.json
 !immediatelyfast.json
 !immersiveui.yaml
 !inventoryhud-client.toml
@@ -41,7 +40,6 @@ jei/*
 !particular-common.toml
 !prettyrain.json5
 !scholar*.toml
-!SittingPlusConfig.json
 !sodium*.*
 !structurify.json
 !supplementaries*.toml
