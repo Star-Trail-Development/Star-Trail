@@ -4,7 +4,6 @@
 !config/
 config/*
 !kubejs/
-kubejs/*
 !patchouli_books/
 
 #files
