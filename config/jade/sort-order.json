@@ -66,6 +66,7 @@
   "jade:object_name": null,
   "jade:registry_name": null,
   "lootr:inventory": null,
+  "maid_storage_manager:virtual_frame": null,
   "mekanism:data_provider": null,
   "mekanism:entity_data_provider": null,
   "mekanism:remove_builtin": null,

@@ -41,7 +41,9 @@
   "rainDropParticles": true,
   "crackingBlockParticles": true,
   "destroyedBlockParticles": true,
-  "disabledParticles": [],
+  "disabledParticles": [
+    "particular:waterfall_spray"
+  ],
   "tileEntityDistanceCulling": false,
   "tileEntityCullingDistanceX": 4096,
   "tileEntityCullingDistanceY": 32,

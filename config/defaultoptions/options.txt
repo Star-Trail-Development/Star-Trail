@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","Moonlight Mods Dynamic Assets","distinguishedpotions:potion_overrides","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","xkdeco_mimic_wall","file/MIMI-1.20.1.zip","file/Star-Trail-Music-Pack.zip"]
-incompatibleResourcePacks:["xkdeco_mimic_wall"]
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
 soundDevice:""
@@ -92,7 +92,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:0.40316901408450706
+soundCategory_ambient:0.4014084507042254
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

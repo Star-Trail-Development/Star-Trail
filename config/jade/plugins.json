@@ -60,6 +60,9 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "maid_storage_manager": {
+    "virtual_frame": true
+  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
@@ -79,12 +82,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "ultramarine": {
-    "brick_kiln": true,
-    "bottle_gourd": true,
-    "mallet_toggleable": true,
-    "censer_burn_time": true
   },
   "balm": {
     "jade": true

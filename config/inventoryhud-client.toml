@@ -125,16 +125,16 @@
 	helmPosY = 35
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
-	chestPosX = 19
+	chestPosX = 35
 	#Chestplate position (Y)
 	#Range: -9999 ~ 9999
-	chestPosY = 35
+	chestPosY = 19
 	#Leggings position (X)
 	#Range: -9999 ~ 9999
-	legPosX = 35
+	legPosX = 19
 	#Leggings position (Y)
 	#Range: -9999 ~ 9999
-	legPosY = 19
+	legPosY = 35
 	#Boots position (X)
 	#Range: -9999 ~ 9999
 	bootPosX = 19
@@ -158,13 +158,13 @@
 	arrPosX = 51
 	#Arrows position (Y)
 	#Range: -9999 ~ 9999
-	arrPosY = 36
+	arrPosY = 35
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
 	invPosX = 51
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
-	invPosY = 20
+	invPosY = 19
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	helmHal = "RIGHT"
