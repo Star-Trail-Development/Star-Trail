@@ -3,6 +3,8 @@
 inventoryprofilesnext/*
 !jei/
 jei/*
+!ae2/
+!bettercaves/
 !defaultoptions/
 !incontrol/
 !InventoryHUD/
@@ -10,6 +12,7 @@ jei/*
 !obscuria/
 !paxi/
 !pickupnotifier/
+!sounds/
 !thirst/
 
 #files
