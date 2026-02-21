@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -39,7 +39,7 @@
     "entity_armor": true,
     "harvest_tool.creative": false,
     "horse_stats": true,
-    "item_tooltip": true,
+    "item_tooltip": false,
     "entity_health": true,
     "enchantment_power": true,
     "zombie_villager": true,
@@ -51,29 +51,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
-  },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
-  "maid_storage_manager": {
-    "virtual_frame": true
-  },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
-  "supplementaries": {
-    "hat_stand": true
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -82,6 +66,10 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
   },
   "balm": {
     "jade": true
@@ -93,6 +81,49 @@
     "drying_basin": true,
     "part": true,
     "squeezer": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "aewireless": {
+    "wireless_tooltip": true
+  },
+  "ultramarine": {
+    "brick_kiln": true,
+    "bottle_gourd": true,
+    "mallet_toggleable": true,
+    "censer_burn_time": true
   },
   "barbequesdelight": {
     "grill": true

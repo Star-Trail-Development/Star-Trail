@@ -20,20 +20,20 @@
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
-	ArmorDamage = true
+	ArmorDamage = false
 	#Hide if durability is above this (in percentage):
 	#Range: 0 ~ 100
 	armAbove = 100
 	#Show/Hide armor
-	showArmor = true
+	showArmor = false
 	#Show/Hide armor
-	showMain = false
+	showMain = true
 	#Show/Hide armor
-	showOff = false
+	showOff = true
 	#Show/Hide armor
-	showArrows = true
+	showArrows = false
 	#Show/Hide armor
-	showInv = true
+	showInv = false
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
 	armView = "OFF"
@@ -42,7 +42,7 @@
 	#Move all items at once or each one
 	moveAll = false
 	#Show/Hide empty slot icon
-	showEmpty = true
+	showEmpty = false
 	#Show overall count of items in main/off hand
 	showCount = true
 	#ArmorHUD scale in persentage from 50 to 150
@@ -83,7 +83,7 @@
 [positions]
 	#Inventory HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	invValign = "CENTER"
+	invValign = "TOP"
 	#Inventory HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	invHalign = "MIDDLE"
@@ -92,7 +92,7 @@
 	xPos = 0
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = -47
+	yPos = 0
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"
@@ -113,106 +113,106 @@
 	potHalign = "RIGHT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 47
+	xPotionPos = 45
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 55
+	yPotionPos = 18
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
-	helmPosX = 35
+	helmPosX = 72
 	#Helmet position (Y)
 	#Range: -9999 ~ 9999
-	helmPosY = 35
+	helmPosY = 52
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
-	chestPosX = 35
+	chestPosX = 56
 	#Chestplate position (Y)
 	#Range: -9999 ~ 9999
-	chestPosY = 19
+	chestPosY = 52
 	#Leggings position (X)
 	#Range: -9999 ~ 9999
-	legPosX = 19
+	legPosX = 40
 	#Leggings position (Y)
 	#Range: -9999 ~ 9999
-	legPosY = 35
+	legPosY = 52
 	#Boots position (X)
 	#Range: -9999 ~ 9999
-	bootPosX = 19
+	bootPosX = 24
 	#Boots position (Y)
 	#Range: -9999 ~ 9999
-	bootPosY = 19
+	bootPosY = 52
 	#MainHand position (X)
 	#Range: -9999 ~ 9999
-	mainPosX = -72
+	mainPosX = 0
 	#MainHand position (Y)
 	#Range: -9999 ~ 9999
-	mainPosY = 125
+	mainPosY = 16
 	#OffHand position (X)
 	#Range: -9999 ~ 9999
-	offPosX = -72
+	offPosX = 135
 	#OffHand position (Y)
 	#Range: -9999 ~ 9999
-	offPosY = 139
+	offPosY = 16
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
-	arrPosX = 51
+	arrPosX = 8
 	#Arrows position (Y)
 	#Range: -9999 ~ 9999
-	arrPosY = 35
+	arrPosY = 52
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
-	invPosX = 51
+	invPosX = -8
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
-	invPosY = 19
+	invPosY = 52
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	helmHal = "RIGHT"
+	helmHal = "MIDDLE"
 	#Helmet vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	helmVal = "BOTTOM"
+	helmVal = "TOP"
 	#Chestplate horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	chestHal = "RIGHT"
+	chestHal = "MIDDLE"
 	#Chestplate vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	chestVal = "BOTTOM"
+	chestVal = "TOP"
 	#Leggings horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	legHal = "RIGHT"
+	legHal = "MIDDLE"
 	#Leggings vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	legVal = "BOTTOM"
+	legVal = "TOP"
 	#Boots horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	bootHal = "RIGHT"
+	bootHal = "MIDDLE"
 	#Boots vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	bootVal = "BOTTOM"
+	bootVal = "TOP"
 	#MainHand horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	mainHal = "MIDDLE"
+	mainHal = "LEFT"
 	#MainHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	mainVal = "BOTTOM"
 	#OffHand horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	offHal = "MIDDLE"
+	offHal = "RIGHT"
 	#OffHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	offVal = "BOTTOM"
 	#Arrows horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	arrHal = "RIGHT"
+	arrHal = "MIDDLE"
 	#Arrows vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	arrVal = "BOTTOM"
+	arrVal = "TOP"
 	#InvIcon horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHal = "RIGHT"
+	invHal = "MIDDLE"
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	invVal = "BOTTOM"
+	invVal = "TOP"
 
 #Notification settings
 [notification]

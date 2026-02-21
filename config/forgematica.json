@@ -57,7 +57,7 @@
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "all",
-    "selectionCornersMode": "corners",
+    "selectionCornersMode": "expand",
     "commandFillMaxVolume": 32768,
     "commandLimitPerTick": 24,
     "commandNameClone": "clone",
@@ -84,7 +84,7 @@
       "keys": "BUTTON_2"
     },
     "easyPlaceToggle": {
-      "keys": "0"
+      "keys": "F4,E"
     },
     "executeOperation": {
       "keys": "F12"
@@ -147,7 +147,7 @@
       "keys": "F4,S"
     },
     "openGuiSettings": {
-      "keys": "RIGHT_BRACKET"
+      "keys": "EQUAL"
     },
     "operationModeChangeModifier": {
       "keys": "LEFT_CONTROL"
@@ -165,7 +165,7 @@
       "keys": ""
     },
     "renderOverlayThroughBlocks": {
-      "keys": ""
+      "keys": "RIGHT_CONTROL"
     },
     "rerenderSchematic": {
       "keys": "F3,F4"
@@ -174,7 +174,7 @@
       "keys": ""
     },
     "saveAreaAsSchematicToFile": {
-      "keys": "LEFT_ALT,S"
+      "keys": "LEFT_CONTROL,LEFT_ALT,S"
     },
     "schematicEditBreakPlaceAll": {
       "keys": ""

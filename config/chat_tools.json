@@ -52,7 +52,7 @@
     "^(\\+|-)?\\d+(\\.\\d+)?$|^[.#%$/].*|\\ball\\b",
     "(^(\\[|<)i(tem)?(\\]|>)$)"
   ],
-  "chatkeybindings.RepeatKey": "key.keyboard.apostrophe",
+  "chatkeybindings.RepeatKey": "key.keyboard.unknown",
   "chatkeybindings.RepeatKeyModifier": "NONE",
   "chatkeybindings.Macro.Enabled": true,
   "chatkeybindings.Macro.List": [],

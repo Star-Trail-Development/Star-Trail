@@ -3,6 +3,7 @@
 #folders
 !config/
 config/*
+!defaultconfigs/
 !kubejs/
 !patchouli_books/
 
@@ -13,4 +14,3 @@ config/*
 !LICENSE
 !options.txt
 !README.md
-!servers.dat
