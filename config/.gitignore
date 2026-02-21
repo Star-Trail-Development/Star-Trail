@@ -7,9 +7,9 @@ jei/*
 !incontrol/
 !InventoryHUD/
 !jade/
+!obscuria/
 !paxi/
 !pickupnotifier/
-!defaultoptions/
 !thirst/
 
 #files
@@ -19,6 +19,7 @@ jei/*
 !jei/*.ini
 !betterfpsdist.json
 !betterworldloading20.json
+!biome-replacer.properties
 !chat_tools.json
 !chloride-client.json
 !cull-less-leaves.json

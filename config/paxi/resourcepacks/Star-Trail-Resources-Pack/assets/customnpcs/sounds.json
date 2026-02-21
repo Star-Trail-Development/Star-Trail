@@ -1,0 +1,6 @@
+{
+  "startrail.Toccata_and_Fugue_in_D_minor_BWV_565": {
+    "category": "player",
+    "sounds": [{"name": "customnpcs:startrail/Toccata_and_Fugue_in_D_minor_BWV_565", "stream": true}]
+  }
+}
