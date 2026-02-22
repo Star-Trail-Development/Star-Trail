@@ -30,7 +30,7 @@
 	#Show in-game options for enabling and disable felling (can be toggled in-game)
 	showFellingOptions = false
 	#Show chat confirmations when using hotkeys to change chop settings (can be toggled in-game)
-	showFeedbackMessages = true
+	showFeedbackMessages = false
 	#Show tooltips in the settings screen (can be toggled in-game)
 	showTooltips = true
 

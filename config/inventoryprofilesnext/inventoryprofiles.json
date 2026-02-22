@@ -8,12 +8,18 @@
         "highlight_foused_items": {
             "value": false
         },
+        "highlight_foused_items_foreground": false,
         "enable_updates_check": false,
         "first_run": false
     },
     "GuiSettings": {
         "enable_inventory_editor_button": {
-            "value": false
+            "main": {
+                "keys": "LEFT_ALT,KP_9",
+                "settings": {
+                    "context": "ANY"
+                }
+            }
         },
         "enable_inventory_settings_button": {
             "value": false
@@ -73,13 +79,6 @@
         },
         "audio_replace_failed_notification": {
             "value": false
-        }
-    },
-    "Hotkeys": {
-        "open_config_menu": {
-            "main": {
-                "keys": ""
-            }
         }
     }
 }

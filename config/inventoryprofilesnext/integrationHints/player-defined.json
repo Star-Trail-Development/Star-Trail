@@ -1,0 +1,827 @@
+{
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 37
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 37
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 37
+            }
+        }
+    },
+    "com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu": {
+        "ignore": true
+    },
+    "com.tiviacz.travelersbackpack.client.screens.BackpackSettingsScreen": {
+        "ignore": true
+    },
+    "com.tiviacz.travelersbackpack.inventory.menu.BackpackSettingsMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.equipment.toolbox.ToolboxScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.redstoneRequester.RedstoneRequesterScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.redstoneRequester.RedstoneRequesterMenu": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.supplementaries.client.screens.PresentScreen": {
+        "ignore": true
+    },
+    "net.mehvahdjukaar.supplementaries.common.inventories.PresentContainerMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.packagePort.PackagePortScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 20
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 48,
+                "top": 58
+            },
+            "SORT": {
+                "horizontalOffset": 48,
+                "top": 58
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 48,
+                "top": 58
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 48,
+                "top": 58
+            }
+        }
+    },
+    "com.simibubi.create.content.logistics.packagePort.PackagePortMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.AttributeFilterScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.AttributeFilterMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.FilterScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.FilterMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.PackageFilterScreen": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.logistics.filter.PackageFilterMenu": {
+        "ignore": true
+    },
+    "umpaz.brewinandchewin.client.gui.KegScreen": {
+        "ignore": true
+    },
+    "umpaz.brewinandchewin.common.block.entity.container.KegMenu": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.client.screen.TemplateManagerGUI": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.common.containers.TemplateManagerContainer": {
+        "ignore": true
+    },
+    "noppes.npcs.containers.ContainerCarpentryBench": {
+        "ignore": true
+    },
+    "noppes.npcs.client.gui.player.GuiNpcCarpentryBench": {
+        "ignore": true
+    },
+    "mrtjp.projectred.core.gui.screen.inventory.ElectrotineGeneratorScreen": {
+        "ignore": true
+    },
+    "mrtjp.projectred.core.inventory.container.ElectrotineGeneratorMenu": {
+        "ignore": true
+    },
+    "org.cyclops.integratedcrafting.client.gui.ContainerScreenPartInterfaceCraftingSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integratedcrafting.inventory.container.ContainerPartInterfaceCraftingSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenAspectSettings": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -43,
+                "bottom": -10
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -31,
+                "bottom": -22
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -19,
+                "bottom": -34
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.inventory.container.ContainerAspectSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integratedtunnels.core.part.ContainerScreenInterfaceSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integratedtunnels.core.part.ContainerInterfaceSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.client.gui.container.ContainerScreenOnTheDynamicsOfIntegration": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.inventory.container.ContainerOnTheDynamicsOfIntegration": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenPartOffset": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.core.inventory.container.ContainerPartOffset": {
+        "ignore": true
+    },
+    "org.cyclops.integrateddynamics.core.client.gui.container.ContainerScreenPartSettings": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT_ROWS": {
+                "bottom": -20
+            }
+        }
+    },
+    "org.cyclops.integrateddynamics.core.inventory.container.ContainerPartSettings": {
+        "ignore": true
+    },
+    "org.cyclops.integratedterminals.client.gui.container.ContainerScreenTerminalCraftingJobs": {
+        "ignore": true
+    },
+    "org.cyclops.integratedterminals.inventory.container.ContainerTerminalCraftingJobs": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.networktool.NetworkStatusScreen": {
+        "ignore": true
+    },
+    "appeng.menu.me.networktool.NetworkStatusMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.WirelessAccessPointScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.menu.implementations.WirelessAccessPointMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.ItemSearcherScreen": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.ItemSearcherMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.CreativeCompressorScreen": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.CreativeCompressorMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.CreativeCompressedIronBlockScreen": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.CreativeCompressedIronBlockMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.ElevatorScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.ElevatorMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.FluidTankScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 93
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 93
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 93
+            }
+        }
+    },
+    "me.desht.pneumaticcraft.common.inventory.FluidTankMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.SecurityStationMainMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.SecurityStationInventoryScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "me.desht.pneumaticcraft.client.gui.SolarCompressorScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.SolarCompressorMenu": {
+        "ignore": true
+    },
+    "com.aewireless.gui.wireless.WirelessScreen": {
+        "ignore": true
+    },
+    "com.aewireless.gui.wireless.WirelessMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.SpawnerExtractorScreen": {
+        "playerSideOnly": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.SpawnerExtractorMenu": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.client.gui.AmadronScreen": {
+        "ignore": true
+    },
+    "me.desht.pneumaticcraft.common.inventory.AmadronMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.expansion.gui.screen.inventory.ProjectBenchScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.expansion.inventory.container.ProjectBenchMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.expansion.gui.screen.inventory.BatteryBoxScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.expansion.inventory.container.BatteryBoxMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.expansion.gui.screen.inventory.ChargingBenchScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -43
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -31,
+                "bottom": -12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -19,
+                "bottom": -24
+            }
+        }
+    },
+    "mrtjp.projectred.expansion.inventory.container.ChargingBenchMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.expansion.gui.screen.inventory.AutoCrafterScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.expansion.inventory.container.AutoCrafterMenu": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.client.gui.screen.album.AlbumScreen": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.world.inventory.AlbumMenu": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.client.gui.screen.camera.CameraAttachmentsScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.mortuusars.exposure.world.inventory.CameraInHandAttachmentsMenu": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.client.gui.screen.LightroomScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.mortuusars.exposure.world.inventory.LightroomMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.fabrication.gui.screen.inventory.PackagingTableScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.fabrication.inventory.container.PackagingTableMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.fabrication.gui.screen.inventory.LithographyTableScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.fabrication.inventory.container.LithographyTableMenu": {
+        "ignore": true
+    },
+    "mrtjp.projectred.fabrication.gui.screen.inventory.PlottingTableScreen": {
+        "playerSideOnly": true
+    },
+    "mrtjp.projectred.fabrication.inventory.container.PlottingTableMenu": {
+        "ignore": true
+    },
+    "immersive_aircraft.client.gui.VehicleScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": 5
+            },
+            "SORT_COLUMNS": {
+                "bottom": 5
+            },
+            "SORT_ROWS": {
+                "bottom": 5
+            }
+        }
+    },
+    "immersive_aircraft.screen.VehicleScreenHandler": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.vehicles.RocketScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 10
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 10
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 10
+            }
+        }
+    },
+    "earth.terrarium.adastra.common.menus.vehicles.RocketMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.vehicles.RoverScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -34,
+                "bottom": -8
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -22,
+                "bottom": -20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -10,
+                "bottom": -32
+            }
+        }
+    },
+    "earth.terrarium.adastra.common.menus.vehicles.RoverMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CoalGeneratorScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 16,
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 16,
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 16,
+                "bottom": -1
+            }
+        }
+    },
+    "earth.terrarium.adastra.common.menus.machines.CoalGeneratorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CompressorScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 2,
+                "bottom": 5
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 2,
+                "bottom": 5
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 2,
+                "bottom": 5
+            }
+        }
+    },
+    "earth.terrarium.adastra.common.menus.machines.CompressorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.EtrionicBlastFurnaceScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.EtrionicBlastFurnaceMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.WaterPumpScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.WaterPumpMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.OxygenDistributorScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.OxygenDistributorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.GravityNormalizerScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.GravityNormalizerMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.FuelRefineryScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.FuelRefineryMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.OxygenLoaderScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.OxygenLoaderMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.SolarPanelScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.SolarPanelMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.CryoFreezerScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.CryoFreezerMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.machines.NasaWorkbenchScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.adastra.common.menus.machines.NasaWorkbenchMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.CellWorkbenchScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.menu.implementations.CellWorkbenchMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.IOPortScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.menu.implementations.IOPortMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.crafting.CraftingCPUScreen": {
+        "ignore": true
+    },
+    "appeng.menu.me.crafting.CraftingCPUMenu": {
+        "ignore": true
+    },
+    "com.almostreliable.merequester.client.RequesterScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": -16
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": -28
+            },
+            "SORT_ROWS": {
+                "bottom": -40
+            }
+        }
+    },
+    "com.almostreliable.merequester.requester.RequesterMenu": {
+        "ignore": true
+    },
+    "com.extendedae_plus.client.screen.LabeledWirelessTransceiverScreen": {
+        "ignore": true
+    },
+    "com.extendedae_plus.menu.LabeledWirelessTransceiverMenu": {
+        "ignore": true
+    },
+    "com.extendedae_plus.client.screen.GlobalProviderModesScreen": {
+        "ignore": true
+    },
+    "com.extendedae_plus.menu.NetworkPatternControllerMenu": {
+        "ignore": true
+    },
+    "com.moakiee.meplacementtool.WandScreen": {
+        "playerSideOnly": true
+    },
+    "com.moakiee.meplacementtool.WandMenu": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "playerSideOnly": true
+    },
+    "com.hrznstudio.titanium.container.BasicAddonContainer": {
+        "ignore": true
+    },
+    "com.extendedae_plus.ae.screen.EntitySpeedTickerScreen": {
+        "playerSideOnly": true
+    },
+    "com.extendedae_plus.ae.menu.EntitySpeedTickerMenu": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.DrawerScreen$Slot2": {
+        "playerSideOnly": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerDrawers2": {
+        "ignore": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.FramingTableScreen": {
+        "playerSideOnly": true
+    },
+    "com.jaquadro.minecraft.storagedrawers.inventory.ContainerFramingTable": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.PriorityScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.PriorityMenu": {
+        "ignore": true
+    },
+    "gripe._90.megacells.client.gui.CellDockScreen": {
+        "playerSideOnly": true
+    },
+    "gripe._90.megacells.menu.CellDockMenu": {
+        "ignore": true
+    },
+    "com.almostreliable.merequester.client.RequesterTerminalScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": -9
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": -21
+            },
+            "SORT_ROWS": {
+                "bottom": -33
+            }
+        }
+    },
+    "com.almostreliable.merequester.terminal.RequesterTerminalMenu": {
+        "ignore": true
+    },
+    "com.glodblock.github.ae2netanalyser.client.gui.GuiAnalyser": {
+        "ignore": true
+    },
+    "com.glodblock.github.ae2netanalyser.container.ContainerAnalyser": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExInterface": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiPatternModifier": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPatternModifier": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternTerminal": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "bottom": -36
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternTerminal": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExIOBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.xmod.wt.GuiUWirelessExPAT": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "bottom": -36
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.xmod.wt.ContainerUWirelessExPAT": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiActiveFormationPlane": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerActiveFormationPlane": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiModStorageBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiModExportBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiTagExportBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiTagStorageBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagStorageBus": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.StorageLevelEmitterScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.menu.implementations.StorageLevelEmitterMenu": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiPreciseExportBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiThresholdExportBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerThresholdExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiPreciseStorageBus": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExDrive": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerExDrive": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExInscriber": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInscriber": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiWirelessHub": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerWirelessHub": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiWirelessConnector": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerWirelessConnector": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExMolecularAssembler": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiCaner": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerCaner": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExIOPort": {
+        "playerSideOnly": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOPort": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiCircuitCutter": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 1
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerCircuitCutter": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiAssemblerMatrix": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -24,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -12,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "bottom": -36
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerAssemblerMatrix": {
+        "ignore": true
+    },
+    "cloud.lemonslice.teastory.client.gui.DrinkMakerGui": {
+        "ignore": true
+    },
+    "cloud.lemonslice.teastory.client.container.DrinkMakerContainer": {
+        "ignore": true
+    },
+    "com.voxelutopia.ultramarine.client.screen.ChiselTableScreen": {
+        "playerSideOnly": true
+    },
+    "com.voxelutopia.ultramarine.world.block.menu.ChiselTableMenu": {
+        "ignore": true
+    },
+    "com.voxelutopia.ultramarine.client.screen.BrickKilnScreen": {
+        "playerSideOnly": true
+    },
+    "com.voxelutopia.ultramarine.world.block.menu.BrickKilnMenu": {
+        "ignore": true
+    },
+    "com.voxelutopia.ultramarine.client.screen.WoodworkingWorkbenchScreen": {
+        "playerSideOnly": true
+    },
+    "com.voxelutopia.ultramarine.world.block.menu.WoodworkingWorkbenchMenu": {
+        "ignore": true
+    }
+}

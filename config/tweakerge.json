@@ -201,7 +201,7 @@
       "keys": ""
     },
     "toggleGrabCursor": {
-      "keys": "LEFT_ALT,GRAVE_ACCENT"
+      "keys": "F10"
     },
     "toolPick": {
       "keys": ""
@@ -877,7 +877,7 @@
       "keys": "X"
     },
     "tweakGammaOverride": {
-      "keys": "F8"
+      "keys": "F9"
     },
     "tweakHandRestock": {
       "keys": ""

@@ -1,6 +1,7 @@
 #folders
 !inventoryprofilesnext/
 inventoryprofilesnext/*
+!inventoryprofilesnext/integrationHints/
 !jei/
 jei/*
 !ae2/
@@ -27,6 +28,7 @@ jei/*
 !chloride-client.json
 !cull-less-leaves.json
 !curios*.toml
+!do_a_barrel_roll-client.json
 !embeddium*.*
 !fastbench.cfg
 !forgematica.json
