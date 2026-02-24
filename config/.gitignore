@@ -4,6 +4,9 @@ inventoryprofilesnext/*
 !inventoryprofilesnext/integrationHints/
 !jei/
 jei/*
+!worldedit/
+worldedit/*
+
 !ae2/
 !bettercaves/
 !defaultoptions/
@@ -18,9 +21,12 @@ jei/*
 
 #files
 !.gitignore
-!amendments*.toml
+
 !inventoryprofilesnext/inventoryprofiles.json
 !jei/*.ini
+!worldedit/worldedit.properties
+
+!amendments*.toml
 !betterfpsdist.json
 !betterworldloading20.json
 !biome-replacer.properties
