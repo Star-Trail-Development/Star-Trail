@@ -823,5 +823,17 @@
     },
     "com.voxelutopia.ultramarine.world.block.menu.WoodworkingWorkbenchMenu": {
         "ignore": true
+    },
+    "cloud.lemonslice.teastory.client.gui.BambooTrayGui": {
+        "playerSideOnly": true
+    },
+    "cloud.lemonslice.teastory.client.container.BambooTrayContainer": {
+        "ignore": true
+    },
+    "cloud.lemonslice.teastory.client.gui.StoveGui": {
+        "playerSideOnly": true
+    },
+    "cloud.lemonslice.teastory.client.container.StoveContainer": {
+        "ignore": true
     }
 }
