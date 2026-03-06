@@ -835,5 +835,23 @@
     },
     "cloud.lemonslice.teastory.client.container.StoveContainer": {
         "ignore": true
+    },
+    "org.cyclops.integratedscripting.client.gui.container.ContainerScreenTerminalScripting": {
+        "ignore": true
+    },
+    "org.cyclops.integratedscripting.inventory.container.ContainerTerminalScripting": {
+        "ignore": true
+    },
+    "org.cyclops.integratedscripting.client.gui.container.ContainerScreenScriptingDrive": {
+        "playerSideOnly": true
+    },
+    "org.cyclops.integratedscripting.inventory.container.ContainerScriptingDrive": {
+        "ignore": true
+    },
+    "com.tom.stockbridge.ae.menu.AEStockBridgeScreen": {
+        "playerSideOnly": true
+    },
+    "com.tom.stockbridge.ae.menu.AEStockBridgeMenu": {
+        "ignore": true
     }
 }

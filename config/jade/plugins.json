@@ -122,7 +122,8 @@
     "hat_stand": true
   },
   "aewireless": {
-    "wireless_tooltip": true
+    "wireless_tooltip": true,
+    "block_entity_tooltip": true
   },
   "ultramarine": {
     "brick_kiln": true,
