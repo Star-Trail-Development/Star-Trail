@@ -1,0 +1,24 @@
+
+["Functional Tweaks"]
+	#Whether the thirst values will retain on death. (Default: false)
+	retainThirstValue = true
+	#Whether the food values will retain on death. (Default: false)
+	retainFoodValue = true
+	#The thirst value will drink from rain. (Default: 1)
+	#Range: 0 ~ 20
+	drinkRainHydration = 1
+	#The saturation value will drink from rain. (Default: 0)
+	#Range: 0 ~ 20
+	drinkRainQuenched = 0
+	#The purity level of rain. (Default: 0)
+	#Range: 0 ~ 3
+	drinkRainPurity = 0
+
+["Hydratoxin Effect"]
+	#The chance of giving the player the 'Hydratoxin' effect after drinking dirty water. The value should be between 0 and 100. (Default: 30)
+	dirtyHydratoxinChance = 30
+	#The chance of giving the player the 'Hydratoxin' effect after drinking slightly dirty water. The value should be between 0 and 100. (Default: 18)
+	slightlyDirtyHydratoxinChance = 18
+	#The chance of giving the player the 'Hydratoxin' effect after drinking acceptable water. The value should be between 0 and 100. (Default: 5)
+	acceptableHydratoxinChance = 5
+

@@ -113,6 +113,13 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
   "delightful": {
     "crop_progress": true,
     "pie_icons": true,
@@ -120,6 +127,9 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
   },
   "aewireless": {
     "wireless_tooltip": true,

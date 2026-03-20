@@ -8,7 +8,6 @@ jei/*
 worldedit/*
 
 !ae2/
-!bettercaves/
 !defaultoptions/
 !incontrol/
 !InventoryHUD/
@@ -16,6 +15,7 @@ worldedit/*
 !obscuria/
 !paxi/
 !pickupnotifier/
+!regions_unexplored/
 !sounds/
 !thirst/
 
@@ -29,12 +29,13 @@ worldedit/*
 !amendments*.toml
 !betterfpsdist.json
 !betterworldloading20.json
-!biome-replacer.properties
+!biome_replacer.properties
 !chat_tools.json
 !chloride-client.json
 !cull-less-leaves.json
 !curios*.toml
 !do_a_barrel_roll-client.json
+!easy*-*.toml
 !embeddium*.*
 !fastbench.cfg
 !forgematica.json
@@ -46,6 +47,7 @@ worldedit/*
 !minieffects-client.yaml
 !oculus.properties
 !scholar*.toml
+!shouldersurfing-client.toml
 !smoothscroll.json
 !sodium*.*
 !supplementaries*.toml
