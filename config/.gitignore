@@ -26,6 +26,7 @@ worldedit/*
 !jei/*.ini
 !worldedit/worldedit.properties
 
+!ambientsounds-client.json
 !amendments*.toml
 !betterfpsdist.json
 !betterworldloading20.json
@@ -51,6 +52,7 @@ worldedit/*
 !smoothscroll.json
 !sodium*.*
 !supplementaries*.toml
+!tectonic.json
 !toastcontrol-common.toml
 !travelersbackpack*.toml
 !treechop*.toml
