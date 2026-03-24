@@ -28,7 +28,6 @@ worldedit/*
 
 !ambientsounds-client.json
 !amendments*.toml
-!betterfpsdist.json
 !betterworldloading20.json
 !biome_replacer.properties
 !chat_tools.json
