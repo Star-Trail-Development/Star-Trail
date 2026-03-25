@@ -23,7 +23,7 @@
     "flat_terrain_skew": 0.1,
     "jungle_pillars": true,
     "ocean_offset": -0.8,
-    "ridge_scale": 0.2,
+    "ridge_scale": 0.22,
     "river_lanterns": false,
     "rolling_hills": true,
     "underground_rivers": true
@@ -50,7 +50,7 @@
   "oceans": {
     "deep_ocean_depth": -0.7,
     "monument_offset": -32,
-    "ocean_depth": -0.22,
+    "ocean_depth": -0.28,
     "remove_frozen_ocean_ice": false
   }
 }
