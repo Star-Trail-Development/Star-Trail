@@ -52,6 +52,7 @@ worldedit/*
 !sodium*.*
 !supplementaries*.toml
 !tectonic.json
+!tips.json
 !toastcontrol-common.toml
 !travelersbackpack*.toml
 !treechop*.toml

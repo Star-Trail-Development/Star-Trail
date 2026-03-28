@@ -57,7 +57,7 @@
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "all",
-    "selectionCornersMode": "expand",
+    "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
     "commandLimitPerTick": 24,
     "commandNameClone": "clone",

@@ -18,7 +18,7 @@
     "spaghetti_enabled": true
   },
   "continents": {
-    "continents_scale": 0.24,
+    "continents_scale": 0.22,
     "erosion_scale": 0.3,
     "flat_terrain_skew": 0.1,
     "jungle_pillars": true,
@@ -38,7 +38,7 @@
     "max_y": 512,
     "min_y": -64,
     "ultrasmooth": false,
-    "vertical_scale": 1.0
+    "vertical_scale": 0.2
   },
   "islands": {
     "enabled": true,

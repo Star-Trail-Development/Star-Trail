@@ -18,10 +18,10 @@
 		enableOverlay = true
 		#Offsets to left side
 		#Range: > -2147483648
-		offsetX = 80
+		offsetX = 15
 		#Offsets to up
 		#Range: > -2147483648
-		offsetY = 30
+		offsetY = 25
 
 	#The position of the Tools Overlay on the screen
 	[client.toolsOverlay]
