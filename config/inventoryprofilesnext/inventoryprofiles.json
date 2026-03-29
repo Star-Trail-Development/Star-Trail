@@ -20,7 +20,8 @@
                 "settings": {
                     "context": "ANY"
                 }
-            }
+            },
+            "value": false
         },
         "enable_inventory_settings_button": {
             "value": false

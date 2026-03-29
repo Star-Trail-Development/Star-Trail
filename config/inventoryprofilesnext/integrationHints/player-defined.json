@@ -3,13 +3,13 @@
         "playerSideOnly": true,
         "buttonHints": {
             "SORT": {
-                "horizontalOffset": 37
+                "horizontalOffset": 59
             },
             "SORT_COLUMNS": {
-                "horizontalOffset": 37
+                "horizontalOffset": 59
             },
             "SORT_ROWS": {
-                "horizontalOffset": 37
+                "horizontalOffset": 59
             }
         }
     },

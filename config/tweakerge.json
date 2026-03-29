@@ -6,7 +6,7 @@
   },
   "Generic": {
     "carpetAccuratePlacementProtocol": true,
-    "clientPlacementRotation": true,
+    "clientPlacementRotation": false,
     "fastLeftClickAllowTools": false,
     "fastPlacementRememberOrientation": true,
     "freeCameraPlayerInputs": false,
@@ -30,7 +30,7 @@
     "breakingRestrictionMode": "line",
     "elytraCameraIndicator": "with_key",
     "entityTypeAttackRestrictionWarn": "message",
-    "placementRestrictionMode": "plane",
+    "placementRestrictionMode": "face",
     "hotbarSwapOverlayAlignment": "bottom_right",
     "snapAimMode": "yaw",
     "chatTimeFormat": "[HH:mm:ss]",
