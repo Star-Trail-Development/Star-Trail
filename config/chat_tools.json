@@ -1,5 +1,5 @@
 {
-  "config.version": 2.311,
+  "config.version": 2.319,
   "general.ChatTools.Enabled": true,
   "general.ShowWelcomeMessageEnabled": false,
   "general.CircuitBreaker.ToastThreshold": 10,
@@ -34,7 +34,7 @@
   "notifier.Toast.Mode": "ADDON",
   "notifier.Sound.Enabled": true,
   "notifier.Sound.Type": "block.note_block.bit",
-  "notifier.Sound.Volume": 80,
+  "notifier.Sound.Volume": 30,
   "notifier.Sound.Pitch": 10,
   "notifier.Sound.PlaySoundFromCameraPositionEnabled": true,
   "notifier.Actionbar.Enabled": false,
@@ -45,7 +45,6 @@
   "notifier.IgnoreMyMessageEnabled": true,
   "notifier.MatchMyNameEnabled": true,
   "notifier.AllowList": [],
-  "notifier.BanList": [],
   "formatter.Enabled": false,
   "formatter.List": [],
   "formatter.DisableOnMatchList": [
@@ -98,5 +97,22 @@
     }
   ],
   "general.DisableTextObfuscation.Enabled": false,
-  "formatter.DisableThreshold": 256
+  "formatter.DisableThreshold": 256,
+  "notifier.DenyList": [],
+  "general.ChatHistoryNavigator.ShowTimestampsEnabled": false,
+  "translator.Enabled": false,
+  "translator.Mode": "MICROSOFT_FREE",
+  "translator.Builtin.API": "",
+  "translator.Builtin.PostInstead": false,
+  "translator.Baidu.Appid": "",
+  "translator.Baidu.Appkey": "",
+  "translator.Baidu.from": "auto",
+  "translator.Baidu.to": "",
+  "translator.MicrosoftFree.from": "",
+  "translator.MicrosoftFree.to": "",
+  "translator.GoogleFree.sl": "auto",
+  "translator.GoogleFree.tl": "",
+  "formatter.PreparsePlaceholdersEnabled": false,
+  "chatkeybindings.ReviewLastMessageWithUpArrowOnly": false,
+  "responder.MinAwaitTimeInMilliseconds": 500
 }

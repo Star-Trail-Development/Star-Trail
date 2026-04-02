@@ -64,6 +64,10 @@
     "camo": true,
     "semiblock": true
   },
+  "logisticsnetworks": {
+    "logistics_node_entity": true,
+    "node_attached": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -119,6 +123,9 @@
     "recipe_block": true,
     "millstone": true,
     "enamel_basin": true
+  },
+  "pipez": {
+    "pipe": true
   },
   "delightful": {
     "crop_progress": true,

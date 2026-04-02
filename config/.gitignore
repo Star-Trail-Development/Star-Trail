@@ -18,6 +18,7 @@ worldedit/*
 !regions_unexplored/
 !sounds/
 !thirst/
+!xaero/
 
 #files
 !.gitignore

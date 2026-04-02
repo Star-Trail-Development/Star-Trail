@@ -92,6 +92,8 @@
   "kaleidoscope_cookery:stockpot": null,
   "kaleidoscope_cookery:table": null,
   "kaleidoscope_tavern:barrel": null,
+  "logisticsnetworks:logistics_node_entity": null,
+  "logisticsnetworks:node_attached": null,
   "lootr:inventory": null,
   "maid_storage_manager:virtual_frame": null,
   "mekanism:data_provider": null,
