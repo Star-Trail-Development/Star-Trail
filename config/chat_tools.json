@@ -34,7 +34,7 @@
   "notifier.Toast.Mode": "ADDON",
   "notifier.Sound.Enabled": true,
   "notifier.Sound.Type": "block.note_block.bit",
-  "notifier.Sound.Volume": 30,
+  "notifier.Sound.Volume": 50,
   "notifier.Sound.Pitch": 10,
   "notifier.Sound.PlaySoundFromCameraPositionEnabled": true,
   "notifier.Actionbar.Enabled": false,
