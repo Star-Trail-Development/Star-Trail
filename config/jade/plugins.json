@@ -117,6 +117,16 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
   "kaleidoscope_cookery": {
     "chopping_board": true,
     "shawarma_spit": true,
@@ -137,10 +147,6 @@
   },
   "kaleidoscope_tavern": {
     "barrel": true
-  },
-  "aewireless": {
-    "wireless_tooltip": true,
-    "block_entity_tooltip": true
   },
   "ultramarine": {
     "brick_kiln": true,

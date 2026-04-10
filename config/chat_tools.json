@@ -1,5 +1,5 @@
 {
-  "config.version": 2.319,
+  "config.version": 2.401,
   "general.ChatTools.Enabled": true,
   "general.ShowWelcomeMessageEnabled": false,
   "general.CircuitBreaker.ToastThreshold": 10,
@@ -17,7 +17,7 @@
   "general.NickHider.Enabled": false,
   "general.NickHider.Nickname": "&6You&r",
   "general.NickHider.CacheSize": 200,
-  "general.ChatCompactor.Enabled": true,
+  "general.ChatCompactor.Enabled": false,
   "general.ChatCompactor.UseStrict": false,
   "general.ChatCompactor.MaxOccurrence": 100,
   "general.ChatHistoryNavigator.Enabled": true,
@@ -78,7 +78,8 @@
       "address": "*",
       "pattern": "Repeat my words:(?<word>.*)",
       "message": "You said {word}.",
-      "delayInMilliseconds": 50,
+      "minDelayInMilliseconds": 50,
+      "maxDelayInMilliseconds": 50,
       "forceDisableFormatter": false
     }
   ],
@@ -114,5 +115,6 @@
   "translator.GoogleFree.tl": "",
   "formatter.PreparsePlaceholdersEnabled": false,
   "chatkeybindings.ReviewLastMessageWithUpArrowOnly": false,
-  "responder.MinAwaitTimeInMilliseconds": 500
+  "responder.MinAwaitTimeInMilliseconds": 500,
+  "general.kfc": false
 }
