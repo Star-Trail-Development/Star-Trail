@@ -68,6 +68,9 @@
     "logistics_node_entity": true,
     "node_attached": true
   },
+  "createsifter": {
+    "sifter_data": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
