@@ -36,12 +36,14 @@ worldedit/*
 !chloride-client.json
 !cull-less-leaves.json
 !curios*.toml
+!CustomNpcs.cfg
 !do_a_barrel_roll-client.json
 !easy*-*.toml
 !embeddium*.*
 !fastbench.cfg
 !forgematica.json
 !immersiveui.yaml
+!ironfurnaces-client.toml
 !inventoryhud-client.toml
 !jecharacters.toml
 !jeiintegration-client.toml
