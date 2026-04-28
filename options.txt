@@ -417,7 +417,7 @@ key_pneumaticcraft.armor.upgrade.block_tracker.module.hackables:key.keyboard.unk
 key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown
-soundCategory_master:0.7574503311258278
+soundCategory_master:0.7582781456953642
 soundCategory_music:0.0
 soundCategory_record:0.25492957746478867
 soundCategory_weather:0.75

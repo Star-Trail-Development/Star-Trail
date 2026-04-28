@@ -168,7 +168,7 @@
       "keys": "RIGHT_CONTROL"
     },
     "rerenderSchematic": {
-      "keys": "F3,F4"
+      "keys": "F4,LEFT_SHIFT,R"
     },
     "saveAreaAsInMemorySchematic": {
       "keys": ""
