@@ -7,7 +7,7 @@ enableEnchantParticles: true
 # Enables floating item rotation.
 enableFloatingItemRotation: true
 # Enables the hotbar selector animation.
-enableHotbarSelectorAnimation: true
+enableHotbarSelectorAnimation: false
 # Enables hovering of matching items.
 enableMatchingItemHovering: true
 # Enables particles for rare items.
