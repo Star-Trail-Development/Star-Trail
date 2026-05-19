@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 15,
-		"description": "§2Star-Trail 服务器附属数据包"
-	}
+    "pack": {
+        "description": "§2Star Trail服务器附属数据包",
+        "pack_format": 34
+    }
 }

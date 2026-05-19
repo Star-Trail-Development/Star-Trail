@@ -7,7 +7,6 @@ jei/*
 !worldedit/
 worldedit/*
 
-!ae2/
 !defaultoptions/
 !fancymenu/
 !incontrol/
@@ -18,7 +17,6 @@ worldedit/*
 !pickupnotifier/
 !regions_unexplored/
 !sounds/
-!thirst/
 !xaero/
 
 #files
@@ -28,37 +26,34 @@ worldedit/*
 !jei/*.ini
 !worldedit/worldedit.properties
 
+!ae2-*.toml
 !ambientsounds-client.json
 !amendments*.toml
-!betterworldloading20.json
+!betterworldloading*.json
 !biome_replacer.properties
 !chat_tools.json
 !chloride-client.json
-!cull-less-leaves.json
 !curios*.toml
 !CustomNpcs.cfg
 !do_a_barrel_roll-client.json
 !easy*-*.toml
-!embeddium*.*
 !fastbench.cfg
-!forgematica.json
 !immersiveui.yaml
-!ironfurnaces-client.toml
 !inventoryhud-client.toml
-!jecharacters.toml
-!jeiintegration-client.toml
-!lithium.properties
+!iris*.*
+!jecharacters-client.toml
+!jei_integration_reborn-client.toml
+!litematica.json
 !minieffects-client.yaml
-!oculus.properties
+!particular-common.toml
 !scholar*.toml
 !shouldersurfing-client.toml
-!smoothscroll.json
 !sodium*.*
 !supplementaries*.toml
 !tectonic.json
 !tips.json
-!toastcontrol-common.toml
-!travelersbackpack*.toml
+!toastcontrol-client.toml
+!traveler*.toml
 !treechop*.toml
-!tweakerge.json
-!xaero*.*
+!tweakeroo.json
+!xaerohud.txt
