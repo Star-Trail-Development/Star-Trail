@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","generated/fragmentum_layer","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/Pretty Pretty Pipes.zip","Star-Trail-Resources-Pack"]
-incompatibleResourcePacks:["teastory_asset_generator"]
+resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","generated/fragmentum_layer","scholar:chiseled_bookshelf_colored_books","scholar:colored_books","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","Star-Trail-Resources-Pack"]
+incompatibleResourcePacks:["teastory_asset_generator","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -144,7 +144,6 @@ key_key.astikorcartsredux.slow:key.keyboard.z
 key_key.curios.open.desc:key.keyboard.grave.accent
 key_key.nebl.stat_screen:key.keyboard.f8:ALT
 key_key.control:key.keyboard.left.control
-key_key.kiwi.builders_button2:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.e:ALT
 key_key.jei.focusSearch:key.keyboard.unknown
 key_key.jei.previousPage:key.keyboard.left

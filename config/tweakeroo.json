@@ -12,7 +12,7 @@
     "bundleDisplayRequireShift": true,
     "bundleDisplayRowWidth": 9,
     "clientPlacementRotation": false,
-    "clientPlacementValidation": true,
+    "clientPlacementValidation": false,
     "debugLogging": false,
     "entityDataSync": {
       "enabled": false,
