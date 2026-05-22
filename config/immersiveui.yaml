@@ -13,7 +13,7 @@ enableMatchingItemHovering: true
 # Enables particles for rare items.
 enableRarityParticles: true
 # Enables screen shake.
-enableScreenShake: true
+enableScreenShake: false
 # Enables vanilla slot highlighting
 enableVanillaSlotHighlighting: true
 # Affects the easing speed, that is applied to the rotation of the floating item.

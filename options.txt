@@ -144,6 +144,7 @@ key_key.astikorcartsredux.slow:key.keyboard.z
 key_key.curios.open.desc:key.keyboard.grave.accent
 key_key.nebl.stat_screen:key.keyboard.f8:ALT
 key_key.control:key.keyboard.left.control
+key_key.kiwi.builders_button2:key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.e:ALT
 key_key.jei.focusSearch:key.keyboard.unknown
 key_key.jei.previousPage:key.keyboard.left
