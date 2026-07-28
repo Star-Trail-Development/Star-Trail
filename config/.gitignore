@@ -33,7 +33,7 @@ worldedit/*
 !betterworldloading*.json
 !biome_replacer.properties
 !chat_tools.json
-!chloride-client.json
+!chloride-client.toml
 !curios*.toml
 !CustomNpcs.cfg
 !do_a_barrel_roll-client.json

@@ -59,6 +59,8 @@
 	lantern_item_holding = true
 	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
 	lantern_item_holding_up = true
+	#Renders the swaying wall lantern through the item renderer so its shading comes from the model's normals instead of the block model's baked per-face shading. This makes the lantern shade correctly no matter which wall it faces, at the cost of losing block ambient occlusion. Only affects the animated (close-up) renderer
+	entity_shading = true
 
 	[lantern.swing_physics]
 		frequency = 0.6
@@ -96,6 +98,8 @@
 	fixed_holding_animations = true
 	#Prevents campfire smoke from rendering if there is a solid block above it
 	campfire_smoke_through_blocks = false
+	#Renders a flame particle on top of held torches
+	torch_item_flame = false
 
 [sign]
 	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
@@ -110,8 +114,6 @@
 [projectiles]
 	#Makes snowballs render in 3D
 	snowball_3d = true
-	#Makes slimeballs render in 3D (supplementaries only)
-	slimeball_3d = true
 	#Makes ghast & blazes fireballs render in 3D
 	fireball_3d = true
 	#Makes ghast & blazes fireballs leave a trail of particles when moving
@@ -122,6 +124,8 @@
 	charges_tumble = true
 	#Makes 3D snowballs and slimeballs (supp compat) tumble in the air when moving
 	projectiles_tumble = false
+	#Makes slimeballs render in 3D (supplementaries only)
+	slimeball_3d = true
 
 	[projectiles.dragon_fireball]
 		#Makes dragon's breath particles emissive to better match new visuals

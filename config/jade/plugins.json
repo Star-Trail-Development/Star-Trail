@@ -64,9 +64,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "oritech": {
-    "machine_core_controller": true
-  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -78,6 +75,9 @@
   "logisticsnetworks": {
     "logistics_node_entity": true,
     "node_attached": true
+  },
+  "kaleidoscope_chinesefood": {
+    "pickle_jar": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -142,6 +142,7 @@
     "chopping_board": true,
     "shawarma_spit": true,
     "recipe_block": true,
+    "food_bite_block": true,
     "millstone": true,
     "enamel_basin": true
   },

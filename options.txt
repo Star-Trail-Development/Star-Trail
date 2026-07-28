@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","generated/fragmentum_layer","scholar:chiseled_bookshelf_colored_books","scholar:colored_books","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","Star-Trail-Resources-Pack"]
-incompatibleResourcePacks:["teastory_asset_generator","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
+resourcePacks:["file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","fabric"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -128,10 +128,6 @@ key_key.integratedterminals.terminal.craftinggrid.clearstorage:key.keyboard.c
 key_key.integratedterminals.terminal.craftinggrid.balance:key.keyboard.b
 key_key.integratedterminals.terminal.portable.open:key.keyboard.g:ALT
 key_key.modernfix.config:key.keyboard.unknown
-key_key.ageratum.more_info:key.keyboard.w
-key_key.ageratum.structure_projection.layer_up:key.keyboard.page.up
-key_key.ageratum.structure_projection.layer_down:key.keyboard.page.down
-key_key.ageratum.structure_projection.remove:key.keyboard.end
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
@@ -157,6 +153,7 @@ key_key.jei.showUses:key.keyboard.u
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.transferRecipeBookmark:key.mouse.left:ALT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.quickMove:key.mouse.left:SHIFT
 key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.previousSearch:key.keyboard.up
 key_key.jei.nextSearch:key.keyboard.down
@@ -200,10 +197,13 @@ key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown
 key_pneumaticcraft.boots.kick:key.keyboard.unknown
 key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown
 key_pneumaticcraft.boots.jet_boots:key.keyboard.unknown
-key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.h
 key_key.scholar.toggle_book_tools:key.keyboard.f1
 key_key.scholar.import_book:key.keyboard.unknown
 key_key.scholar.export_book:key.keyboard.unknown
+key_key.scholar.insert_empty_page_left:key.keyboard.insert:SHIFT
+key_key.scholar.remove_page_left:key.keyboard.delete:SHIFT
+key_key.scholar.insert_empty_page_right:key.keyboard.insert:ALT
+key_key.scholar.remove_page_right:key.keyboard.delete:ALT
 key_key.push_to_talk:key.keyboard.v
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.unknown
@@ -301,7 +301,6 @@ key_Scene2 start/pause:key.keyboard.unknown
 key_Scene3 start/pause:key.keyboard.unknown
 key_Scene reset:key.keyboard.unknown
 key_Quest Log:key.keyboard.l:ALT
-key_key.oritech.augment_screen:key.keyboard.z
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.comma
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown
 key_key.do_a_barrel_roll.open_config:key.keyboard.unknown
@@ -336,6 +335,7 @@ key_key.ae2.ae2wtlib_stow:key.keyboard.unknown
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
 key_key.ae2.wireless_terminal:key.keyboard.g
+key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.h
 key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
 key_key.extendedae_plus.create_pattern:key.keyboard.q:CONTROL

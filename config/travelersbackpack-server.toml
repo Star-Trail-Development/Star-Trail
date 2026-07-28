@@ -138,6 +138,8 @@
 		enableSmokerUpgrade = true
 		enableBlastFurnaceUpgrade = true
 		enableJukeboxUpgrade = true
+		enableSleepingBag = true
+		enableLanternUpgrade = true
 
 		[server.backpackUpgrades.pickupUpgradeSettings]
 			enablePickupUpgrade = true
