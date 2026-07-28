@@ -40,7 +40,6 @@
 		# Default: 5.0
 		# Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
-		#maximum range
 		#note that it will still only keep alive the two fire blocks closer to it
 		# Default: 5
 		# Range: 0 ~ 16
@@ -312,6 +311,7 @@
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
+	brittlestone = true
 
 	[building.sconce]
 		enabled = true
@@ -631,7 +631,6 @@
 	[tools.antique_ink]
 		enabled = true
 
-#General settings
 [general]
 	#Enable Creative Tab
 	creative_tab = false
@@ -645,9 +644,6 @@
 	red_merchant_spawn_multiplier = 1.0
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
-
-#Vanilla tweaks
-[tweaks]
 
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
@@ -805,3 +801,5 @@
 		push_block_entities = true
 		#If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
 		cooperative_pistons = true
+		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+		moved_cauldron_filling = true

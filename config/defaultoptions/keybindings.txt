@@ -16,7 +16,7 @@ key_key.command:key.keyboard.slash:
 key_key.socialInteractions:key.keyboard.unknown:
 key_key.screenshot:key.keyboard.f2:
 key_key.togglePerspective:key.keyboard.f5:
-key_key.smoothCamera:key.keyboard.f6:
+key_key.smoothCamera:key.keyboard.unknown:
 key_key.fullscreen:key.keyboard.f11:
 key_key.spectatorOutlines:key.keyboard.unknown:
 key_key.swapOffhand:key.keyboard.f:
@@ -39,17 +39,13 @@ key_key.integratedterminals.terminal.craftinggrid.clearstorage:key.keyboard.c:
 key_key.integratedterminals.terminal.craftinggrid.balance:key.keyboard.b:
 key_key.integratedterminals.terminal.portable.open:key.keyboard.g:ALT
 key_key.modernfix.config:key.keyboard.unknown:
-key_key.ageratum.more_info:key.keyboard.w:
-key_key.ageratum.structure_projection.layer_up:key.keyboard.page.up:
-key_key.ageratum.structure_projection.layer_down:key.keyboard.page.down:
-key_key.ageratum.structure_projection.remove:key.keyboard.end:
 key_iris.keybind.reload:key.keyboard.unknown:
 key_iris.keybind.toggleShaders:key.keyboard.unknown:
 key_iris.keybind.shaderPackSelection:key.keyboard.o:
 key_iris.keybind.wireframe:key.keyboard.unknown:
-key_key.oneenoughitem.open_editor:key.keyboard.r:
+key_key.oneenoughitem.open_editor:key.keyboard.o:
 key_key.exposure.camera_controls:key.keyboard.unknown:
-key_supplementaries.keybind.quiver:key.keyboard.k:
+key_supplementaries.keybind.quiver:key.keyboard.j:
 key_key.astikorcartsredux.action:key.keyboard.r:
 key_key.astikorcartsredux.slow:key.keyboard.z:
 key_key.curios.open.desc:key.keyboard.grave.accent:
@@ -57,7 +53,7 @@ key_key.nebl.stat_screen:key.keyboard.f8:ALT
 key_key.control:key.keyboard.left.control:
 key_key.kiwi.builders_button2:key.keyboard.unknown:
 key_key.jei.toggleOverlay:key.keyboard.e:ALT
-key_key.jei.focusSearch:key.keyboard.unknown:
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.left:
 key_key.jei.nextPage:key.keyboard.right:
 key_key.jei.toggleBookmarkOverlay:key.keyboard.a:ALT
@@ -68,6 +64,7 @@ key_key.jei.showUses:key.keyboard.u:
 key_key.jei.showUses2:key.mouse.right:
 key_key.jei.transferRecipeBookmark:key.mouse.left:ALT
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.quickMove:key.mouse.left:SHIFT
 key_key.jei.clearSearchBar:key.mouse.right:
 key_key.jei.previousSearch:key.keyboard.up:
 key_key.jei.nextSearch:key.keyboard.down:
@@ -111,10 +108,13 @@ key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown:
 key_pneumaticcraft.boots.kick:key.keyboard.unknown:
 key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown:
 key_pneumaticcraft.boots.jet_boots:key.keyboard.unknown:
-key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.h:
 key_key.scholar.toggle_book_tools:key.keyboard.f1:
 key_key.scholar.import_book:key.keyboard.unknown:
 key_key.scholar.export_book:key.keyboard.unknown:
+key_key.scholar.insert_empty_page_left:key.keyboard.insert:SHIFT
+key_key.scholar.remove_page_left:key.keyboard.delete:SHIFT
+key_key.scholar.insert_empty_page_right:key.keyboard.insert:ALT
+key_key.scholar.remove_page_right:key.keyboard.delete:ALT
 key_key.push_to_talk:key.keyboard.v:
 key_key.whisper:key.keyboard.unknown:
 key_key.mute_microphone:key.keyboard.unknown:
@@ -143,7 +143,7 @@ key_key.shouldersurfing.toggle_z_offset_presets:key.keyboard.unknown:
 key_key.shouldersurfing.enter_first_person:key.keyboard.unknown:
 key_key.shouldersurfing.enter_third_person_front:key.keyboard.unknown:
 key_key.shouldersurfing.enter_third_person_back:key.keyboard.unknown:
-key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.unknown:
+key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.f6:
 key_key.toggleVisualItemContents:key.keyboard.unknown:
 key_key.toggleSelectedItemTooltips:key.keyboard.unknown:
 key_key.toggleCarriedItemTooltips:key.keyboard.unknown:
@@ -172,7 +172,6 @@ key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown:
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown:
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:CONTROL
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:CONTROL
-key_key.create_aeronautics_toolgun.open_menu:key.keyboard.tab:
 key_treechop.key.toggle_chopping:key.keyboard.unknown:
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown:
 key_treechop.key.open_settings_overlay:key.keyboard.f8:
@@ -212,7 +211,6 @@ key_Scene2 start/pause:key.keyboard.unknown:
 key_Scene3 start/pause:key.keyboard.unknown:
 key_Scene reset:key.keyboard.unknown:
 key_Quest Log:key.keyboard.l:ALT
-key_key.oritech.augment_screen:key.keyboard.z:
 key_key.do_a_barrel_roll.toggle_enabled:key.keyboard.comma:
 key_key.do_a_barrel_roll.toggle_thrust:key.keyboard.unknown:
 key_key.do_a_barrel_roll.open_config:key.keyboard.unknown:
@@ -247,6 +245,7 @@ key_key.ae2.ae2wtlib_stow:key.keyboard.unknown:
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:
 key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown:
 key_key.ae2.wireless_terminal:key.keyboard.g:
+key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.h:
 key_key.extendedae.viewpattern:key.keyboard.p:
 key_key.extendedae.set_amount:key.mouse.middle:
 key_key.extendedae_plus.create_pattern:key.keyboard.q:CONTROL
@@ -272,6 +271,8 @@ key_create.keyinfo.shift_modifier:key.keyboard.left.shift:
 key_create.keyinfo.ctrl_modifier:key.keyboard.left.control:
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt:
 key_key.constructionwand.wand_option:key.keyboard.left.control:
+key_key.create_aeronautics_toolgun.open_menu:key.keyboard.tab:
+key_key.create_aeronautics_toolgun.rotate_magnetic_object:key.keyboard.tab:
 key_key.unlockIME:key.keyboard.right.shift:
 key_key.entityculling.toggle:key.keyboard.unknown:
 key_pneumaticcraft.armor.upgrade.fall_protection:key.keyboard.unknown:

@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["teastory_asset_generator","vanilla","mod_resources","fabric","generated/fragmentum_layer","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/Pretty Pretty Pipes.zip","Star-Trail-Resources-Pack"]
-incompatibleResourcePacks:["teastory_asset_generator"]
+resourcePacks:["teastory_asset_generator","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","Star-Trail-Resources-Pack","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","obscure_tooltips/packs/vibrant_tooltips"]
+incompatibleResourcePacks:["teastory_asset_generator","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0

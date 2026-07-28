@@ -21,10 +21,7 @@
     "GuiSettings": {
         "enable_inventory_editor_button": {
             "main": {
-                "keys": "LEFT_ALT,KP_9",
-                "settings": {
-                    "context": "ANY"
-                }
+                "keys": "LEFT_ALT,9"
             },
             "value": false
         },

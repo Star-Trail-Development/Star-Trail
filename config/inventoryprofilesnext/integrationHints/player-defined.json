@@ -853,5 +853,25 @@
     },
     "com.tom.stockbridge.ae.menu.AEStockBridgeMenu": {
         "ignore": true
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -10,
+                "top": 220
+            }
+        }
+    },
+    "com.nododiiiii.ponderer.ui.ProjectorConfigScreen": {
+        "ignore": true
+    },
+    "com.nododiiiii.ponderer.projector.ProjectorMenu": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.client.gui.pattern.GuiCraftingPattern": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.pattern.ContainerCraftingPattern": {
+        "ignore": true
     }
 }
