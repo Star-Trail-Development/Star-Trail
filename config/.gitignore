@@ -4,6 +4,7 @@ inventoryprofilesnext/*
 !inventoryprofilesnext/inventoryprofiles.json
 !inventoryprofilesnext/villager-trading-config-v2.json
 jei/world/
+litematica/
 
 # files
 *.bak
