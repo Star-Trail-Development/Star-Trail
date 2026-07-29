@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["teastory_asset_generator","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","Star-Trail-Resources-Pack","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"]
+resourcePacks:["teastory_asset_generator","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","obscure_tooltips/packs/vibrant_tooltips","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","Star-Trail-Resources-Pack"]
 incompatibleResourcePacks:["teastory_asset_generator","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
 lastServer:
 lang:zh_cn
@@ -362,6 +362,7 @@ key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_key.constructionwand.wand_option:key.keyboard.left.control
 key_key.create_aeronautics_toolgun.open_menu:key.keyboard.tab
 key_key.create_aeronautics_toolgun.rotate_magnetic_object:key.keyboard.tab
+key_key.kaleidoscope_grilling.rack_swap:key.keyboard.caps.lock
 key_key.unlockIME:key.keyboard.right.shift
 key_key.entityculling.toggle:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.fall_protection:key.keyboard.unknown
