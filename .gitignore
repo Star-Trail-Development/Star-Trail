@@ -4,7 +4,6 @@
 !config/
 !defaultconfigs/
 !kubejs/
-!patchouli_books/
 
 # files
 !.gitignore
