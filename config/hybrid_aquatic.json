@@ -1,13 +1,13 @@
 {
   "add_fishing_loot": true,
   "biomes": {
-    "generateSeagrassBed": true,
-    "generateTropicalRiver": true,
+    "generateSeagrassBed": false,
+    "generateTropicalRiver": false,
     "generateTidePools": true,
     "generateSulfuricCave": true,
     "enableBiomes": true,
     "generateDeepWarmOcaen": true,
-    "generateDeepCoralReef": true,
+    "generateDeepCoralReef": false,
     "generateRedMeadow": true
   },
   "worldgen_features": {
