@@ -1,13 +1,12 @@
 /*
 
-#folders
+# folders
 !config/
-config/*
 !defaultconfigs/
 !kubejs/
 !patchouli_books/
 
-#files
+# files
 !.gitignore
 !icon.png
 !LICENSE

@@ -164,6 +164,14 @@
   "barbequesdelight": {
     "grill": true
   },
+  "kaleidoscope_grilling": {
+    "skewer_recipe": true,
+    "seasoning_bottle": true,
+    "oil_press": true,
+    "typed_oil_pot": true,
+    "skewer_plate": true,
+    "grill": true
+  },
   "storagedrawers": {
     "display.stacklimit": true,
     "main": true,
