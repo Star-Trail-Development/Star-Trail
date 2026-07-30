@@ -71,7 +71,7 @@
         "can_replace": [
           "minecraft:mushroom_fields"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 20
       },
@@ -91,7 +91,7 @@
         "can_replace": [
           "minecraft:mushroom_fields"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 20
       },
@@ -116,7 +116,7 @@
           "minecraft:savanna",
           "minecraft:savanna_plateau"
         ],
-        "enabled": true,
+        "enabled": false,
         // Advanced feature! Edit this with caution.
         "parameters": {
           "humidity": {
@@ -480,7 +480,7 @@
           "minecraft:sunflower_plains",
           "minecraft:flower_forest"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 50
       },
@@ -639,7 +639,7 @@
         "can_replace": [
           "minecraft:river"
         ],
-        "enabled": true,
+        "enabled": false,
         "group": "rivers",
         // Advanced feature! Edit this with caution.
         "parameters": {
@@ -658,7 +658,7 @@
         "can_replace": [
           "minecraft:mushroom_fields"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 20
       },
@@ -666,7 +666,7 @@
         "can_replace": [
           "minecraft:snowy_plains"
         ],
-        "enabled": true,
+        "enabled": false,
         // Advanced feature! Edit this with caution.
         "parameters": {
           "humidity": {
