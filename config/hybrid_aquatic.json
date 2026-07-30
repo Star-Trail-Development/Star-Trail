@@ -4,11 +4,11 @@
     "generateSeagrassBed": false,
     "generateTropicalRiver": false,
     "generateTidePools": true,
-    "generateSulfuricCave": true,
+    "generateSulfuricCave": false,
     "enableBiomes": true,
     "generateDeepWarmOcaen": true,
     "generateDeepCoralReef": false,
-    "generateRedMeadow": true
+    "generateRedMeadow": false
   },
   "worldgen_features": {
     "generateRiverPlants": true,
