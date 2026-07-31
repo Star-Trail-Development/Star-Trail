@@ -15,7 +15,3 @@ url = 'https://cdn.modrinth.com/data/N8ZATCCG/versions/7KxQrsgp/abundant_atmosph
 [update.modrinth]
 mod-id = 'N8ZATCCG'
 version = '7KxQrsgp'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'iGEl6Crx'
-type = 'REQUIRED'
