@@ -1,0 +1,25 @@
+filename = 'voicechat-neoforge-1.21.1-2.6.21.jar'
+name = 'Simple Voice Chat'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Simple Voice Chat 1.21.1-2.6.21'
+
+[download]
+hash = 'f72eff26b1156fdce12ef18c5792c48a54340142'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8464096
+project-id = 416089
+
+[[x-prismlauncher-dependencies]]
+addonId = '416089'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'
