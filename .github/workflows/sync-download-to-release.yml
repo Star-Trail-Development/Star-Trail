@@ -1,92 +1,117 @@
-name: Sync download → release
+name: Sync Download to Release
 
 on:
   push:
-    branches:
-      - download
+    branches: [download]
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout release branch
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
           ref: release
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
-      - name: Merge and transform
+      - name: Sync changed files from download
         run: |
-          set -eo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin download
+          set -euo pipefail
 
-          # Step 1: 合并 download 到 release
-          git merge origin/download -X theirs --no-edit || {
-            echo "Merge had conflicts, resolving..."
-            # 冲突类型（git status --porcelain 前两列）：
-            #   DU = Deleted by us, Updated by them   → 保留 download 版本
-            #   UA = Added by them, dir renamed by us  → git 已自动放到正确位置
-            #   UD = Renamed by us, Deleted by them    → 接受删除
-            git status --porcelain | while read xy file; do
-              case "$xy" in
-                DU)
-                  git checkout --theirs "$file" 2>/dev/null || true
-                  git add "$file"
+          git fetch origin download:download
+
+          # ── 确定 diff 范围 ──
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # 手动触发：直接比较两个分支的 HEAD
+            LHS="release"
+            RHS="download"
+          else
+            LHS="${{ github.event.before }}"
+            RHS="${{ github.event.after }}"
+            # 首次 push（before 为全零 commit）
+            if [ "$LHS" = "0000000000000000000000000000000000000000" ]; then
+              LHS="4b825dc642cb6eb9a060e54bf899d9b4b8c1c8cc"
+            fi
+          fi
+
+          echo "Diff range: $LHS .. $RHS"
+
+          # ── 1. 处理新增/修改的文件 ──
+          ADDED_MODIFIED=$(git diff --name-only --diff-filter=AM "$LHS" "$RHS" -- \
+            mods/.index/ resourcepacks/.index/ shaderpacks/ 2>/dev/null || true)
+
+          if [ -n "$ADDED_MODIFIED" ]; then
+            echo "=== Added/Modified ==="
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+              case "$file" in
+                mods/.index/*)
+                  name=$(basename "$file")
+                  echo "  + mods/$name"
+                  git checkout download -- "$file"
+                  mv "$file" "mods/$name"
                   ;;
-                UA)
-                  git add "$file"
+                resourcepacks/.index/*)
+                  name=$(basename "$file")
+                  echo "  + resourcepacks/$name"
+                  git checkout download -- "$file"
+                  mv "$file" "resourcepacks/$name"
                   ;;
-                UD)
-                  git rm -f "$file" 2>/dev/null || true
-                  ;;
-                AU|AA|UU|DD)
-                  git checkout --theirs "$file" 2>/dev/null || true
-                  git add "$file" 2>/dev/null || git rm -f "$file" 2>/dev/null || true
+                shaderpacks/*)
+                  echo "  + $file"
+                  git checkout download -- "$file"
                   ;;
               esac
-            done
-            git commit --no-edit
-          }
+            done <<< "$ADDED_MODIFIED"
+          fi
 
-          # 清理可能残留的 .index/ 空目录
-          for dir in mods resourcepacks; do
-            if [ -d "$dir/.index" ]; then
-              rm -rf "$dir/.index"
-              git rm -r --cached "$dir/.index" 2>/dev/null || true
-            fi
-          done
+          # ── 2. 处理删除的文件 ──
+          DELETED=$(git diff --name-only --diff-filter=D "$LHS" "$RHS" -- \
+            mods/.index/ resourcepacks/.index/ shaderpacks/ 2>/dev/null || true)
 
-          # Step 2: 路径变换 — mods/.index/*.toml → mods/*.toml
-          #           resourcepacks/.index/*.toml → resourcepacks/*.toml
-          for dir in mods resourcepacks; do
-            if [ -d "$dir/.index" ]; then
-              rm -f "$dir"/*.toml
-              git rm -f --cached "$dir"/*.toml 2>/dev/null || true
-              for f in "$dir/.index"/*.toml; do
-                [ -f "$f" ] || continue
-                mv "$f" "$dir/"
-              done
-              rm -rf "$dir/.index"
-              git rm -r --cached "$dir/.index" 2>/dev/null || true
-              git add "$dir"/*.toml 2>/dev/null || true
-            fi
-          done
+          if [ -n "$DELETED" ]; then
+            echo "=== Deleted ==="
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+              case "$file" in
+                mods/.index/*)
+                  name=$(basename "$file")
+                  echo "  - mods/$name"
+                  rm -f "mods/$name"
+                  ;;
+                resourcepacks/.index/*)
+                  name=$(basename "$file")
+                  echo "  - resourcepacks/$name"
+                  rm -f "resourcepacks/$name"
+                  ;;
+                shaderpacks/*)
+                  echo "  - $file"
+                  rm -f "$file"
+                  ;;
+              esac
+            done <<< "$DELETED"
+          fi
 
-          # shaderpacks 目录结构一致，merge 已处理
+          # 清理可能残留的空 .index/ 目录
+          rm -rf mods/.index/ resourcepacks/.index/
 
-          # Step 3: 提交变更并推送
-          git add -u
-          if git diff --cached --quiet && git diff --quiet; then
-            echo "Nothing changed"
+          # ── 汇总 ──
+          ADDED_COUNT=$(echo "$ADDED_MODIFIED" | grep -c . 2>/dev/null || echo 0)
+          DELETED_COUNT=$(echo "$DELETED" | grep -c . 2>/dev/null || echo 0)
+          echo "Summary: ${ADDED_COUNT:-0} added/modified, ${DELETED_COUNT:-0} deleted"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
           else
-            git add -A
-            git commit -m "sync: download → release ($(git rev-parse --short origin/download))"
+            git commit -m "sync: merge download to release"
             git push origin release
           fi
