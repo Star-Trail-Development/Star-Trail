@@ -20,94 +20,65 @@ jobs:
           ref: release
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Sync changed files
+      - name: Sync modules
         run: |
           set -eo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git fetch origin download
-          DOWNLOAD_HEAD=$(git rev-parse origin/download)
 
-          if git rev-parse last-sync >/dev/null 2>&1; then
-            BASE=$(git rev-parse last-sync)
-          else
-            BASE=4b825dc642cb6eb9a060e54bf899b5b5dd5b2d5e
-          fi
-
-          if [[ "$BASE" == "$DOWNLOAD_HEAD" ]]; then
-            echo "No new commits"
-            exit 0
-          fi
-
-          echo "变更范围: ${BASE:0:7}..${DOWNLOAD_HEAD:0:7}"
-
-          # 同步 mods 和 resourcepacks 中所有变更的 .toml
-          # （无论 download 侧是 .index/x.toml 还是 x.toml）   
-          ADDED=$(git diff --name-only --diff-filter=AM "$BASE" origin/download \
-            | grep -E '^(mods|resourcepacks)/.*\.toml$' || true)
-
-          if [[ -n "$ADDED" ]]; then
-            while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              dir="${src%%/*}"
-              dest="$dir/$(basename "$src")"
-              mkdir -p "$dir"
-              git show "origin/download:$src" > "$dest"
-              echo "  写入: $dest"
-            done <<< "$ADDED"
-          fi
-
-          # 删除：download 上被移除的 .toml
-          DELETED=$(git diff --name-only --diff-filter=D "$BASE" origin/download \
-            | grep -E '^(mods|resourcepacks)/.*\.toml$' || true)
-
-          if [[ -n "$DELETED" ]]; then
-            while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              dir="${src%%/*}"
-              dest="$dir/$(basename "$src")"
-              if [[ -f "$dest" ]]; then
-                rm -f "$dest"
-                git rm -f --cached "$dest" 2>/dev/null || true
-                echo "  删除: $dest"
+          # 将 download 上的 .toml 文件映射到 release 相应位置
+          # 映射规则: download 任意位置的 x.toml → release 对应目录下的 x.toml
+          for dir in mods resourcepacks; do
+            # 先删除 release 上对应的旧文件（download 已移除的）
+            for f in "$dir"/*.toml; do
+              [ -f "$f" ] || continue
+              name=$(basename "$f")
+              # 检查 download 上是否存在对应文件（任意路径）
+              if ! git ls-tree --name-only origin/download "$dir/" | grep -qxF "$name"; then
+                if ! git ls-tree --name-only origin/download "$dir/.index/" 2>/dev/null | grep -qxF "$name"; then
+                  echo "  删除: $f (download 已移除)"
+                  rm -f "$f"
+                  git rm -f --cached "$f" 2>/dev/null || true
+                fi
               fi
-            done <<< "$DELETED"
-          fi
+            done
+
+            # 从 download 写入所有 .toml 文件
+            DL_FILES=$(git ls-tree --name-only -r origin/download "$dir/" | grep '\.toml$' || true)
+            if [[ -n "$DL_FILES" ]]; then
+              while IFS= read -r src; do
+                [[ -z "$src" ]] && continue
+                dest="$dir/$(basename "$src")"
+                mkdir -p "$dir"
+                if [[ ! -f "$dest" ]] || ! diff -q <(git show "origin/download:$src") "$dest" >/dev/null 2>&1; then
+                  git show "origin/download:$src" > "$dest"
+                  echo "  写入: $dest"
+                fi
+              done <<< "$DL_FILES"
+            fi
+          done
 
           # shaderpacks 直接同步
-          S_ADDED=$(git diff --name-only --diff-filter=AM "$BASE" origin/download -- shaderpacks/ || true)
-          if [[ -n "$S_ADDED" ]]; then
+          SHADER_FILES=$(git ls-tree --name-only -r origin/download shaderpacks/ 2>/dev/null || true)
+          if [[ -n "$SHADER_FILES" ]]; then
             while IFS= read -r src; do
               [[ -z "$src" ]] && continue
               mkdir -p "$(dirname "$src")"
-              git show "origin/download:$src" > "$src"
-              echo "  写入: $src"
-            done <<< "$S_ADDED"
-          fi
-
-          S_DELETED=$(git diff --name-only --diff-filter=D "$BASE" origin/download -- shaderpacks/ || true)
-          if [[ -n "$S_DELETED" ]]; then
-            while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              if [[ -f "$src" ]]; then
-                rm -f "$src"
-                git rm -f --cached "$src" 2>/dev/null || true
-                echo "  删除: $src"
+              if [[ ! -f "$src" ]] || ! diff -q <(git show "origin/download:$src") "$src" >/dev/null 2>&1; then
+                git show "origin/download:$src" > "$src"
+                echo "  写入: $src"
               fi
-            done <<< "$S_DELETED"
+            done <<< "$SHADER_FILES"
           fi
 
-          # 暂存并提交
+          # 暂存
           git add -f mods/ resourcepacks/ shaderpacks/ 2>/dev/null || true
           git add -u
 
           if git diff --cached --quiet; then
             echo "Nothing changed"
           else
-            git commit -m "sync: download → release (${DOWNLOAD_HEAD:0:7})"
+            git commit -m "sync: download → release ($(git rev-parse --short origin/download))"
             git push origin release
           fi
-
-          git tag -f last-sync "$DOWNLOAD_HEAD"
-          git push origin last-sync --force
