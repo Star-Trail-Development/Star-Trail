@@ -1,4 +1,4 @@
-name: Sync develop → release
+name: Sync [develop] to [release]
 
 on:
   push:
