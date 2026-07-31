@@ -1,14 +1,7 @@
 /*
+!.gitignore
 
-# folders
 !config/
 !defaultconfigs/
 !kubejs/
 !CustomSkinLoader/
-
-# files
-!.gitignore
-!icon.png
-!LICENSE
-!options.txt
-!README.md
