@@ -1,0 +1,25 @@
+filename = 'sushigocrafting-1.21-0.6.5.jar'
+name = 'Sushi Go Crafting'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21-0.6.5'
+
+[download]
+hash = 'e9061d299939f129131b80f1f3bd71c5ba5edc6b655cec6d9afcc4f42d8aa992bdf5966d20460eea76c9202dad96bbafb33037da917267a1cd80baa78e8adebe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/G9WbcGQ2/versions/NdreRV66/sushigocrafting-1.21-0.6.5.jar'
+
+[update.modrinth]
+mod-id = 'G9WbcGQ2'
+version = 'NdreRV66'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1Ro7m06l'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'REQUIRED'
