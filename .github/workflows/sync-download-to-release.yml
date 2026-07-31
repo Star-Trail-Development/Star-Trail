@@ -1,4 +1,4 @@
-name: Sync Download to Release
+name: Sync [download] to [release]
 
 on:
   push:
