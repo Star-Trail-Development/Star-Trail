@@ -17,11 +17,15 @@ mod-id = 'HH4FjUqN'
 version = 'NUmFVw9p'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'XaDC71GB'
+addonId = 'vvuO3ImH'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'ordsPcFz'
+addonId = 'iGEl6Crx'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XaDC71GB'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
@@ -29,9 +33,5 @@ addonId = '8BmcQJ2H'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'iGEl6Crx'
+addonId = 'ordsPcFz'
 type = 'REQUIRED'

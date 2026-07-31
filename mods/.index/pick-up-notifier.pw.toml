@@ -1,8 +1,8 @@
 filename = 'PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar'
 name = 'Pick Up Notifier'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = 'v21.1.1-1.21.1-NeoForge'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/ZX66K16c/versions/5NZounJc/PickUpNotifier-v
 [update.modrinth]
 mod-id = 'ZX66K16c'
 version = '5NZounJc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'

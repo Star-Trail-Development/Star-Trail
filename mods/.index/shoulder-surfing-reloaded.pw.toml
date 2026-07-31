@@ -17,13 +17,13 @@ mod-id = 'kepjj2sy'
 version = 'aMXy4qc2'
 
 [[x-prismlauncher-dependencies]]
+addonId = 'Q5UvqqQd'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
 addonId = 'G1s2WpNo'
 type = 'INCOMPATIBLE'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'GaaqfxoS'
-type = 'INCOMPATIBLE'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Q5UvqqQd'
 type = 'INCOMPATIBLE'

@@ -21,9 +21,9 @@ addonId = 'r9RZvhiJ'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'umyGl7zF'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'v17FatAc'
 type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'REQUIRED'

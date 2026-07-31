@@ -25,17 +25,17 @@ addonId = '40FYwb4z'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'nf68xfAw'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
 addonId = 'M1953qlQ'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
+addonId = 'HIuqnQpi'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'HIuqnQpi'
+addonId = 'nf68xfAw'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
 type = 'REQUIRED'

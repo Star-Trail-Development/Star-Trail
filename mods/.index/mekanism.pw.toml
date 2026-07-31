@@ -15,3 +15,99 @@ url = ''
 [update.curseforge]
 file-id = 7904058
 project-id = 268560
+
+[[x-prismlauncher-dependencies]]
+addonId = '245211'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '368718'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '267602'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '455982'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '220318'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '437654'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '248020'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '280554'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '226410'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1037991'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '282001'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '980156'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '449945'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1070751'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '441647'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '481655'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '541617'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '574123'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'OPTIONAL'

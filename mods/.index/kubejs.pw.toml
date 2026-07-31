@@ -1,8 +1,8 @@
 filename = 'kubejs-neoforge-2101.7.2-build.368.jar'
 name = 'KubeJS'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '2101.7.2-build.368'
 
@@ -15,3 +15,7 @@ url = 'https://cdn.modrinth.com/data/umyGl7zF/versions/F2nzeC19/kubejs-neoforge-
 [update.modrinth]
 mod-id = 'umyGl7zF'
 version = 'F2nzeC19'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sk9knFPE'
+type = 'REQUIRED'

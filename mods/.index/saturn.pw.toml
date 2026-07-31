@@ -1,8 +1,9 @@
 filename = 'saturn-mc1.21.1-0.1.5.jar'
 name = 'Saturn'
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = 'mc1.21.1-0.1.5'
 

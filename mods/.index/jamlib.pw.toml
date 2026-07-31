@@ -1,8 +1,8 @@
 filename = 'jamlib-neoforge-1.3.6+1.21.1.jar'
 name = 'JamLib'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.3.6+1.21.1'
 
@@ -15,3 +15,7 @@ url = 'https://cdn.modrinth.com/data/IYY9Siz8/versions/n6UM6TcS/jamlib-neoforge-
 [update.modrinth]
 mod-id = 'IYY9Siz8'
 version = 'n6UM6TcS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
