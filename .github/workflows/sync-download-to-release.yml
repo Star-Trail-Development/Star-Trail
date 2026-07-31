@@ -1,0 +1,107 @@
+name: Sync download → release
+
+on:
+  push:
+    branches:
+      - download
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: release
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync changed files
+        run: |
+          set -eo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin download
+          DOWNLOAD_HEAD=$(git rev-parse origin/download)
+
+          # 确定上次同步点（首次运行时用空树做基准，同步全部文件）
+          if git rev-parse last-sync >/dev/null 2>&1; then
+            BASE=$(git rev-parse last-sync)
+          else
+            BASE=4b825dc642cb6eb9a060e54bf899b5b5dd5b2d5e  # git empty tree
+          fi
+
+          if [[ "$BASE" == "$DOWNLOAD_HEAD" ]]; then
+            echo "No new commits"
+            exit 0
+          fi
+
+          echo "变更范围: ${BASE:0:7}..${DOWNLOAD_HEAD:0:7}"
+
+          # 处理 mods 和 resourcepacks（需要路径映射）
+          for dir in mods resourcepacks; do
+            # 处理新增和修改（路径存在才 diff，避免非零退出）
+            if git ls-tree "origin/download" "$dir/.index/" >/dev/null 2>&1; then
+              while IFS= read -r src; do
+                [[ -z "$src" ]] && continue
+                dest="$dir/$(basename "$src")"
+                mkdir -p "$dir"
+                git show "origin/download:$src" > "$dest"
+                echo "  写入: $dest"
+              done < <(git diff --name-only --diff-filter=AM "$BASE" origin/download -- "$dir/.index/")
+            fi
+
+            # 处理删除
+            if git ls-tree "origin/download" "$dir/.index/" >/dev/null 2>&1 || git ls-tree "$BASE" "$dir/.index/" >/dev/null 2>&1; then
+              while IFS= read -r src; do
+                [[ -z "$src" ]] && continue
+                dest="$dir/$(basename "$src")"
+                if [[ -f "$dest" ]]; then
+                  rm -f "$dest"
+                  git rm -f --cached "$dest" 2>/dev/null || true
+                  echo "  删除: $dest"
+                fi
+              done < <(git diff --name-only --diff-filter=D "$BASE" origin/download -- "$dir/.index/")
+            fi
+          done
+
+          # 处理 shaderpacks（无路径映射，直接同步）
+          if git ls-tree "origin/download" shaderpacks/ >/dev/null 2>&1; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              mkdir -p "$(dirname "$src")"
+              git show "origin/download:$src" > "$src"
+              echo "  写入: $src"
+            done < <(git diff --name-only --diff-filter=AM "$BASE" origin/download -- shaderpacks/)
+          fi
+
+          if git ls-tree "origin/download" shaderpacks/ >/dev/null 2>&1 || git ls-tree "$BASE" shaderpacks/ >/dev/null 2>&1; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              if [[ -f "$src" ]]; then
+                rm -f "$src"
+                git rm -f --cached "$src" 2>/dev/null || true
+                echo "  删除: $src"
+              fi
+            done < <(git diff --name-only --diff-filter=D "$BASE" origin/download -- shaderpacks/)
+          fi
+
+          # 暂存
+          git add -f mods/ resourcepacks/ shaderpacks/ 2>/dev/null || true
+          git add -u
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+          else
+            git commit -m "sync: download → release (${DOWNLOAD_HEAD:0:7})"
+            git push origin release
+          fi
+
+          # 更新追踪 tag
+          git tag -f last-sync "$DOWNLOAD_HEAD"
+          git push origin last-sync --force
