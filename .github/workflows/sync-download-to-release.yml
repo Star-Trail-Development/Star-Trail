@@ -20,65 +20,47 @@ jobs:
           ref: release
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Sync modules
+      - name: Merge and transform
         run: |
           set -eo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin download
 
-          # 将 download 上的 .toml 文件映射到 release 相应位置
-          # 映射规则: download 任意位置的 x.toml → release 对应目录下的 x.toml
-          for dir in mods resourcepacks; do
-            # 先删除 release 上对应的旧文件（download 已移除的）
-            for f in "$dir"/*.toml; do
-              [ -f "$f" ] || continue
-              name=$(basename "$f")
-              # 检查 download 上是否存在对应文件（任意路径）
-              if ! git ls-tree --name-only origin/download "$dir/" | grep -qxF "$name"; then
-                if ! git ls-tree --name-only origin/download "$dir/.index/" 2>/dev/null | grep -qxF "$name"; then
-                  echo "  删除: $f (download 已移除)"
-                  rm -f "$f"
-                  git rm -f --cached "$f" 2>/dev/null || true
-                fi
-              fi
-            done
+          # Step 1: 合并 download 到 release
+          git merge origin/download -X theirs --no-edit
 
-            # 从 download 写入所有 .toml 文件
-            DL_FILES=$(git ls-tree --name-only -r origin/download "$dir/" | grep '\.toml$' || true)
-            if [[ -n "$DL_FILES" ]]; then
-              while IFS= read -r src; do
-                [[ -z "$src" ]] && continue
-                dest="$dir/$(basename "$src")"
-                mkdir -p "$dir"
-                if [[ ! -f "$dest" ]] || ! diff -q <(git show "origin/download:$src") "$dest" >/dev/null 2>&1; then
-                  git show "origin/download:$src" > "$dest"
-                  echo "  写入: $dest"
-                fi
-              done <<< "$DL_FILES"
+          # Step 2: 路径变换 — mods/.index/*.toml → mods/*.toml
+          #           resourcepacks/.index/*.toml → resourcepacks/*.toml
+          for dir in mods resourcepacks; do
+            if [ -d "$dir/.index" ]; then
+              # 先清掉 release 上旧的扁平文件（download 已删除的也会被清掉）
+              rm -f "$dir"/*.toml
+              git rm -f --cached "$dir"/*.toml 2>/dev/null || true
+
+              # 把 .index/ 下的所有 .toml 移到上级目录
+              for f in "$dir/.index"/*.toml; do
+                [ -f "$f" ] || continue
+                mv "$f" "$dir/"
+              done
+
+              # 移除 .index/ 目录
+              rm -rf "$dir/.index"
+              git rm -r --cached "$dir/.index" 2>/dev/null || true
+
+              # 暂存变换后的扁平文件
+              git add "$dir"/*.toml 2>/dev/null || true
             fi
           done
 
-          # shaderpacks 直接同步
-          SHADER_FILES=$(git ls-tree --name-only -r origin/download shaderpacks/ 2>/dev/null || true)
-          if [[ -n "$SHADER_FILES" ]]; then
-            while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              mkdir -p "$(dirname "$src")"
-              if [[ ! -f "$src" ]] || ! diff -q <(git show "origin/download:$src") "$src" >/dev/null 2>&1; then
-                git show "origin/download:$src" > "$src"
-                echo "  写入: $src"
-              fi
-            done <<< "$SHADER_FILES"
-          fi
+          # shaderpacks 目录结构一致，merge 已处理，无需额外变换
 
-          # 暂存
-          git add -f mods/ resourcepacks/ shaderpacks/ 2>/dev/null || true
+          # Step 3: 提交变更
           git add -u
-
-          if git diff --cached --quiet; then
+          if git diff --cached --quiet && git diff --quiet; then
             echo "Nothing changed"
           else
+            git add -A
             git commit -m "sync: download → release ($(git rev-parse --short origin/download))"
             git push origin release
           fi
