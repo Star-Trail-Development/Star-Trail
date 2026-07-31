@@ -28,7 +28,16 @@ jobs:
           git fetch origin download
 
           # Step 1: 合并 download 到 release
-          git merge origin/download -X theirs --no-edit
+          # -X theirs 处理内容冲突，但 rename/delete 冲突需手动解决
+          git merge origin/download -X theirs --no-edit || {
+            echo "Merge had conflicts, resolving..."
+            # 解决 rename/delete 冲突：HEAD 重命名了文件，但 download 删除了它
+            # 统一接受 download 的删除操作
+            git diff --name-only --diff-filter=U | while read f; do
+              git rm -f "$f" 2>/dev/null || true
+            done
+            git commit --no-edit
+          }
 
           # Step 2: 路径变换 — mods/.index/*.toml → mods/*.toml
           #           resourcepacks/.index/*.toml → resourcepacks/*.toml
@@ -55,7 +64,7 @@ jobs:
 
           # shaderpacks 目录结构一致，merge 已处理，无需额外变换
 
-          # Step 3: 提交变更
+          # Step 3: 提交变更并推送
           git add -u
           if git diff --cached --quiet && git diff --quiet; then
             echo "Nothing changed"
