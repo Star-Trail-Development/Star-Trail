@@ -1,0 +1,12 @@
+/*
+!.gitignore
+
+
+!mods/
+!resourcepacks/
+!shaderpacks/
+
+!config/
+!defaultconfigs/
+!kubejs/
+!CustomSkinLoader/
