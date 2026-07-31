@@ -31,14 +31,16 @@ jobs:
           # 映射规则: download 任意位置的 x.toml → release 对应目录下的 x.toml
           for dir in mods resourcepacks; do
             # 先删除 release 上对应的旧文件（download 已移除的）
-            # 用递归 -r 同时查看 flat 和 .index/ 下的文件
             for f in "$dir"/*.toml; do
               [ -f "$f" ] || continue
               name=$(basename "$f")
-              if ! git ls-tree --name-only -r origin/download "$dir/" | grep -qxF "$name"; then
-                echo "  删除: $f (download 已移除)"
-                rm -f "$f"
-                git rm -f --cached "$f" 2>/dev/null || true
+              # 检查 download 上是否存在对应文件（任意路径）
+              if ! git ls-tree --name-only origin/download "$dir/" | grep -qxF "$name"; then
+                if ! git ls-tree --name-only origin/download "$dir/.index/" 2>/dev/null | grep -qxF "$name"; then
+                  echo "  删除: $f (download 已移除)"
+                  rm -f "$f"
+                  git rm -f --cached "$f" 2>/dev/null || true
+                fi
               fi
             done
 
