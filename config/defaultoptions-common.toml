@@ -1,7 +1,0 @@
-#The default difficulty selected for newly created worlds.
-#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
-defaultDifficulty = "NORMAL"
-#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
-lockDifficulty = false
-#Resource pack IDs to have enabled by default on the first run.
-defaultResourcePacks = ["teastory_asset_generator", "vanilla", "fabric", "generated/fragmentum_layer", "mod_resources", "mod/wilderflowers:resourcepacks/wildflowers", "moonlight:merged_pack", "file/Pretty X Smart Pipez.zip", "file/Midnighttiggers-FCT-Default_1.20_V8.zip", "file/AE2-1.20.1-Guide-zh_CN_v2.0.zip", "Star-Trail-Resources-Pack", "file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip", "obscure_tooltips/packs/vibrant_tooltips"]

@@ -1,14 +1,16 @@
 /*
-
-# folders
-!config/
-!defaultconfigs/
-!kubejs/
-!CustomSkinLoader/
-
-# files
 !.gitignore
-!icon.png
-!LICENSE
-!options.txt
-!README.md
+
+# mods
+!mods/
+mods/*
+!mods/.index/
+
+# resourcepacks
+!resourcepacks/
+resourcepacks/*
+!resourcepacks/.index/
+
+# shaderpacks
+!shaderpacks/
+shaderpacks/*.zip

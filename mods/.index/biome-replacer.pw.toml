@@ -1,0 +1,18 @@
+filename = 'biomereplacer-3.1-hippo-neo.jar'
+name = 'Biome Replacer'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '3.1 Neoforge 1.20.5-1.21.1'
+
+[download]
+hash = 'f94952c7c720e95a4316f4490c05f19be0b68f6c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8269912
+project-id = 910274
