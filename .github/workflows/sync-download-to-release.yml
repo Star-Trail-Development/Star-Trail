@@ -22,7 +22,7 @@ jobs:
 
       - name: Sync changed files
         run: |
-          set -e
+          set -eo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -45,43 +45,51 @@ jobs:
 
           # 处理 mods 和 resourcepacks（需要路径映射）
           for dir in mods resourcepacks; do
-            # 处理新增和修改
-            git diff --name-only --diff-filter=AM "$BASE" origin/download -- "$dir/.index/" | while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              dest="$dir/$(basename "$src")"
-              mkdir -p "$dir"
-              git show "origin/download:$src" > "$dest"
-              echo "  写入: $dest"
-            done
+            # 处理新增和修改（路径存在才 diff，避免非零退出）
+            if git ls-tree "origin/download" "$dir/.index/" >/dev/null 2>&1; then
+              while IFS= read -r src; do
+                [[ -z "$src" ]] && continue
+                dest="$dir/$(basename "$src")"
+                mkdir -p "$dir"
+                git show "origin/download:$src" > "$dest"
+                echo "  写入: $dest"
+              done < <(git diff --name-only --diff-filter=AM "$BASE" origin/download -- "$dir/.index/")
+            fi
 
             # 处理删除
-            git diff --name-only --diff-filter=D "$BASE" origin/download -- "$dir/.index/" | while IFS= read -r src; do
-              [[ -z "$src" ]] && continue
-              dest="$dir/$(basename "$src")"
-              if [[ -f "$dest" ]]; then
-                rm -f "$dest"
-                git rm -f --cached "$dest" 2>/dev/null || true
-                echo "  删除: $dest"
-              fi
-            done
+            if git ls-tree "origin/download" "$dir/.index/" >/dev/null 2>&1 || git ls-tree "$BASE" "$dir/.index/" >/dev/null 2>&1; then
+              while IFS= read -r src; do
+                [[ -z "$src" ]] && continue
+                dest="$dir/$(basename "$src")"
+                if [[ -f "$dest" ]]; then
+                  rm -f "$dest"
+                  git rm -f --cached "$dest" 2>/dev/null || true
+                  echo "  删除: $dest"
+                fi
+              done < <(git diff --name-only --diff-filter=D "$BASE" origin/download -- "$dir/.index/")
+            fi
           done
 
           # 处理 shaderpacks（无路径映射，直接同步）
-          git diff --name-only --diff-filter=AM "$BASE" origin/download -- shaderpacks/ | while IFS= read -r src; do
-            [[ -z "$src" ]] && continue
-            mkdir -p "$(dirname "$src")"
-            git show "origin/download:$src" > "$src"
-            echo "  写入: $src"
-          done
+          if git ls-tree "origin/download" shaderpacks/ >/dev/null 2>&1; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              mkdir -p "$(dirname "$src")"
+              git show "origin/download:$src" > "$src"
+              echo "  写入: $src"
+            done < <(git diff --name-only --diff-filter=AM "$BASE" origin/download -- shaderpacks/)
+          fi
 
-          git diff --name-only --diff-filter=D "$BASE" origin/download -- shaderpacks/ | while IFS= read -r src; do
-            [[ -z "$src" ]] && continue
-            if [[ -f "$src" ]]; then
-              rm -f "$src"
-              git rm -f --cached "$src" 2>/dev/null || true
-              echo "  删除: $src"
-            fi
-          done
+          if git ls-tree "origin/download" shaderpacks/ >/dev/null 2>&1 || git ls-tree "$BASE" shaderpacks/ >/dev/null 2>&1; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              if [[ -f "$src" ]]; then
+                rm -f "$src"
+                git rm -f --cached "$src" 2>/dev/null || true
+                echo "  删除: $src"
+              fi
+            done < <(git diff --name-only --diff-filter=D "$BASE" origin/download -- shaderpacks/)
+          fi
 
           # 暂存
           git add -f mods/ resourcepacks/ shaderpacks/ 2>/dev/null || true
