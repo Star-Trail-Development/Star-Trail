@@ -1,0 +1,13 @@
+name = "Star-Trail"
+author = "Dark2932"
+version = "AutoUpdate"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "28cf53f67679b443ddc1ca926152c46a60a77bff9d4ac1907a624f7335ef9457"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.247"
