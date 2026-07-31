@@ -1,0 +1,12 @@
+# sub-folders and sub-files
+inventoryprofilesnext/*
+!inventoryprofilesnext/integrationHints/
+!inventoryprofilesnext/inventoryprofiles.json
+!inventoryprofilesnext/villager-trading-config-v2.json
+jei/world/
+litematica/
+
+# files
+*.bak
+*.backup*
+xaeropatreon.txt
