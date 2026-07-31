@@ -1,0 +1,197 @@
+{
+    "appeng.client.gui.implementations.EnergyLevelEmitterScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.ChestScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.CondenserScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.DriveScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.InscriberScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.InterfaceScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 90
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 90
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 90
+            }
+        }
+    },
+    "appeng.client.gui.implementations.MolecularAssemblerScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.PatternProviderScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SpatialIOPortScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SpatialAnchorScreen": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.SpatialAnchorMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.crafting.CraftAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.items.SetProcessingPatternAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.crafting.SetStockAmountScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.VibrationChamberScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.QNBScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.FormationPlaneScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.me.common.MEStorageScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.me.patternaccess.PatternAccessTermScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.client.gui.implementations.StorageBusScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.IOBusScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.WirelessScreen": {
+        "playerSideOnly": true
+    },
+    "appeng.client.gui.implementations.SecurityStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 20
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 20
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 20
+            }
+        }
+    },
+    "appeng.menu.implementations.QNBMenu": {
+        "ignore": true
+    },
+    "appeng.menu.me.common.MEStorageMenu": {
+        "ignore": true
+    },
+    "appeng.menu.me.items.CraftingTermMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.common.TerminalSettingsScreen": {
+        "ignore": true
+    },
+    "appeng.menu.me.items.PatternEncodingTermMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.PatternAccessTermMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.InterfaceMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.InscriberMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.SpatialIOPortMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.DriveMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.ChestMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.CondenserMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.VibrationChamberMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.MolecularAssemblerMenu": {
+        "ignore": true
+    },
+    "gripe._90.megacells.menu.MEGAInterfaceMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.PatternProviderMenu": {
+        "ignore": true
+    },
+    "gripe._90.megacells.menu.MEGAPatternProviderMenu": {
+        "ignore": true
+    },
+    "appeng.menu.implementations.EnergyLevelEmitterMenu": {
+        "ignore": true
+    }
+}

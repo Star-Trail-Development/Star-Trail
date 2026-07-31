@@ -1,0 +1,21 @@
+[Block]
+	#The capacity of wooden barrel. (mB)
+	# Default: 4000
+	# Range: > 100
+	WoodenBarrelCapacity = 4000
+
+[Agriculture]
+	#Can ash be used as bone meal?
+	Ash = true
+	#Can players find seeds in the chest of village?
+	AddSeedToHouseChest = true
+	#Let melon vine more interesting.
+	BetterMelon = true
+
+[Others]
+	#Wooden blocks will drop ashes when burning.
+	WoodDropsAshWhenBurning = true
+
+[Compat]
+	#Enable solar term season compat.
+	EnableSeason = true
