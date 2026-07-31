@@ -4,6 +4,7 @@
 !config/
 !defaultconfigs/
 !kubejs/
+!CustomSkinLoader/
 
 # files
 !.gitignore
