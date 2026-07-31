@@ -42,10 +42,10 @@ jobs:
 
           echo "变更范围: ${BASE:0:7}..${DOWNLOAD_HEAD:0:7}"
 
-          # 同步 mods 和 resourcepacks 中所有变更的 .pw.toml
-          # （无论 download 侧是 .index/x.pw.toml 还是 x.pw.toml）   
+          # 同步 mods 和 resourcepacks 中所有变更的 .toml
+          # （无论 download 侧是 .index/x.toml 还是 x.toml）   
           ADDED=$(git diff --name-only --diff-filter=AM "$BASE" origin/download \
-            | grep -E '^(mods|resourcepacks)/.*\.pw\.toml$' || true)
+            | grep -E '^(mods|resourcepacks)/.*\.toml$' || true)
 
           if [[ -n "$ADDED" ]]; then
             while IFS= read -r src; do
@@ -58,9 +58,9 @@ jobs:
             done <<< "$ADDED"
           fi
 
-          # 删除：download 上被移除的 .pw.toml
+          # 删除：download 上被移除的 .toml
           DELETED=$(git diff --name-only --diff-filter=D "$BASE" origin/download \
-            | grep -E '^(mods|resourcepacks)/.*\.pw\.toml$' || true)
+            | grep -E '^(mods|resourcepacks)/.*\.toml$' || true)
 
           if [[ -n "$DELETED" ]]; then
             while IFS= read -r src; do
