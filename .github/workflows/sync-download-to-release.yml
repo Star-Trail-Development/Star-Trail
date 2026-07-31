@@ -1,0 +1,113 @@
+name: Sync download → release
+
+on:
+  push:
+    branches:
+      - download
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: release
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync changed files
+        run: |
+          set -eo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin download
+          DOWNLOAD_HEAD=$(git rev-parse origin/download)
+
+          if git rev-parse last-sync >/dev/null 2>&1; then
+            BASE=$(git rev-parse last-sync)
+          else
+            BASE=4b825dc642cb6eb9a060e54bf899b5b5dd5b2d5e
+          fi
+
+          if [[ "$BASE" == "$DOWNLOAD_HEAD" ]]; then
+            echo "No new commits"
+            exit 0
+          fi
+
+          echo "变更范围: ${BASE:0:7}..${DOWNLOAD_HEAD:0:7}"
+
+          # 同步 mods 和 resourcepacks 中所有变更的 .pw.toml
+          # （无论 download 侧是 .index/x.pw.toml 还是 x.pw.toml）   
+          ADDED=$(git diff --name-only --diff-filter=AM "$BASE" origin/download \
+            | grep -E '^(mods|resourcepacks)/.*\.pw\.toml$' || true)
+
+          if [[ -n "$ADDED" ]]; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              dir="${src%%/*}"
+              dest="$dir/$(basename "$src")"
+              mkdir -p "$dir"
+              git show "origin/download:$src" > "$dest"
+              echo "  写入: $dest"
+            done <<< "$ADDED"
+          fi
+
+          # 删除：download 上被移除的 .pw.toml
+          DELETED=$(git diff --name-only --diff-filter=D "$BASE" origin/download \
+            | grep -E '^(mods|resourcepacks)/.*\.pw\.toml$' || true)
+
+          if [[ -n "$DELETED" ]]; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              dir="${src%%/*}"
+              dest="$dir/$(basename "$src")"
+              if [[ -f "$dest" ]]; then
+                rm -f "$dest"
+                git rm -f --cached "$dest" 2>/dev/null || true
+                echo "  删除: $dest"
+              fi
+            done <<< "$DELETED"
+          fi
+
+          # shaderpacks 直接同步
+          S_ADDED=$(git diff --name-only --diff-filter=AM "$BASE" origin/download -- shaderpacks/ || true)
+          if [[ -n "$S_ADDED" ]]; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              mkdir -p "$(dirname "$src")"
+              git show "origin/download:$src" > "$src"
+              echo "  写入: $src"
+            done <<< "$S_ADDED"
+          fi
+
+          S_DELETED=$(git diff --name-only --diff-filter=D "$BASE" origin/download -- shaderpacks/ || true)
+          if [[ -n "$S_DELETED" ]]; then
+            while IFS= read -r src; do
+              [[ -z "$src" ]] && continue
+              if [[ -f "$src" ]]; then
+                rm -f "$src"
+                git rm -f --cached "$src" 2>/dev/null || true
+                echo "  删除: $src"
+              fi
+            done <<< "$S_DELETED"
+          fi
+
+          # 暂存并提交
+          git add -f mods/ resourcepacks/ shaderpacks/ 2>/dev/null || true
+          git add -u
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed"
+          else
+            git commit -m "sync: download → release (${DOWNLOAD_HEAD:0:7})"
+            git push origin release
+          fi
+
+          git tag -f last-sync "$DOWNLOAD_HEAD"
+          git push origin last-sync --force
