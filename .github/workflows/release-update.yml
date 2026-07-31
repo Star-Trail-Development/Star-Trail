@@ -27,7 +27,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run packwiz refresh
-        run: packwiz refresh
+        run: ./packwiz refresh
 
       - name: Check and commit changes
         id: pack_update
