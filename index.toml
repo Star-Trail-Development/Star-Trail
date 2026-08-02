@@ -374,7 +374,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
+hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
 
 [[files]]
 file = "config/buildinggadgets2-common.toml"
@@ -638,7 +638,7 @@ hash = "5c98d6579ac2d3c1171d9b22d223fd33bbd89d83dc9a8d7e969c9235cfb38ab0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d53b6325df662f42f9696a92c6bd9af4a2766f6e4401585b43193f3e9b1815d8"
+hash = "e01783e0d6d436552c6f9b270a720aa7c55c150250c1de48a0bc6ae70feed46b"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -830,7 +830,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "a4e9cf84ce5171fe3cbd6facc5bfff482a0b8612cc6d02c76dd9ee25faa7a177"
+hash = "2139ca40bca633bdf9d6760e3542ab9f1748d9884d396d8c2ada52f9818345bf"
 
 [[files]]
 file = "config/iteminteractions-client.toml"
@@ -894,7 +894,7 @@ hash = "02bcacc419a8ffddfb06faa8ad7f87e9c5b00d84b326760ebb102d924485dfa2"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "40facebeefef0388bff77657a5e6f646523591dbfcb5f97aee4c2f8b0acf0cbb"
+hash = "aa3444649ffb7bd765cd77346e989295ca3dbd327b4454da76bfa4f8716e4ccc"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -1138,7 +1138,7 @@ hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "35a0a6235b446ac5d273e1e12af6bd4a33d6e29b0625b4d389c54d18c9f53704"
+hash = "f8ae4ca674fec9a37942c995416635f037761914aaca4fefa2cc1df23ff5d05f"
 
 [[files]]
 file = "config/pamhc2crops.toml"
@@ -1670,7 +1670,7 @@ hash = "c9600b9afe50227b48ab552af7f7fb773568613b2cc6e824272110840942cde4"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "bafbda38648e04821420db99d35bf8cb656933db53a74d7cb4976f26b152861d"
+hash = "c1862d80f70053dc894a776bc9d2e13484c3a4bff0a8b7a4ed723e6ac5baedb6"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -1759,6 +1759,10 @@ hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 [[files]]
 file = "defaultconfigs/jei-server.toml"
 hash = "586dab73e6d084c5eac7890ccc6196b2f634d852736ab44708e6d4ac9f72fcb2"
+
+[[files]]
+file = "icon.png"
+hash = "fb24254cb2e1dab133cce3db24aa9d28e93364ade304edbe7433dac4643736ce"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -1850,7 +1854,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "77aa607625136d49fce64a48e2cae7f86a97d36329e178e9fcf858af35da23e0"
+hash = "d6e6610106cb0a23e5326fa35cff5a89d023fab8360f62d352d70c01753f7bc9"
 metafile = true
 
 [[files]]
@@ -2470,7 +2474,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c12dc4ebb4f3308c2e8511a1edb6e7a7628fcf23b1c9968a4e61fb8de5c16871"
+hash = "a4ac63c9a29e7b481f752f2c93912e7b8cd8a5e6d3ad4ec41a2b18864f410d84"
 metafile = true
 
 [[files]]
@@ -2480,7 +2484,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "97085101c54990d957537872dbdaf452af0d48eb1b470a222f82b6baf3c3efba"
+hash = "79befa99015879ee900fb31cbdfdaf28a9558e1eeced9c7a1c8b3983389b3fee"
 metafile = true
 
 [[files]]
@@ -2990,7 +2994,7 @@ metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "6ba4b439bc370697cff4d7ff356aed3dc929ef148de1c9ee75caa4a27a293371"
+hash = "6b20082abbba45d1b6ee5dd3c1e8e87aaab93b358da841020ab834cb8ea7bc78"
 metafile = true
 
 [[files]]
@@ -3085,7 +3089,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-ponderer.pw.toml"
-hash = "6dc5e0bec0717ca95ec399a1f84b33e9a85e4128a5f6528c94a3f2cc5f7a11e7"
+hash = "c4de21f2f61cbcd3ed3a3581b72cf185e0cd628e75bf6f77df2c4d1a606d90b0"
 metafile = true
 
 [[files]]
