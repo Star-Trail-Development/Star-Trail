@@ -1761,10 +1761,6 @@ file = "defaultconfigs/jei-server.toml"
 hash = "586dab73e6d084c5eac7890ccc6196b2f634d852736ab44708e6d4ac9f72fcb2"
 
 [[files]]
-file = "fix-metadata.sh"
-hash = "d7853a903b7b137568ac0b36ab1d69b99afe2145e86506de965a6041e865c1f3"
-
-[[files]]
 file = "icon.png"
 hash = "fb24254cb2e1dab133cce3db24aa9d28e93364ade304edbe7433dac4643736ce"
 
