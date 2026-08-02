@@ -1,7 +1,6 @@
 /*
 !.github/
 !.gitignore
-!fix-metadata.sh
 
 # mods
 !mods/
