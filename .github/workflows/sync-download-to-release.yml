@@ -115,3 +115,11 @@ jobs:
             git commit -m "sync: merge download to release"
             git push origin release
           fi
+          
+      - name: Trigger release-update workflow
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "${{ github.api_url }}/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"release-synced"}'
