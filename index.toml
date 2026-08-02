@@ -3186,8 +3186,3 @@ metafile = true
 file = "resourcepacks/ae2-1.20.1-guide-zh_cn.pw.toml"
 hash = "2222247c29a47eada068c55ce57b795e1811a953f24b78be621cdd2e6f67e4bd"
 metafile = true
-
-[[files]]
-file = "resourcepacks/mt-ct-d.pw.toml"
-hash = "4931ca2d2745e01cde0e23c7597f0325f3063991141f4d4af95be1b3258f3d4e"
-metafile = true
