@@ -11,6 +11,8 @@ on:
       - 'index.toml'
       - '.github/workflows/release-update.yml'
   workflow_dispatch:
+  repository_dispatch:
+    types: [release-synced]
 
 jobs:
   update:
