@@ -16,51 +16,53 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # commit & push
-      pages: write          # deploy pages
-      id-token: write       # OIDC for pages deployment
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Fix packwiz metadata files
-        run: |
-          chmod +x ./fix-metadata.sh
-          ./fix-metadata.sh
-
-      - name: Run packwiz refresh
-        run: |
-          chmod +x ./packwiz
-          ./packwiz refresh
-
-      - name: Check and commit changes
+      - name: Fix, refresh, commit & prepare artifact
         id: pack_update
         run: |
-          git config user.name "github-actions[bot]"
+          set -euo pipefail
+
+          # 1. 修复元数据 + 刷新 packwiz
+          bash ./fix-metadata.sh
+          chmod +x ./packwiz && ./packwiz refresh
+
+          # 2. 提交变更到 release 分支
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add pack.toml index.toml
-          git add mods/*.pw.toml resourcepacks/*.pw.toml
-          git add shaderpacks/*.pw.toml 2>/dev/null || true
+          git add pack.toml index.toml \
+            mods/*.pw.toml resourcepacks/*.pw.toml \
+            shaderpacks/*.pw.toml 2>/dev/null || true
 
           if git diff --staged --quiet; then
-            echo "No changes to metadata files"
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "update: packwiz refresh"
-            git push origin release
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes, skipping commit & deploy"
+            exit 0
           fi
 
-      - name: Deploy to GitHub Pages
-        if: steps.pack_update.outputs.changed == 'true'
+          git commit -m "update: packwiz refresh"
+          git push origin release
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          # 3. 准备 Pages 产物（仅元数据文件）
+          mkdir -p _pages/{mods,resourcepacks,shaderpacks}
+          cp pack.toml index.toml icon.png _pages/ 2>/dev/null || true
+          for dir in mods resourcepacks shaderpacks; do
+            cp "$dir"/*.pw.toml "_pages/$dir/" 2>/dev/null || true
+          done
+
+      - if: steps.pack_update.outputs.changed == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./_pages
           publish_branch: gh-pages
           force_orphan: true
-          exclude_assets: '.github/**, */.gitignore, .packwizignore, fix-metadata.sh, LICENSE, packwiz, README.md'
