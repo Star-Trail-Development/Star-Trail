@@ -1,4 +1,5 @@
 .github/
 */.gitignore
+fix-metadata.sh
 LICENSE
 README.md
