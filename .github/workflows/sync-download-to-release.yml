@@ -104,8 +104,10 @@ jobs:
           DELETED_COUNT=$(echo "$DELETED" | grep -c . 2>/dev/null || echo 0)
           echo "Summary: ${ADDED_COUNT:-0} added/modified, ${DELETED_COUNT:-0} deleted"
 
-      - name: Apply metadata fixes
-        run: bash ./fix-metadata.sh
+      - name: Fetch and apply fix-metadata.sh
+        run: | 
+          git checkout origin/download -- fix-metadata.sh
+          bash ./fix-metadata.sh
 
       - name: Commit and push changes
         run: |
