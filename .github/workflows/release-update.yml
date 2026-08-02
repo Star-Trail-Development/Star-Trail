@@ -43,7 +43,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add pack.toml index.toml
-          git add mods/*.pw.toml resourcepacks/*.pw.toml shaderpacks/*.pw.toml
+          git add mods/*.pw.toml resourcepacks/*.pw.toml
+          git add shaderpacks/*.pw.toml 2>/dev/null || true
 
           if git diff --staged --quiet; then
             echo "No changes to metadata files"
