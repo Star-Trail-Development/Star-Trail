@@ -3,13 +3,6 @@ name: Release Update
 on:
   push:
     branches: [release]
-    paths:
-      - 'mods/*.pw.toml'
-      - 'resourcepacks/*.pw.toml'
-      - 'shaderpacks/*.pw.toml'
-      - 'pack.toml'
-      - 'index.toml'
-      - '.github/workflows/release-update.yml'
   workflow_dispatch:
   repository_dispatch:
     types: [release-synced]
