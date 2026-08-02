@@ -1,18 +1,18 @@
-filename = 'BetterAdvancements-NeoForge-1.21.1-0.4.3.20.jar'
+filename = 'BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar'
 name = 'Better Advancements'
 side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = 'BetterAdvancements-NeoForge-1.21.1-0.4.3.20.jar'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar'
 
 [download]
-hash = '35a5d27a977e2dbf14820f228f84d4e5fef03f05'
+hash = '870521cfaa1a4cb6c830e2409e8b9e4cf179aff2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5850536
+file-id = 5850587
 project-id = 272515
