@@ -26,6 +26,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Fix packwiz metadata files
+        run: |
+          chmod +x ./fix-metadata.sh
+          ./fix-metadata.sh
+
       - name: Run packwiz refresh
         run: |
           chmod +x ./packwiz
@@ -38,9 +43,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add pack.toml index.toml
+          git add mods/*.pw.toml resourcepacks/*.pw.toml shaderpacks/*.pw.toml 2>/dev/null || true
 
           if git diff --staged --quiet; then
-            echo "No changes to pack.toml or index.toml"
+            echo "No changes to metadata files"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "update: packwiz refresh"
@@ -56,4 +62,4 @@ jobs:
           publish_dir: ./
           publish_branch: gh-pages
           force_orphan: true
-          exclude_assets: '.github/**, .gitignore, packwiz, README.md, LICENSE'
+          exclude_assets: '.github/**, */.gitignore, .packwizignore, fix-metadata.sh, LICENSE, packwiz, README.md'
