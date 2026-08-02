@@ -1,6 +1,6 @@
 filename = 'scholar-neoforge-1.21.1-1.2.4.jar'
 name = 'Scholar'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,7 +11,7 @@ x-prismlauncher-version-number = '1.2.4'
 hash = '8045a36b0a74268c2f138b9f71ab72a41d73b09ad2ceaaa9f3539a98d3f39c998c0a1c20fec05f10fad068c495071527002766fb7736328af57e95255c572f35'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fX4dIQCo/versions/5ekGrx8w/scholar-neoforge-1.21.1-1.2.4.jar'
+url = 'https://mod.mcimirror.top/data/fX4dIQCo/versions/5ekGrx8w/scholar-neoforge-1.21.1-1.2.4.jar'
 
 [update.modrinth]
 mod-id = 'fX4dIQCo'
