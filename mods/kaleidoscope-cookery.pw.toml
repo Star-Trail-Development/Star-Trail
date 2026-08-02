@@ -1,6 +1,6 @@
 filename = 'kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar'
 name = 'Kaleidoscope Cookery'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,7 +11,7 @@ x-prismlauncher-version-number = '1.4.1-neoforge+mc1.21.1'
 hash = '1e60999ff7e411fd5cba662a0816a0a8320249e42ff427aed9f5cd952560452c4a0ae7587ae8da496982223056fec6531f46680003bc5edace7edf9024e7af9b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/v17FatAc/versions/TqaHu4Ma/kaleidoscopecookery-1.4.1-neoforge%2Bmc1.21.1.jar'
+url = 'https://mod.mcimirror.top/data/v17FatAc/versions/TqaHu4Ma/kaleidoscopecookery-1.4.1-neoforge%2Bmc1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'v17FatAc'

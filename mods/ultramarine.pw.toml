@@ -1,6 +1,6 @@
 filename = 'ultramarine-1.21.1-0.7.jar'
 name = 'Ultramarine'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,7 +11,7 @@ x-prismlauncher-version-number = '0.7'
 hash = '144f4bb33d1f679eeabe8c1bccbaa8f1dc094a42658da6e23730db1b7b481dd3d45a5debb004ef845e9fb38ad13b6f0c4c68ed68bab25aef9752c5ad65c7eee6'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/mlaQPFEe/versions/Us19e7Vp/ultramarine-1.21.1-0.7.jar'
+url = 'https://mod.mcimirror.top/data/mlaQPFEe/versions/Us19e7Vp/ultramarine-1.21.1-0.7.jar'
 
 [update.modrinth]
 mod-id = 'mlaQPFEe'

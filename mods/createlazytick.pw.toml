@@ -1,6 +1,6 @@
 filename = 'CreateLazyTick-2.5.15-6.0.x-neoforge-1.21.1.jar'
 name = 'Create:Lazy Tick'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,7 @@ x-prismlauncher-version-number = '1.21.1-2.5.15-6.0.x'
 hash = '6a5e1b6a1a02cf46309cfb3ed75926365e7bc494c77e7035e6c8e25ce7fd834974adb6eb654b70f1e5430b2afd35c0b561547940e72a56470cda69119696d0f8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Z0d7hFh4/versions/FdVtKdOE/CreateLazyTick-2.5.15-6.0.x-neoforge-1.21.1.jar'
+url = 'https://mod.mcimirror.top/data/Z0d7hFh4/versions/FdVtKdOE/CreateLazyTick-2.5.15-6.0.x-neoforge-1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'Z0d7hFh4'

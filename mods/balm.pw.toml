@@ -1,6 +1,6 @@
 filename = 'balm-neoforge-1.21.1-21.0.64.jar'
 name = 'Balm'
-side = 'server'
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,7 +11,6 @@ x-prismlauncher-version-number = 'balm-neoforge-1.21.1-21.0.64.jar'
 hash = 'db544a4fb95f7847cd4b1de9479c39cfa31fd529'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8545422

@@ -1,6 +1,6 @@
 filename = 'Icarus-NeoForge-4.7.6.jar'
 name = 'Icarus'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,7 @@ x-prismlauncher-version-number = '4.7.6+NeoForge'
 hash = '06884dd4c3e18afbcfdb8f0f72c32de71866bade08ce62022da9be9e300013b91e7bee11e9100fcfe159faa9f2b7ed62fd0016619b60c838c2f90cba1af82536'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Dw7M6XKW/versions/I7uTimBi/Icarus-NeoForge-4.7.6.jar'
+url = 'https://mod.mcimirror.top/data/Dw7M6XKW/versions/I7uTimBi/Icarus-NeoForge-4.7.6.jar'
 
 [update.modrinth]
 mod-id = 'Dw7M6XKW'

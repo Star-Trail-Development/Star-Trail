@@ -1,6 +1,6 @@
 filename = 'regions-unexplored-0.6.2-neoforge-21.1.jar'
 name = 'Regions Unexplored'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,7 @@ x-prismlauncher-version-number = '0.6.2-neoforge-21.1'
 hash = 'b6475d26f22a5a3ed957b76b85f3d51d3422c0fbef16f777b74bfe9d70fd1673d75cb0c4e2a2a56121f0d0d6780a9e92fdcd7023b4f1d0d2d746d54c64c12f3c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Tkikq67H/versions/5A8LFnXX/regions-unexplored-0.6.2-neoforge-21.1.jar'
+url = 'https://mod.mcimirror.top/data/Tkikq67H/versions/5A8LFnXX/regions-unexplored-0.6.2-neoforge-21.1.jar'
 
 [update.modrinth]
 mod-id = 'Tkikq67H'

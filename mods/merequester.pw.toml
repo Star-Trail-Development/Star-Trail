@@ -1,6 +1,6 @@
 filename = 'merequester-neoforge-1.21.1-1.4.3.jar'
 name = 'ME Requester'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'MERequester-NeoForge-1.21.1-1.4.3'
 hash = 'b0a801e9b7af930da5f58176156d58c26f6232b1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 8285803
