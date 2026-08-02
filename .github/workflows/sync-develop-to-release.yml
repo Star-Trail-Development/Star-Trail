@@ -28,3 +28,11 @@ jobs:
           git fetch origin develop
           git merge origin/develop -X theirs --no-edit
           git push origin release
+          
+      - name: Trigger release-update workflow
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "${{ github.api_url }}/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"release-synced"}'
