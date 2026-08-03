@@ -1,0 +1,17 @@
+filename = 'scholar-neoforge-1.21.1-1.2.4.jar'
+name = 'Scholar'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Scholar - NeoForge 1.21.1 - 1.2.4'
+
+[download]
+hash = 'c00a239520937aff35fe4660786f4d1b22d6d42e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 8554061
+project-id = 961802

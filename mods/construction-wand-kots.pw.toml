@@ -1,0 +1,36 @@
+filename = 'constructionwand-kots-1.21.1-2.16.11.jar'
+name = 'Construction Wand KOTS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'constructionwand-kots-1.21.1-2.16.11.jar'
+
+[download]
+hash = 'd4b73c402803a855a7935ed3c036d243cd0e558b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 8463483
+project-id = 1382688
+
+[[x-prismlauncher-dependencies]]
+addonId = '309927'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '422301'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '620229'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '225643'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'OPTIONAL'
