@@ -18,9 +18,9 @@ download 分支 push              develop 分支 push
        ▼                               ▼
 sync-download-to-release       sync-develop-to-release
   ├─ 检测 .index/ 变更            ├─ 切换至 release 并 fetch develop
-  ├─ 迁至平级目录                  ├─ merge develop
+  ├─ 迁至平级目录                 ├─ merge develop
   ├─ fix-metadata.sh             └─ 推送
-  └─ 推送                             │
+  └─ 推送                            │
        │                             │
        └──────────────┬──────────────┘
                       ▼
