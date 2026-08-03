@@ -18,21 +18,21 @@ jobs:
           ref: release
           fetch-depth: 0
 
-      - name: Sync and fix changed files from download
+      - name: Merge download into release
         run: |
           set -euo pipefail
 
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git fetch origin download:download
 
-          # ── 确定 diff 范围 ──
+          # 确定 diff 范围（仅用于检测本次变更的文件）
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # 手动触发：直接比较两个分支的 HEAD
             LHS="release"
             RHS="download"
           else
             LHS="${{ github.event.before }}"
             RHS="${{ github.event.after }}"
-            # 首次 push（before 为全零 commit）
             if [ "$LHS" = "0000000000000000000000000000000000000000" ]; then
               LHS="4b825dc642cb6eb9a060e54bf899d9b4b8c1c8cc"
             fi
@@ -40,7 +40,24 @@ jobs:
 
           echo "Diff range: $LHS .. $RHS"
 
-          # ── 1. 处理新增/修改的文件 ──
+          # 保存合并前的 HEAD，用于恢复 release 独有文件
+          PRE_MERGE_HEAD=$(git rev-parse HEAD)
+
+          # ── 执行真正的 git merge ──
+          # -X ours: 冲突时保留 release 版本
+          git merge download --no-commit --no-ff -X ours || true
+
+          # 处理残留冲突
+          git diff --name-only --diff-filter=U 2>/dev/null | while read f; do
+            git checkout --ours "$f" && git add "$f"
+          done
+
+          # 恢复 release 独有文件（download 分支不包含这些，合并后会被删除）
+          for f in index.toml pack.toml icon.png; do
+            git checkout "$PRE_MERGE_HEAD" -- "$f" 2>/dev/null || true
+          done
+
+          # ── 1. 处理新增/修改的文件（从 .index/ 搬到扁平结构）──
           ADDED_MODIFIED=$(git diff --name-only --diff-filter=AM "$LHS" "$RHS" -- \
             mods/.index/ resourcepacks/.index/ shaderpacks/ 2>/dev/null || true)
 
@@ -52,18 +69,21 @@ jobs:
                 mods/.index/*)
                   name=$(basename "$file")
                   echo "  + mods/$name"
-                  git checkout download -- "$file"
+                  git checkout download -- "$file" 2>/dev/null || continue
                   mv "$file" "mods/$name"
+                  git add "mods/$name"
                   ;;
                 resourcepacks/.index/*)
                   name=$(basename "$file")
                   echo "  + resourcepacks/$name"
-                  git checkout download -- "$file"
+                  git checkout download -- "$file" 2>/dev/null || continue
                   mv "$file" "resourcepacks/$name"
+                  git add "resourcepacks/$name"
                   ;;
                 shaderpacks/*)
                   echo "  + $file"
-                  git checkout download -- "$file"
+                  git checkout download -- "$file" 2>/dev/null || continue
+                  git add "$file"
                   ;;
               esac
             done <<< "$ADDED_MODIFIED"
@@ -82,47 +102,42 @@ jobs:
                   name=$(basename "$file")
                   echo "  - mods/$name"
                   rm -f "mods/$name"
+                  git rm -f "mods/$name" 2>/dev/null || true
                   ;;
                 resourcepacks/.index/*)
                   name=$(basename "$file")
                   echo "  - resourcepacks/$name"
                   rm -f "resourcepacks/$name"
+                  git rm -f "resourcepacks/$name" 2>/dev/null || true
                   ;;
                 shaderpacks/*)
                   echo "  - $file"
                   rm -f "$file"
+                  git rm -f "$file" 2>/dev/null || true
                   ;;
               esac
             done <<< "$DELETED"
           fi
 
-          # 清理可能残留的空 .index/ 目录
+          # 清理 .index/ 目录
           rm -rf mods/.index/ resourcepacks/.index/
+          git rm -rf --cached mods/.index/ resourcepacks/.index/ 2>/dev/null || true
 
-          # ── 汇总 ──
-          ADDED_COUNT=$(echo "$ADDED_MODIFIED" | grep -c . 2>/dev/null || echo 0)
-          DELETED_COUNT=$(echo "$DELETED" | grep -c . 2>/dev/null || echo 0)
-          echo "Summary: ${ADDED_COUNT:-0} added/modified, ${DELETED_COUNT:-0} deleted"
+          # ── 3. 应用元数据修复并刷新 packwiz ──
+          if [ -f ./fix-metadata.sh ]; then
+            bash ./fix-metadata.sh
+          fi
+          if [ -f ./packwiz ]; then
+            chmod +x ./packwiz && ./packwiz refresh
+            git add pack.toml index.toml
+          fi
 
-      - name: Apply metadata fixes
-        run: bash ./fix-metadata.sh
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ── 4. 提交合并 ──
           git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "sync: merge download to release"
-            git push origin release
+            exit 0
           fi
-          
-      - name: Trigger release-update workflow
-        run: |
-          curl -X POST \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "${{ github.api_url }}/repos/${{ github.repository }}/dispatches" \
-            -d '{"event_type":"release-synced"}'
+
+          git commit -m "sync: fix, refresh and merge files about metadata"
+          git push origin release
