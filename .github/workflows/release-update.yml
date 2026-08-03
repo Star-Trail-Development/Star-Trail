@@ -1,0 +1,54 @@
+name: Release Update
+
+on:
+  push:
+    branches: [release]
+    paths:
+      - 'config/*'
+      - 'CustomSkinLoader/*'
+      - 'defaultconfigs/*'
+      - 'kubejs/*'
+      - 'mods/*.pw.toml'
+      - 'resourcepacks/*.pw.toml'
+      - 'shaderpacks/*.pw.toml'
+      - 'icon.png'
+      - 'index.toml'
+      - 'pack.toml'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [release-synced]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fix, refresh, commit & push
+        id: pack_update
+        run: |
+          set -euo pipefail
+
+          # 1. 刷新 packwiz 索引
+          chmod +x ./packwiz && ./packwiz refresh
+
+          # 2. 提交变更到 release 分支
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add pack.toml index.toml
+
+          if git diff --staged --quiet; then
+            echo "No changes, skipping commit."
+            exit 0
+          fi
+
+          git commit -m "update: packwiz refresh"
+          git push origin release
