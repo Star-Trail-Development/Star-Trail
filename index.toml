@@ -2409,7 +2409,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "5703edfdc4f828a43ed8549f1cbf58d30db67ed11e02ca23bffe22481d59a7a4"
+hash = "a3e46a7760a8087f79a1fdc14a3fc75842495af6a3e8f19c595c6be9a251b289"
 metafile = true
 
 [[files]]
@@ -2419,7 +2419,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-scripting.pw.toml"
-hash = "1dfdc270698a345b0c0529fd27e5d10a90cf8e2119eddc6ce10cb9bbee73c270"
+hash = "67dcafbc09d33e98afc12f115a9cc935a9ee635fa3129e9245fcd20299398283"
 metafile = true
 
 [[files]]
