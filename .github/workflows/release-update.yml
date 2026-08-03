@@ -14,6 +14,7 @@ on:
       - 'icon.png'
       - 'index.toml'
       - 'pack.toml'
+      - 'packwiz'
   workflow_dispatch:
   repository_dispatch:
     types: [release-synced]

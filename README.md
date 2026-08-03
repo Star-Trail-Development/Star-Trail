@@ -48,7 +48,7 @@ sync-download-to-release       sync-develop-to-release
 ├── pack.toml               # 整合包定义
 ├── index.toml              # packwiz 索引（自动生成）
 ├── fix-metadata.sh         # 元数据修复脚本
-├── packwiz                 # packwiz 修改版
+├── packwiz                 # packwiz 发行版
 └── .packwizignore          # packwiz 忽略规则
 ```
 
