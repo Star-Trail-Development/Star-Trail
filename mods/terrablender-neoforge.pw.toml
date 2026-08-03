@@ -1,17 +1,17 @@
-filename = 'Sparkweave-NeoForge-0.510.0.jar'
-name = 'Sparkweave Engine'
+filename = 'TerraBlender-neoforge-1.21.1-4.1.0.8.jar'
+name = 'TerraBlender (NeoForge)'
 side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.510.0+NeoForge'
+x-prismlauncher-version-number = 'TerraBlender NeoForge 1.21.1-4.1.0.8'
 
 [download]
-hash = '012d4308400c2c467374c5b36b86bb0c55582496'
+hash = '2016eed89eac0eb0510d2190c3b0b80bf4346191'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 6774230
-project-id = 911456
+file-id = 6054947
+project-id = 940057

@@ -5,14 +5,13 @@ x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.5'
+x-prismlauncher-version-number = 'v1.1.5 / mc1.21.1 - NeoForge'
 
 [download]
-hash = '70721b55802192d678b6fb66619c6e210a49d5e829fc1951c70c27d8ed940c446979e36dd06221c6a35e358e97fb57c22c41ed0b24cd6d03519926b81d58d4b4'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://mod.mcimirror.top/data/n2fvCDlM/versions/StnP0RNi/mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar'
+hash = '1f8b59e31f889f53b6296b42ee09d447e7e56620'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
 
-[update.modrinth]
-mod-id = 'n2fvCDlM'
-version = 'StnP0RNi'
+[update.curseforge]
+file-id = 7256148
+project-id = 400933
