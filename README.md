@@ -54,6 +54,6 @@ sync-download-to-release       sync-develop-to-release
 
 ## 客户端更新
 
-通过在启动器内配置预启动命令，启动 [packwiz-installer](https://github.com/packwiz/packwiz-installer) 后从仓库拉取所有文件，然后检测更新并下载。
+通过在启动器内配置预启动命令，[packwiz-installer](https://github.com/packwiz/packwiz-installer) 启动后走 [gh-proxy](https://gh-proxy.com/) 从仓库拉取所有文件，然后检测更新并下载。
 
 鉴于 `CurseForge` 和 `Modrinth` 不能流畅访问，故配置元数据时使用了 [MCIM ](https://www.mcimirror.top/)代理网站。
