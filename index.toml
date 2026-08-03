@@ -1813,12 +1813,12 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
-file = "mods/abyssal-decor.pw.toml"
-hash = "1278df4de46df99e6e234a0bc32223a7330b36c4ef7f2a851b990655dfe2ad2c"
+file = "mods/abundant-atmosphere.pw.toml"
+hash = "43bd854ba59b01a0ddfb0d4de7b89907f42cded75b574d0030b24566a1d21182"
 metafile = true
 
 [[files]]
-file = "mods/abyssal-dedadawdadawdadadacor.pw.toml"
+file = "mods/abyssal-decor.pw.toml"
 hash = "1278df4de46df99e6e234a0bc32223a7330b36c4ef7f2a851b990655dfe2ad2c"
 metafile = true
 
