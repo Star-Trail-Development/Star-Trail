@@ -1,6 +1,6 @@
 filename = 'I18nUpdateMod-3.7.0-all.jar'
 name = 'I18nUpdateMod'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [
@@ -72,6 +72,7 @@ x-prismlauncher-version-number = 'I18nUpdateMod 3.7.0'
 hash = 'd9c217b569345ae30a5271baa5e9482080c2e41d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 7173159

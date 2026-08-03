@@ -1,6 +1,6 @@
 filename = 'jecharacters-1.21.1-neoforge-4.5.27.jar'
 name = 'Just Enough Characters'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
@@ -11,6 +11,7 @@ x-prismlauncher-version-number = 'jecharacters-1.21.1-neoforge-4.5.27.jar'
 hash = 'e7baf37c0431be1960005a5e8929cb6b5899d416'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 8541967

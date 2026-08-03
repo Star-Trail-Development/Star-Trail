@@ -1,6 +1,6 @@
 filename = 'titanium-1.21-4.0.45.jar'
 name = 'Titanium'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
@@ -11,6 +11,7 @@ x-prismlauncher-version-number = 'titanium-1.21-4.0.45.jar'
 hash = 'c718d4d8713b83964f9b8feea4443a25feb84fc9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 8426819

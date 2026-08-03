@@ -1,6 +1,6 @@
 filename = 'forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar'
 name = 'Forgified Fabric API'
-side = 'both'
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,6 +11,7 @@ x-prismlauncher-version-number = '[1.21.1] Forgified Fabric API 0.116.15+2.3.1+1
 hash = '4fe8b0c2110bc3228bbe4dfec38092a7dcabe028'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 8539754

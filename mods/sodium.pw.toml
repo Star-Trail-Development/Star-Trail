@@ -1,6 +1,6 @@
 filename = 'sodium-neoforge-0.8.13-beta.1+mc1.21.1.jar'
 name = 'Sodium'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
@@ -11,6 +11,7 @@ x-prismlauncher-version-number = 'Sodium 0.8.13-beta.1 for NeoForge 1.21.1'
 hash = 'f868ab0a037d1211fabd31b2f42a2862b8e6c669'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
+url = ''
 
 [update.curseforge]
 file-id = 8537390
