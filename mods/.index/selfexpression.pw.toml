@@ -1,18 +1,18 @@
 filename = 'selfexpression-2.22a-neoforge-1.21.1.jar'
 name = 'Selfexpression'
-side = ''
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.22a'
+x-prismlauncher-version-number = 'selfexpression-2.22a-neoforge-1.21.1.jar'
 
 [download]
-hash = '70e320f9d12fb71482042f663fea2bde5ab363e3f92343a4683968246b37c010251e3e3e0077a6dcb90acba3d094651df246b9be2bd7ebe638cff1c615363d7a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/yv3OK08E/versions/rkbv62gk/selfexpression-2.22a-neoforge-1.21.1.jar'
+hash = 'f0dd7e65512daec9ddea0fa54f02c48b4f2d3842'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'yv3OK08E'
-version = 'rkbv62gk'
+[update.curseforge]
+file-id = 6910114
+project-id = 921259

@@ -1,25 +1,25 @@
-filename = 'InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar'
-name = 'Inventory Profiles Next'
+filename = 'rch-supplementaries-compat-neoforge-2.0.0+1.21.jar'
+name = 'RightClickHarvest Supplementaries Compat'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar'
+x-prismlauncher-version-number = 'V2.0.0+1.21 (NeoForge 1.21.1)'
 
 [download]
-hash = 'b09d7c0820c233ea34af54d0a3ab7ed510b32dcc'
+hash = '54c9089b67c3bf50e5cf8e5fe435d16c577eeb78'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7810574
-project-id = 495267
+file-id = 6137052
+project-id = 1038427
 
 [[x-prismlauncher-dependencies]]
-addonId = '351264'
+addonId = '452834'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '679177'
+addonId = '412082'
 type = 'REQUIRED'

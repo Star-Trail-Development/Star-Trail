@@ -7,15 +7,15 @@ x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '0.4.2+mc1.21.1'
 
 [download]
-hash = '4436d2dbeb5e7f63615ce40f99b980e07acf03ac0709ccf0f951c2841fb2983da7e2d55802659b4026b4b3bcc76ce1e29c605cb589059318c4b704615f0a3378'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/dCKRaeBC/versions/71jxaAwz/forgematica-0.4.2%2Bmc1.21.1.jar'
+hash = '586c374d30d7a110c2f940b17cb0faac377e51c8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'dCKRaeBC'
-version = '71jxaAwz'
+[update.curseforge]
+file-id = 8385520
+project-id = 912441
 
 [[x-prismlauncher-dependencies]]
-addonId = 'SKI34J7B'
+addonId = '910766'
 type = 'REQUIRED'

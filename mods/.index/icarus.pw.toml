@@ -7,35 +7,35 @@ x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '4.7.6+NeoForge'
 
 [download]
-hash = '06884dd4c3e18afbcfdb8f0f72c32de71866bade08ce62022da9be9e300013b91e7bee11e9100fcfe159faa9f2b7ed62fd0016619b60c838c2f90cba1af82536'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/Dw7M6XKW/versions/I7uTimBi/Icarus-NeoForge-4.7.6.jar'
+hash = 'ebccf24b5087748039bca5e1ce97c548d5d490aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'Dw7M6XKW'
-version = 'I7uTimBi'
+[update.curseforge]
+file-id = 8250319
+project-id = 428151
 
 [[x-prismlauncher-dependencies]]
-addonId = 's9gIPDom'
+addonId = '309927'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '806044'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '901503'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '40FYwb4z'
+addonId = '714059'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'M1953qlQ'
+addonId = '911456'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'HIuqnQpi'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'nf68xfAw'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
+addonId = '308989'
 type = 'REQUIRED'

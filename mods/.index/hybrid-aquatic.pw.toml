@@ -1,37 +1,37 @@
 filename = '[1.21.1-Neoforge] Hybrid Aquatic 1.6.8.jar'
 name = 'Hybrid Aquatic'
-side = ''
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.6.8-neoforge'
+x-prismlauncher-version-number = '[1.21.1-Neoforge] Hybrid Aquatic 1.6.8'
 
 [download]
-hash = '7ecd9fadb95df10f05296f75299c1e52918131ef30dde72d4c5692777a17e11bbbfec28bba18e4842c625ba954298e36deb55694c50e0fd0c744beb697296d67'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/HH4FjUqN/versions/NUmFVw9p/%5B1.21.1-Neoforge%5D Hybrid Aquatic 1.6.8.jar'
+hash = '2f962e504a5f71ad3b3af50d4c63f78730e73e18'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'HH4FjUqN'
-version = 'NUmFVw9p'
+[update.curseforge]
+file-id = 8462000
+project-id = 834427
 
 [[x-prismlauncher-dependencies]]
-addonId = 'vvuO3ImH'
+addonId = '351264'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'iGEl6Crx'
+addonId = '936015'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'XaDC71GB'
+addonId = '388172'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '8BmcQJ2H'
+addonId = '852512'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'ordsPcFz'
+addonId = '309927'
 type = 'REQUIRED'
