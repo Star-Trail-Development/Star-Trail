@@ -3,17 +3,6 @@ name: Release Update
 on:
   push:
     branches: [release]
-    paths:
-      - 'config/*'
-      - 'CustomSkinLoader/*'
-      - 'defaultconfigs/*'
-      - 'kubejs/*'
-      - 'mods/*.pw.toml'
-      - 'resourcepacks/*.pw.toml'
-      - 'shaderpacks/*.pw.toml'
-      - 'icon.png'
-      - 'index.toml'
-      - 'pack.toml'
   workflow_dispatch:
   repository_dispatch:
     types: [release-synced]
