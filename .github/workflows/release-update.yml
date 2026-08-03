@@ -35,35 +35,9 @@ jobs:
           git add pack.toml index.toml
 
           if git diff --staged --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes, skipping commit & deploy"
+            echo "No changes, skipping commit."
             exit 0
           fi
 
           git commit -m "update: packwiz refresh"
           git push origin release
-          echo "changed=true" >> "$GITHUB_OUTPUT"
-
-          # 3. 准备 Pages 产物
-          mkdir -p _pages/{mods,resourcepacks,shaderpacks}
-          cp pack.toml index.toml icon.png _pages/ 2>/dev/null || true
-
-          # 元数据文件
-          for dir in mods resourcepacks shaderpacks; do
-            cp "$dir"/*.pw.toml "_pages/$dir/" 2>/dev/null || true
-          done
-
-          # 配置文件（排除 .gitignore）
-          for dir in config CustomSkinLoader defaultconfigs kubejs; do
-            [ -d "$dir" ] || continue
-            cp -r "$dir" "_pages/"
-            find "_pages/$dir" -name ".gitignore" -delete
-          done
-
-      - if: steps.pack_update.outputs.changed == 'true'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_pages
-          publish_branch: gh-pages
-          force_orphan: true
