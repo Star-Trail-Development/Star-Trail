@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Fix, refresh, commit & prepare artifact
+      - name: Fix, refresh, commit & push
         id: pack_update
         run: |
           set -euo pipefail
