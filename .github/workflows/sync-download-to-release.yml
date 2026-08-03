@@ -116,6 +116,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "sync: merge download to release"
+            git merge origin/download -s ours
             git push origin release
           fi
           
