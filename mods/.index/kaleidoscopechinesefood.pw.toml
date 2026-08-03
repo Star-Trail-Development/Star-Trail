@@ -1,0 +1,18 @@
+filename = 'kaleidoscope_chinesefood-1.1.8-neoforge+1.21.1.jar'
+name = 'Kaleidoscope ChineseFood'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.8-neoforge+1.21.1'
+
+[download]
+hash = 'dbadc0a959fa0829120adcc50232cf51af18d9688299b85658a20a65038a1fc8fe00e40eda46e1d8348addc19e6f642e6b6ff407709bae1d571c6468e7b0ce14'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cuIIkdlx/versions/LKo9ciD6/kaleidoscope_chinesefood-1.1.8-neoforge%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'cuIIkdlx'
+version = 'LKo9ciD6'
