@@ -4,18 +4,17 @@ side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.21.1-2.0.0-beta'
+x-prismlauncher-version-number = 'Abundant Atmosphere 1.21.1-2.0.0-beta-Neoforge'
 
 [download]
-hash = 'a8b643ab37aae0be8a60e40f4d24fe914a7411ff13c4cee43c74b0fe8e38cd6a4bd6f28550ad8022393dbce038ddbc7823a7172e7c48e340ae78cfe4a35bf9c5'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://mod.mcimirror.top/data/N8ZATCCG/versions/7KxQrsgp/abundant_atmosphere-1.21.1-2.0.0-beta-neoforge.jar'
+hash = '9bfecc29046f88d9a6fa793685a36c9e490d1ce1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
 
-[update.modrinth]
-mod-id = 'N8ZATCCG'
-version = '7KxQrsgp'
+[update.curseforge]
+file-id = 6957664
+project-id = 682418
 
 [[x-prismlauncher-dependencies]]
-addonId = 'iGEl6Crx'
+addonId = '852512'
 type = 'REQUIRED'
