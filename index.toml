@@ -1823,6 +1823,16 @@ hash = "1278df4de46df99e6e234a0bc32223a7330b36c4ef7f2a851b990655dfe2ad2c"
 metafile = true
 
 [[files]]
+file = "mods/advancedae-addon.pw.toml"
+hash = "8fea9ae8c6d90e5b2ca21546e778beecea7d0829eb1c6021f746310464111d12"
+metafile = true
+
+[[files]]
+file = "mods/advancedae.pw.toml"
+hash = "79a055ba52d5f207d5226d270d468076ecc73f0bb1a1cff381f0d860cbae27d9"
+metafile = true
+
+[[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
 hash = "57e87524206d9a0cdfbf7b7d4737027cdb77013688bdf7f622eb1ed54ca4f57d"
 metafile = true
