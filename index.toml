@@ -3153,11 +3153,6 @@ hash = "1317b05ec929ad041488c60842c2c92ab0a365c0c71660b5122637d8def7c1ab"
 metafile = true
 
 [[files]]
-file = "mods/world-preview-neoforged-(unofficial).pw.toml"
-hash = "74698a602208da07d1b26e5b9cb5ed3ca162468744b263bb95463674c093bbf8"
-metafile = true
-
-[[files]]
 file = "mods/worldedit.pw.toml"
 hash = "d3f89d96ac5440b7d2d98415261ccc351636a9516d0c63dcb9f475c69ce17a2b"
 metafile = true
