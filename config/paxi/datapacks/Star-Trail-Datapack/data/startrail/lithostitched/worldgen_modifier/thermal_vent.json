@@ -1,0 +1,6 @@
+{
+    "type": "lithostitched:add_features",
+    "biomes": "#minecraft:is_deep_ocean",
+    "features": "hybrid_aquatic:thermal_vent_trenches",
+    "step": "raw_generation"
+}

@@ -6,7 +6,7 @@
     "generateTidePools": true,
     "generateSulfuricCave": false,
     "enableBiomes": true,
-    "generateDeepWarmOcaen": true,
+    "generateDeepWarmOcaen": false,
     "generateDeepCoralReef": false,
     "generateRedMeadow": false
   },

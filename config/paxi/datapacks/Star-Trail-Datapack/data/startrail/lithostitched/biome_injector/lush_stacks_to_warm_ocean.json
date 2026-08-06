@@ -1,0 +1,14 @@
+{
+    "type": "lithostitched:replace_partially",
+    "dimension": "minecraft:overworld",
+    "priority": 1,
+    "targets": "biomeswevegone:lush_stacks",
+    "replacement": "minecraft:warm_ocean",
+    "parameters": {
+        "weirdness": {
+            "max_inclusive": 0.4,
+            "min_inclusive": -0.4
+        }
+    }
+    
+}
