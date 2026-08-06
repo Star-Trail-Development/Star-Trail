@@ -1,0 +1,7 @@
+{
+    "type": "lithostitched:replace_fully",
+    "dimension": "minecraft:overworld",
+    "priority": 1,
+    "targets": "terralith:yellowstone",
+    "replacement": "terralith:moonlight_valley"
+}

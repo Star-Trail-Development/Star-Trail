@@ -5,8 +5,12 @@ inventoryprofilesnext/*
 !inventoryprofilesnext/villager-trading-config-v2.json
 jei/world/
 litematica/
+worldedit/*
+!worldedit/worldedit.properties
+world_preview/*
 
 # files
 *.bak
 *.backup*
+observable.json
 xaeropatreon.txt

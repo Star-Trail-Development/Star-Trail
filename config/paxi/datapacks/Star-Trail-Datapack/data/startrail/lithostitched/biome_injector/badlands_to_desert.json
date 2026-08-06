@@ -1,0 +1,13 @@
+{
+    "type": "lithostitched:replace_partially",
+    "dimension": "minecraft:overworld",
+    "priority": 1,
+    "targets": "minecraft:badlands",
+    "replacement": "minecraft:desert",
+    "parameters": {
+        "weirdness": {
+            "min_inclusive": -0.4,
+            "max_inclusive": 0.4
+        }
+    }
+}

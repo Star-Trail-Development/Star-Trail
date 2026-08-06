@@ -1,0 +1,14 @@
+{
+    "type": "lithostitched:replace_partially",
+    "dimension": "minecraft:overworld",
+    "priority": 1,
+    "targets": "hybrid_aquatic:coral_reef",
+    "replacement": "minecraft:warm_ocean",
+    "parameters": {
+        "weirdness": {
+            "max_inclusive": 0.8,
+            "min_inclusive": -0.8
+        }
+    }
+    
+}

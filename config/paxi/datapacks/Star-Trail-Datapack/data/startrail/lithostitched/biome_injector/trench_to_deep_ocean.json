@@ -1,0 +1,7 @@
+{
+    "type": "lithostitched:replace_fully",
+    "dimension": "minecraft:overworld",
+    "priority": 1,
+    "targets": "hybrid_aquatic:trench",
+    "replacement": "minecraft:deep_ocean"
+}
