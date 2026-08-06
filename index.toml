@@ -129,6 +129,14 @@ file = "config/abundant_atmosphere-common.toml"
 hash = "f6e2c173581f82d29d06aa72ffb4f91bd306ef6f84d1d65698cc2eb24742065a"
 
 [[files]]
+file = "config/advanced_ae-client.toml"
+hash = "ef9264673ca264bfa9207db1497f05dd4c6d42d8890f3e652e2bfbf0f2a125e1"
+
+[[files]]
+file = "config/advanced_ae-common.toml"
+hash = "dec3ed1e7f0287f5ce5c4a28e8800cc85adf1957268559c9fa656aa71ba6732f"
+
+[[files]]
 file = "config/ae2-client.toml"
 hash = "53c05cbfff5256832da7d1188ed42080c2bbff4f8e17f01b93b5114afd9445aa"
 
@@ -358,7 +366,7 @@ hash = "502be841d72947a329e04b5da1e7800616edc3b9d2c252fccee571ac7aa981ee"
 
 [[files]]
 file = "config/biome_replacer.properties"
-hash = "5f2135031f133ed8a1b1a0bead43080cdee46797043ddd8433d03982b4b341eb"
+hash = "07cf3ed325934f5be53838fcb2537ad53250b1cf872f78bbc68cf48240d070cd"
 
 [[files]]
 file = "config/biomeswevegone/misc.json"
@@ -374,7 +382,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "4e644f8324221022aed71d39b3d56a6cd189d5bd3f67c4aa72b889fb208421da"
+hash = "6fb6ff3e2cb4d1c47431b2e9fb48090fd985e0b43777949ec0c346cda85e532d"
 
 [[files]]
 file = "config/buildinggadgets2-common.toml"
@@ -554,7 +562,7 @@ hash = "3f7c96e71027f95ff08b71f84d534a7e1d07d21a4c4cfad481343bd2b29bd118"
 
 [[files]]
 file = "config/displaydelight-common.toml"
-hash = "a79433b6568684cf394f9e6f40ca9885cac51dd3ae8fa969e19d434fd158e521"
+hash = "2906049bd5b0a276d4db903a97936029c6b209b2f1f75ae313dd18c5c533c9ac"
 
 [[files]]
 file = "config/do_a_barrel_roll-client.json"
@@ -638,7 +646,7 @@ hash = "5c98d6579ac2d3c1171d9b22d223fd33bbd89d83dc9a8d7e969c9235cfb38ab0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e01783e0d6d436552c6f9b270a720aa7c55c150250c1de48a0bc6ae70feed46b"
+hash = "4f1e92fa8ce59e2f395b4d0708eb259c4ae2d18f6b18bbbe9c6b7618574729d7"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -686,7 +694,7 @@ hash = "eb730ce602ab5489c01d76a1a651e38b9ff37990784b57dd7eb999ff59235fd6"
 
 [[files]]
 file = "config/hybrid_aquatic.json"
-hash = "7518a4d89d5d447c065cdf462ff52033610519c04fea9164ad283bfa64386de3"
+hash = "b182739aef3782abecc6362bd17425269bb8ee903ca23c5afaca4110b37158c8"
 
 [[files]]
 file = "config/icarus.jsonc"
@@ -830,7 +838,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "2139ca40bca633bdf9d6760e3542ab9f1748d9884d396d8c2ada52f9818345bf"
+hash = "f0ad9e886de58b365f2258b65be2f7974660ab7aea7018d9154d62d3eb27139a"
 
 [[files]]
 file = "config/iteminteractions-client.toml"
@@ -886,7 +894,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "8cf47cdc8f4eacf0e5b0e26d19fd5c466394b8d8a561318da4c0e37b41372f65"
+hash = "40dcb8822e6b128f2b969b5167ca934bdd606250e4cdb18148c32471f681356f"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -910,7 +918,7 @@ hash = "b6fbdc3a92e50965222079ec185cb4f3dd33cc6c259f1af2e0ee30466ac750a9"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "c12d25c296bcf26ed5d5736bb16456c78d60a60316cbaf3ea748860ee57f41bf"
+hash = "8738bc5c40e2761fa4ef1f40d655b8f717a3fb1c6819aa02206061ae3a9a3951"
 
 [[files]]
 file = "config/jei_integration_reborn-client.toml"
@@ -1138,7 +1146,7 @@ hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "f8ae4ca674fec9a37942c995416635f037761914aaca4fefa2cc1df23ff5d05f"
+hash = "c4e5affde61ea2f2a0318830146356689439ab5e3377429d354a62fc4cdd3d83"
 
 [[files]]
 file = "config/pamhc2crops.toml"
@@ -1185,6 +1193,10 @@ file = "config/paxi/datapacks/Star-Trail-Datapack/data/goodending/worldgen/place
 hash = "f0f91cd58f8a83656ecd75a15f4267a4bddce2881df953e09f93121c818b501b"
 
 [[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/lithostitched/worldgen_modifier/warm_ocean_modifiers.json"
+hash = "492fa443091665363d87c08a11e64c8cfbc30e5044b182d01b8d452cc3cc5ce6"
+
+[[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/worldgen/biome/cold_trench.json"
 hash = "c2b8b3131a8779988d210727b5dc8cebbdd5c4d1d0819deb12de4a1106b16798"
 
@@ -1210,7 +1222,7 @@ hash = "2230cb689733bb5256617937dae515068813fa553d958e23b03660aa2e08387a"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/worldgen/configured_feature/thermal_vent_patch.json"
-hash = "7d1ff605f6f1be557e29b4281e5c1b8658b70cacde99a647191571aea595a195"
+hash = "fcdd9fe2d84a9c28d1a9dfcbfa08493ffabe4bde18f4843e2c0d7b153792fd05"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/worldgen/placed_feature/bull_kelp.json"
@@ -1225,6 +1237,10 @@ file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/worldgen/p
 hash = "03ee32cf2b0bc5b687ab28d86ab70f0c8359612aa88f53ecbe2854185f569aa3"
 
 [[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/hybrid_aquatic/worldgen/placed_feature/thermal_vent_trenches.json"
+hash = "c7ee31cfda4d76ad13e423b5185c04664348219fddc4fce9a81304a53c88fb83"
+
+[[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/placed_feature/kelp_cold.json"
 hash = "1acc68fb6fb4596ac15b9cee911835f8918f0feb4c7057068490b4645a9761f0"
 
@@ -1235,6 +1251,58 @@ hash = "1acc68fb6fb4596ac15b9cee911835f8918f0feb4c7057068490b4645a9761f0"
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/structure_set/ocean_monuments.json"
 hash = "01716269239f843a43f5e86e82ec899e6b66538822f88d807bf484c424b62147"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/badlands_to_desert.json"
+hash = "3f523d3e671cf09a2ff6e7a9ccaaa06355c97136eec3f7885469ecbfe0ddfd56"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/biomes_to_deep_warm_ocean.json"
+hash = "c1f77d770b8a94ad0c79c1bedb2e274754003e276aed4c3119d5eaf7ecb29dc5"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/cold_trench_to_deep_cold_ocean.json"
+hash = "cd2ed74d1106e7aac28da389ddf23c70af65b3ecc89644efb0dba8d64fdf328b"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/coral_reef_to_warm_ocean.json"
+hash = "8c47527bf781184a1e82e8f34befd157f2398faf59d7de81aa488730c1fecd3b"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/frozen_trench_to_deep_frozen_ocean.json"
+hash = "47332e6f703a2faaa554188684b38fd41130b364fada34dbc7eaa022baae8a4a"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/lukewarm_trench_to_deep_lukewarm_ocean.json"
+hash = "af3bc2d0a9220a395c2a0aa858d12eec546fcf7c86800c8514598ec52ba565df"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/lush_stacks_to_warm_ocean.json"
+hash = "16fe6b20522b0355bbe41a38945ebfcda07bccffcbf59a6914dee519d0f6da95"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/mantle_caves_to_prismachasm.json"
+hash = "1026cf162427583e592236e163ff9311f8a04c7ae719fd4edcc59cc54e59cb98"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/trench_to_deep_ocean.json"
+hash = "490e788cd432f24fa9885d91a5ae38f5b87c955aabe8a269f0b8ad21be32ade9"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/weeping_witch_forest_to_forest.json"
+hash = "50d7ca11f256f6b652d4eab63055785f263a599c75ef8632faf57187ce9485dd"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/weeping_witch_forest_to_moonlight_grove.json"
+hash = "abd24718f310b03ece6a2b61819acb7e80323533f8e20b012c6f40c45fe2d30e"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/yellowstone_to_moonlight_valley.json"
+hash = "0c5d13e8d735200ce345103553c1bcede4c8d4a7bbe393d3aaea923042b5dd86"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/worldgen_modifier/thermal_vent.json"
+hash = "9b80258fa483bdbd575ec056ba8f9a82dabba7698b75dddb14f10a4729361910"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/pack.mcmeta"
@@ -1259,6 +1327,42 @@ hash = "f21e302067e9b99742767f46f50cffb7a8cbedb3939e3591ded58efd39fca2c1"
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/lang/zh_cn.json"
 hash = "c823c837e1831109a39a0b1ca7e8bc783ac539082997fbbeb1d3c5643feff690"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_base_bottom.png"
+hash = "1bfa18a67764025f7175ecdd7346a44ba22729cc7b21d26ce280de7accc6cb81"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_base_side.png"
+hash = "761f8fdc6cd45cedd3204e16caec06faea5ef49b0cf767199a5c20ed5c43ddfe"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_bottom.png"
+hash = "5cc9737808cc17f6a0da102b9f635ae8d6f9d5ceb6ecab9fb2b5daeef70c6874"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_middle_side.png"
+hash = "761f8fdc6cd45cedd3204e16caec06faea5ef49b0cf767199a5c20ed5c43ddfe"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_tip_side.png"
+hash = "a279f1074ca45c2e12c68457cd82417cff3382b712c920a1925ddae19b8508f2"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/giant_thermal_vent_tip_top.png"
+hash = "a088c0d6404949580a9c80e7b9dbc2d1086f289c522b4bd3cd03d1fca714e0a0"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/thermal_vent_base.png"
+hash = "9ef3657dac80662f3c65bac03ada44bd8152f8d7b1ef9a716eca598251b47280"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/thermal_vent_middle.png"
+hash = "92da6439b121747bff2965431e492af2811bf0f5322ebfdc79b4215eb8feb1a7"
+
+[[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/textures/block/thermal_vent_tip.png"
+hash = "52960b02fe52c22b1617e7c58012337821b1a16a9302652bc99ab5ea169134c9"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/integrateddynamics/lang/en_us.json"
@@ -1530,7 +1634,7 @@ hash = "3191f0c7858893088f53f0ee816c4781b21d3c235d1b50b526a910fc9ac13253"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "1b079c76d5ff9b2d0fd8cb95b33f3eab6018df520fd8e646db16085462412e39"
+hash = "fbf6e9af6770cd23131c1bcecfd4649d3a85f5ae50bad7f7b72a57fe1d7e1d4a"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -1653,24 +1757,8 @@ file = "config/wilderflowers.toml"
 hash = "e2b6c72507ba146fcd8d66db03d5ea472f8d439ca10dc75d455d7a3eb94240d3"
 
 [[files]]
-file = "config/world_preview/config.json"
-hash = "f1f3a3c00da2a0f363d3f8154ba6a27aa7f27023ec36890aed4ef52a8cb7b42e"
-
-[[files]]
-file = "config/world_preview/missing-colors.json"
-hash = "e6d7fe2f5e283fdf3ba2c96f81e86a134b906a4afd1752ee9c85386c6c35edad"
-
-[[files]]
-file = "config/world_preview/missing-structures.json"
-hash = "82a203cc4e05006016fbee392338daf876f3a0b33f963eec22ca927c95e5d981"
-
-[[files]]
-file = "config/world_preview/renderConfig.json"
-hash = "c9600b9afe50227b48ab552af7f7fb773568613b2cc6e824272110840942cde4"
-
-[[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "c1862d80f70053dc894a776bc9d2e13484c3a4bff0a8b7a4ed723e6ac5baedb6"
+hash = "d92d8d922df8b826d475b0d44cca122de6462c5b874acebc5cbd3898ec8599e0"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
