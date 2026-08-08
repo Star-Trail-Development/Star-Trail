@@ -1,5 +1,5 @@
 {
-  "feature": "hybrid_aquatic:thermal_vent_patch",
+  "feature": "startrail:thermal_vent_patch",
   "placement": [
     {
       "type": "minecraft:in_square"

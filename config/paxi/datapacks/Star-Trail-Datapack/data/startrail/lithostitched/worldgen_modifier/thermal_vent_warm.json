@@ -1,0 +1,10 @@
+{
+    "type": "lithostitched:add_features",
+    "biomes": [
+        "terralith:deep_warm_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:deep_ocean"
+    ],
+    "features": "hybrid_aquatic:thermal_vent_trenches",
+    "step": "raw_generation"
+}

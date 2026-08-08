@@ -316,7 +316,7 @@
         "can_replace": [
           "minecraft:beach"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 50
       },
