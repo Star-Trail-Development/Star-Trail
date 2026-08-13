@@ -29,9 +29,10 @@ jobs:
         run: |
           set -euo pipefail
 
-          # 完全镜像：清空目标仓库除 .git 外的全部内容，只保留这三个目录
+          # 只重建三个内容目录；保留 .github/、pack.toml、index.toml、fix-metadata.sh、packwiz 等
+          # 这些文件由部署工作流（download-and-deploy-resources.yaml）依赖，不能被清空
           cd download-repo
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          rm -rf mods resourcepacks shaderpacks
           mkdir -p mods resourcepacks shaderpacks
           cd ..
 
