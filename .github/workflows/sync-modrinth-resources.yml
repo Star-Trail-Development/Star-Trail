@@ -1,0 +1,75 @@
+name: Sync Modrinth Resources to Download Repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      # 源：download 分支（Modrinth 元数据的唯一来源）
+      - name: Checkout download branch (source)
+        uses: actions/checkout@v4
+        with:
+          ref: download
+
+      # 目标：modrinth-resources-download（用 PAT 克隆，空仓库也能正常 clone）
+      - name: Clone modrinth-resources-download (target)
+        env:
+          PAT: ${{ secrets.PAT_MODRINTH_DOWNLOAD }}
+        run: |
+          git clone "https://x-access-token:${PAT}@github.com/Star-Trail-Development/modrinth-resources-download.git" download-repo
+
+      - name: Sync Modrinth metadata files
+        run: |
+          set -euo pipefail
+
+          # 完全镜像：清空目标仓库除 .git 外的全部内容，只保留这三个目录
+          cd download-repo
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          mkdir -p mods resourcepacks shaderpacks
+          cd ..
+
+          # 收集 download 分支上含 [update.modrinth] 段的元数据，展平到目标仓库
+          count=0
+          while IFS= read -r -d '' file; do
+            # 只筛选含 [update.modrinth] 段的元数据
+            if grep -q '^\[update\.modrinth\]$' "$file"; then
+              case "$file" in
+                mods/.index/*)
+                  target="download-repo/mods/$(basename "$file")"
+                  ;;
+                resourcepacks/.index/*)
+                  target="download-repo/resourcepacks/$(basename "$file")"
+                  ;;
+                shaderpacks/*)
+                  target="download-repo/$file"
+                  ;;
+                *)
+                  continue
+                  ;;
+              esac
+              cp "$file" "$target"
+              echo "  + $target"
+              count=$((count + 1))
+            fi
+          done < <(find mods/.index resourcepacks/.index shaderpacks -type f -name '*.pw.toml' -print0 2>/dev/null || true)
+
+          echo "Synced $count file(s)"
+
+      - name: Commit and push to main
+        run: |
+          set -euo pipefail
+          cd download-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "sync: modrinth resources from Star-Trail download"
+          git push origin main
