@@ -1,6 +1,8 @@
 name: Sync Modrinth Resources to Download Repo
 
 on:
+  push:
+    branches: [download]
   workflow_dispatch:
 
 jobs:
