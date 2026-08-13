@@ -6,31 +6,9 @@ Star Trail 服务器专用整合包仓库，使用 [packwiz](https://github.com/
 
 | 分支 | 用途 |
 |------|------|
-| `release` | 发布分支，`.index/` 展平 + 元数据修复 + `packwiz refresh` 后部署至`gh-pages`分支 |
-| `download` | 元数据源，通过 Prism Launcher 管理模组和材质包等，变更后自动触发同步 |
-| `develop` | 开发分支，存放 `config/`、`kubejs/` 等非需下载资源的配置文件 |
-
-## 自动化流水线
-
-```
-download 分支 push              develop 分支 push
-       │                               │
-       ▼                               ▼
-sync-download-to-release       sync-develop-to-release
-  ├─ 检测 .index/ 变更            ├─ 切换至 release 并 fetch develop
-  ├─ 迁至平级目录                 ├─ merge develop
-  ├─ fix-metadata.sh             └─ 推送
-  └─ 推送                            │
-       │                             │
-       └──────────────┬──────────────┘
-                      ▼
-                   release
-                      │
-                      ▼
-               release-update
-                 ├─ packwiz refresh
-                 ├─ 提交最终变更
-```
+| `release` | 发布分支，`.index/` 展平 + 元数据修复 + `packwiz refresh` 后再次提交至此分支 |
+| `download` | 下载分支，通过 Prism Launcher 管理模组和材质包等，变更后同步至release分支 |
+| `develop` | 开发分支，存放 `config/`、`kubejs/` 等非需下载资源的配置文件，变更后合并至release分支 |
 
 ## 目录结构
 
@@ -52,8 +30,8 @@ sync-download-to-release       sync-develop-to-release
 └── .packwizignore          # packwiz 忽略规则
 ```
 
-## 客户端更新
+## 客户端自动更新
 
-通过在启动器内配置预启动命令，[packwiz-installer](https://github.com/packwiz/packwiz-installer) 启动后从[镜像仓库](https://gitee.com/dark2932/star-trail)拉取文件，然后检测更新并下载。
+通过在启动器内配置预启动命令，[packwiz-installer](https://github.com/packwiz/packwiz-installer) 启动后从本仓库 `release` 分支拉取文件，然后检测更新并下载。
 
-鉴于 `CurseForge` 和 `Modrinth` 不能流畅访问，故配置元数据时使用了 [MCIM ](https://www.mcimirror.top/)代理网站。
+鉴于 `CurseForge` 和 `Modrinth` 不能流畅访问，故配置元数据时使用了 [MCIM](https://www.mcimirror.top/) 代理网站和私人服务器。
