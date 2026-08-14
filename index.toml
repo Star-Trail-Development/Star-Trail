@@ -3226,3 +3226,33 @@ metafile = true
 file = "resourcepacks/mt-ct-d.pw.toml"
 hash = "4931ca2d2745e01cde0e23c7597f0325f3063991141f4d4af95be1b3258f3d4e"
 metafile = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "ef63e7e71edff7466d7f42d60ef31697fb39217d5a851121e957f5f05cdb3f14"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "6fe16bd3e71d8baab37b210c3fac11ad8510712abf9bf310efe0264b6ecc0956"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "e17b56e95792ec24d7fce39acdcca6999cc02d81ff79c60ed4dc1a16328475a4"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "cb97d29dc9e72643c168ea0424aca6e3cd0e17b09c57b5b74cda1a1152229ff4"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "80e19e9497198b78e8d8d66fac35accdf48c55722bb0d1b1aca864c2950a4a41"
+metafile = true
+
+[[files]]
+file = "shaderpacks/super-duper-vanilla-shaders.pw.toml"
+hash = "2a07bc06a85ddd8946a04a7a325ac2420d636b7c79133b3ca29523b80bb1da2f"
+metafile = true
