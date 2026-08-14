@@ -1,0 +1,138 @@
+name: Sync [download] to [release]
+
+on:
+  push:
+    branches: [download]
+    paths:
+      - 'mods/**'
+      - 'resourcepacks/**'
+      - 'shaderpacks/**'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout release branch
+        uses: actions/checkout@v4
+        with:
+          ref: release
+          fetch-depth: 0
+
+      # ── Step 1: 合并 download 分支 mods / resourcepacks / shaderpacks 的变更到 release ──
+      - name: Step 1 - Merge mods/resourcepacks/shaderpacks changes into release
+        run: |
+          set -euo pipefail
+
+          git fetch origin download:download
+
+          # 确定 diff 范围：手动触发比较两分支 HEAD，push 触发比较 before..after
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            LHS="release"
+            RHS="download"
+          else
+            LHS="${{ github.event.before }}"
+            RHS="${{ github.event.after }}"
+            # 分支首次 push 时 before 为全零 commit，与空树比较
+            if [ "$LHS" = "0000000000000000000000000000000000000000" ]; then
+              LHS="4b825dc642cb6eb9a060e54bf899d9b4b8c1c8cc"
+            fi
+          fi
+
+          echo "Diff range: $LHS .. $RHS"
+
+          # 新增/修改：将 download 上变更的元数据检出到 release（.index 目录的展平在 Step 2 完成）
+          ADDED_MODIFIED=$(git diff --name-only --diff-filter=AM "$LHS" "$RHS" -- \
+            mods/.index/ resourcepacks/.index/ shaderpacks/ 2>/dev/null || true)
+
+          if [ -n "$ADDED_MODIFIED" ]; then
+            echo "=== Added/Modified ==="
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+              echo "  + $file"
+              git checkout download -- "$file"
+            done <<< "$ADDED_MODIFIED"
+          fi
+
+          # 删除：download 上被删除的模组，release 同步删除对应文件
+          DELETED=$(git diff --name-only --diff-filter=D "$LHS" "$RHS" -- \
+            mods/.index/ resourcepacks/.index/ shaderpacks/ 2>/dev/null || true)
+
+          if [ -n "$DELETED" ]; then
+            echo "=== Deleted ==="
+            while IFS= read -r file; do
+              [ -z "$file" ] && continue
+              case "$file" in
+                mods/.index/*)
+                  echo "  - mods/$(basename "$file")"
+                  rm -f "mods/$(basename "$file")"
+                  ;;
+                resourcepacks/.index/*)
+                  echo "  - resourcepacks/$(basename "$file")"
+                  rm -f "resourcepacks/$(basename "$file")"
+                  ;;
+                shaderpacks/*)
+                  echo "  - $file"
+                  rm -f "$file"
+                  ;;
+              esac
+            done <<< "$DELETED"
+          fi
+
+      # ── Step 2: 将 .index 下内容上移一层目录，删除空目录（合并后、推送前） ──
+      - name: Step 2 - Flatten .index contents up one level
+        run: |
+          set -euo pipefail
+
+          for dir in mods resourcepacks; do
+            if [ -d "$dir/.index" ]; then
+              echo "=== Flattening $dir/.index -> $dir/ ==="
+              while IFS= read -r -d '' file; do
+                echo "  + $dir/$(basename "$file")"
+                mv -f "$file" "$dir/"
+              done < <(find "$dir/.index" -maxdepth 1 -type f -name '*.pw.toml' -print0)
+              rm -rf "$dir/.index"
+              echo "Removed empty dir: $dir/.index"
+            else
+              echo "No $dir/.index found, skip"
+            fi
+          done
+
+      # ── Step 3: 批量修正元数据（side、镜像源、空 url） ──
+      - name: Step 3 - Apply metadata fixes
+        run: bash ./fix-metadata.sh
+
+      # ── Step 4: 提交并推送全部内容到 release ──
+      - name: Step 4 - Commit and push everything
+        id: commit
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "sync: merge download to release"
+          # 记录 download 为祖先，保持 release 始终领先于 download
+          git merge origin/download -s ours
+          git push origin release
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # ── Step 5: 触发 release 分支上的 release-update.yml ──
+      - name: Step 5 - Trigger release-update workflow
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "${{ github.api_url }}/repos/${{ github.repository }}/dispatches" \
+            -d '{"event_type":"release-synced"}'
