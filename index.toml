@@ -122,7 +122,7 @@ hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
 file = "config/NotEnoughBandwidthLegacyConfig.json"
-hash = "435e43a5a4a8f3a7b0cc82f29e0fe1ecd0a61f8815b9dc8b54938e46ae31fbd0"
+hash = "df3266959f884b68609829b4407f46a7b9ce27c590ceeeac973cd5f0f3d44602"
 
 [[files]]
 file = "config/abundant_atmosphere-common.toml"
@@ -494,7 +494,7 @@ hash = "f9ff8abdc007d16f2331f9923f512d11fc0f6a7e9de9bbe7981d5d706a27c36c"
 
 [[files]]
 file = "config/createlazytick-server.toml"
-hash = "96e8b19fd33dd9ff6a789653e623cb36167e4e5c4c426f71ccfc547cc63270d5"
+hash = "7ebf5a7df9658ce6f921b87dfadf8624caacb71c1d464464d8c1f8b1bdc49ef0"
 
 [[files]]
 file = "config/createpropulsion-client.toml"
@@ -646,7 +646,7 @@ hash = "5c98d6579ac2d3c1171d9b22d223fd33bbd89d83dc9a8d7e969c9235cfb38ab0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8ed3baedae9db409d74855c6a811a9862e46b43859b58de9fdafc4d4d2432d96"
+hash = "62dbadfe95b13253d0e20793164e31574f280f058fcee8742c2f35992a510c99"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -838,7 +838,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "7bea6e22c3177972e9ccb8d23c1ccab6e08a7fbec1042f04fa07a041851848c6"
+hash = "b2256ea6f35624d12fe093a5c38dff1cd3b0ab6b338e4a7c72487eae480dba00"
 
 [[files]]
 file = "config/iteminteractions-client.toml"
@@ -894,7 +894,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "40dcb8822e6b128f2b969b5167ca934bdd606250e4cdb18148c32471f681356f"
+hash = "7482552019f6500e23561a55ffa779a35c68862bae95081669686ca7cd92868b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -902,7 +902,7 @@ hash = "02bcacc419a8ffddfb06faa8ad7f87e9c5b00d84b326760ebb102d924485dfa2"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "aa3444649ffb7bd765cd77346e989295ca3dbd327b4454da76bfa4f8716e4ccc"
+hash = "607ce0aadd169b7356cf5845b4799b5fc1084206682435430f368dd77e0066e9"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -942,7 +942,7 @@ hash = "78d850cde998b3f0b5d7b8ce602a9d9a00bd35f627d5350a259a77f45886dd04"
 
 [[files]]
 file = "config/kaleidoscope_chinesefood-common.toml"
-hash = "9611e6dd578b6e8dc256cef0feb9ece6e73cf759bc258779ddb8a328193c3bdc"
+hash = "0c58c279888283e5a9c3c16ddcb862d118c7b74914f6dc0d2430a5d332b65de1"
 
 [[files]]
 file = "config/kaleidoscope_compat.jsonc"
@@ -975,22 +975,6 @@ hash = "202b5a7ab19c1cfff344bd6546be24f8c10a3e92632551ca83ab636016e9d72f"
 [[files]]
 file = "config/kjsae2bridge-server.toml"
 hash = "0f4cb6f3b364b0fafc400dd3075fa0ef51a5ccc94188cd2ae71901141015b313"
-
-[[files]]
-file = "config/konkrete/locals/de_de.local"
-hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
-
-[[files]]
-file = "config/konkrete/locals/en_us.local"
-hash = "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
-
-[[files]]
-file = "config/konkrete/locals/pl_pl.local"
-hash = "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
-
-[[files]]
-file = "config/konkrete/locals/pt_br.local"
-hash = "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
 
 [[files]]
 file = "config/l2configs/l2core-client.toml"
@@ -1117,10 +1101,6 @@ file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
-file = "config/obscuria/obscure_tooltips-client-1.toml.bak"
-hash = "cb94292192d00ec02479bb58d409195e224709e8823438d62fc4c666e8d4b7b3"
-
-[[files]]
 file = "config/obscuria/obscure_tooltips-client.toml"
 hash = "127cf54d07d8827e8f4c058ef9654b7d081b2206b41510528181921eb339a921"
 
@@ -1146,7 +1126,7 @@ hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "47f6d19d9218c7d80ae02778b2f70bde3556d7faf1d32ed318e3064d7ce74b40"
+hash = "7ea5cb4305be5a2b3dc9140895c1ae11d355b5ced4c94d8c262df8a002d633e6"
 
 [[files]]
 file = "config/pamhc2crops.toml"
@@ -1377,16 +1357,8 @@ file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/pack.png"
 hash = "fb24254cb2e1dab133cce3db24aa9d28e93364ade304edbe7433dac4643736ce"
 
 [[files]]
-file = "config/pickupnotifier/pickupnotifier-client-1.toml.bak"
-hash = "add5cb979c6de5bd80298238d96e3ad705708db6aa87b0b1f4d28b3aa6057bf0"
-
-[[files]]
 file = "config/pickupnotifier/pickupnotifier-client.toml"
 hash = "c85409271434fd36ac8303205593a58a308538460a7d0c89815bc0c201e35501"
-
-[[files]]
-file = "config/pickupnotifier/pickupnotifier-server-1.toml.bak"
-hash = "88ea0a4ac580013afcf17c7ae37892b82553cf03a5c14ced5441ad22c6d5143c"
 
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-server.toml"
@@ -1602,7 +1574,7 @@ hash = "c6ab1231691a333b7b182473edf10f3bdc8e8952630f3e40205d23f834910696"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "c3f54621cb6dc950b7d1ba8c2164d6ed0025664c0f8f8259a35ae46177463e5d"
+hash = "33a40701db7e26fdffa80714441e9a7fd9050ee2bff71b3bf198db4b3891aeb2"
 
 [[files]]
 file = "config/teastory-common.toml"
@@ -1706,11 +1678,11 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "a09237293cb7bda6994b564aea8f74a3e2d06f1d7e48436f30ac0c59d7aeef36"
+hash = "ae6fb5d5434c4078a7bd5e7b1bca46db9793f7ebd7053e5965b84857561cb2a3"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "9c288b9d32ecea8704072393e54d681d79743eb2e145291a6d8c74f543b3b2a3"
+hash = "220aef86ad07fac974e8dff930ac462ff47c77a5cfcab9ebbc49a771e45edf1c"
 
 [[files]]
 file = "config/waterconfig.toml"
@@ -1738,7 +1710,7 @@ hash = "e2b6c72507ba146fcd8d66db03d5ea472f8d439ca10dc75d455d7a3eb94240d3"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "0f029ee1eeaacd69c2b0f7bd2f50410fb7ba04ea82fd3271eca42b2efe593fa1"
+hash = "5ebf76f282ad0076975f0512c9b286bf3ab8b1e9919edc3f34b16da211a4eda0"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
