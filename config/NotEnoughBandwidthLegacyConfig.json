@@ -17,6 +17,18 @@
   "dccTimeout": 60,
   "maxPacketSize": "4MB",
   "maxPacketSizeByte": -1,
+  "loginTimeoutSeconds": 180,
+  "connectionTimeoutSeconds": 180,
+  "packetDictionaryEnabled": true,
+  "packetDictionaryMaxPacketBytes": 4096,
+  "packetDictionaryMaxEntries": 8192,
+  "packetDictionaryMaxPayloadBytes": 1048576,
+  "packetDictionaryMaxDiffRuns": 8,
+  "packetDictionaryMaxChangedBytes": 128,
+  "chunkReferenceEnabled": true,
+  "chunkReferenceMaxServerEntries": 4096,
+  "chunkReferenceMaxClientCache": 2048,
+  "chunkReferenceMinBytes": 4096,
   "streaming": false,
   "playersDoNotUseContext": [
     "00000000-0000-0000-0000-000000000000"

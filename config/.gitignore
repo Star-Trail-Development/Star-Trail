@@ -4,13 +4,14 @@ inventoryprofilesnext/*
 !inventoryprofilesnext/inventoryprofiles.json
 !inventoryprofilesnext/villager-trading-config-v2.json
 jei/world/
+konkrete/
 litematica/
 worldedit/*
 !worldedit/worldedit.properties
-world_preview/*
+world_preview/
 
 # files
-*.bak
+**.bak
 *.backup*
 observable.json
 xaeropatreon.txt
