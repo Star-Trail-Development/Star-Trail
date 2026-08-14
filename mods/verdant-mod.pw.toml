@@ -10,11 +10,7 @@ x-prismlauncher-version-number = '1.21.1-0.2.0'
 hash = 'c120b4c19b5886ee281f969a002d46f06ea8f0df454861d7044fe8e7861ffe6683e04b48ff867b50ed0e87f146152e038f8a26ca59170e92a8d77be31c8508d2'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://mod.mcimirror.top/data/MGgL5dVc/versions/JQW8lYvn/verdant-neoforge-1.21.1-0.2.0.jar'
-
-[update.modrinth]
-mod-id = 'MGgL5dVc'
-version = 'JQW8lYvn'
+url = 'https://file.dark2932.cc/files/modrinth-resources/mods/verdant-neoforge-1.21.1-0.2.0.jar'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'twkfQtEc'
