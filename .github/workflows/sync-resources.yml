@@ -1,4 +1,4 @@
-name: Sync Modrinth Resources to Download Repo
+name: Sync Resources to Download Repo
 
 on:
   push:
@@ -12,20 +12,20 @@ jobs:
       contents: read
 
     steps:
-      # 源：download 分支（Modrinth 元数据的唯一来源）
+      # 源：download 分支
       - name: Checkout download branch (source)
         uses: actions/checkout@v4
         with:
           ref: download
 
-      # 目标：modrinth-resources-download（用 PAT 克隆，空仓库也能正常 clone）
-      - name: Clone modrinth-resources-download (target)
+      # 目标：resources-download（用 PAT 克隆，空仓库也能正常 clone）
+      - name: Clone resources-download (target)
         env:
           PAT: ${{ secrets.PAT_MODRINTH_DOWNLOAD }}
         run: |
-          git clone "https://x-access-token:${PAT}@github.com/Star-Trail-Development/modrinth-resources-download.git" download-repo
+          git clone "https://x-access-token:${PAT}@github.com/Star-Trail-Development/resources-download.git" download-repo
 
-      - name: Sync Modrinth metadata files
+      - name: Sync resource metadata files
         run: |
           set -euo pipefail
 
@@ -36,29 +36,27 @@ jobs:
           mkdir -p mods resourcepacks shaderpacks
           cd ..
 
-          # 收集 download 分支上含 [update.modrinth] 段的元数据，展平到目标仓库
+          # 收集 download 分支上的全部元数据，按目录展平到目标仓库
+          # 资源可能来自 Modrinth 或 CurseForge，因此不再按 [update.modrinth] 段筛选
           count=0
           while IFS= read -r -d '' file; do
-            # 只筛选含 [update.modrinth] 段的元数据
-            if grep -q '^\[update\.modrinth\]$' "$file"; then
-              case "$file" in
-                mods/.index/*)
-                  target="download-repo/mods/$(basename "$file")"
-                  ;;
-                resourcepacks/.index/*)
-                  target="download-repo/resourcepacks/$(basename "$file")"
-                  ;;
-                shaderpacks/*)
-                  target="download-repo/$file"
-                  ;;
-                *)
-                  continue
-                  ;;
-              esac
-              cp "$file" "$target"
-              echo "  + $target"
-              count=$((count + 1))
-            fi
+            case "$file" in
+              mods/*)
+                target="download-repo/mods/$(basename "$file")"
+                ;;
+              resourcepacks/*)
+                target="download-repo/resourcepacks/$(basename "$file")"
+                ;;
+              shaderpacks/*)
+                target="download-repo/$file"
+                ;;
+              *)
+                continue
+                ;;
+            esac
+            cp "$file" "$target"
+            echo "  + $target"
+            count=$((count + 1))
           done < <(find mods/.index resourcepacks/.index shaderpacks -type f -name '*.pw.toml' -print0 2>/dev/null || true)
 
           echo "Synced $count file(s)"
@@ -74,5 +72,5 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "sync: modrinth resources from Star-Trail download"
+          git commit -m "sync: resources from Star-Trail [download] branch"
           git push origin main
