@@ -11,7 +11,8 @@ worldedit/*
 world_preview/
 
 # files
-**.bak
+*/*.bak
+*.bak
 *.backup*
 observable.json
 xaeropatreon.txt
