@@ -646,7 +646,7 @@ hash = "5c98d6579ac2d3c1171d9b22d223fd33bbd89d83dc9a8d7e969c9235cfb38ab0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "62dbadfe95b13253d0e20793164e31574f280f058fcee8742c2f35992a510c99"
+hash = "e91593fb79c42fd588abddbbbd5a08431952768b33e3b033aa87c4ea1d5542f9"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -838,7 +838,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b2256ea6f35624d12fe093a5c38dff1cd3b0ab6b338e4a7c72487eae480dba00"
+hash = "355b8f9d4d58be164bbfeb7802f3c2987a53c4c6ebbbf0c1d6e1c86ba610ac0d"
 
 [[files]]
 file = "config/iteminteractions-client.toml"
@@ -1126,7 +1126,7 @@ hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "7ea5cb4305be5a2b3dc9140895c1ae11d355b5ced4c94d8c262df8a002d633e6"
+hash = "1d2daf851fe713fde8da8d745892381b65e5812e4c0aec19c08c1096779d9f57"
 
 [[files]]
 file = "config/pamhc2crops.toml"
