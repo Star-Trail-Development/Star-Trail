@@ -17,19 +17,19 @@ mod-id = 'kzD29UaU'
 version = 'RbcIOOvK'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'Ck4E7v7R'
-type = 'REQUIRED'
+addonId = 'qelfSMnn'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'XxWD5pD3'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'rxYaglEe'
-type = 'OPTIONAL'
+addonId = 'Ck4E7v7R'
+type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'qelfSMnn'
+addonId = 'rxYaglEe'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
