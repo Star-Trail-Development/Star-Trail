@@ -35,6 +35,15 @@ urlencode_segment() {
   printf '%s' "$output"
 }
 
+extract_toml_string() {
+  local key="$1"
+  local file="$2"
+
+  # packwiz may emit either TOML basic strings (double quotes) or literal
+  # strings (single quotes), so accept both while keeping the source line.
+  sed -nE "s/^[[:space:]]*${key}[[:space:]]*=[[:space:]]*(['\"])(.*)\1[[:space:]]*$/\2/p" "$file" | head -n 1
+}
+
 for dir in "${TARGET_DIRS[@]}"; do
   if [ ! -d "$dir" ]; then
     echo "[skip] $dir: directory not found"
@@ -44,11 +53,12 @@ for dir in "${TARGET_DIRS[@]}"; do
   while IFS= read -r -d '' file; do
     echo "  $file"
 
-    filename_line="$(sed -n '/^filename[[:space:]]*=/p' "$file" | head -n 1)"
-    name_line="$(sed -n '/^name[[:space:]]*=/p' "$file" | head -n 1)"
-    filename="$(sed -n "s/^filename = '\(.*\)'[[:space:]]*$/\1/p" "$file" | head -n 1)"
+    filename_line="$(sed -n '/^[[:space:]]*filename[[:space:]]*=/p' "$file" | head -n 1)"
+    name_line="$(sed -n '/^[[:space:]]*name[[:space:]]*=/p' "$file" | head -n 1)"
+    filename="$(extract_toml_string filename "$file")"
+    name="$(extract_toml_string name "$file")"
 
-    if [ -z "$filename_line" ] || [ -z "$name_line" ] || [ -z "$filename" ]; then
+    if [ -z "$filename_line" ] || [ -z "$name_line" ] || [ -z "$filename" ] || [ -z "$name" ]; then
       echo "[error] $file: filename/name is missing or malformed" >&2
       exit 1
     fi
