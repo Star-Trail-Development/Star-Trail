@@ -34,4 +34,4 @@ Star Trail 服务器专用整合包仓库，使用 [packwiz](https://github.com/
 
 通过在启动器内配置预启动命令，[packwiz-installer](https://github.com/packwiz/packwiz-installer) 启动后从本仓库 `release` 分支拉取文件，然后检测更新并下载。
 
-鉴于 `CurseForge` 和 `Modrinth` 不能流畅访问，故配置元数据时使用了 [MCIM](https://www.mcimirror.top/) 代理网站和私人服务器。
+鉴于 `CurseForge` 和 `Modrinth` 不能流畅访问，故使用了私人服务器存放资源文件。
