@@ -1,7 +1,14 @@
 {
-    "type": "lithostitched:replace_fully",
+    "type": "lithostitched:replace_partially",
     "dimension": "minecraft:overworld",
     "priority": 1,
     "targets": "terralith:yellowstone",
-    "replacement": "terralith:moonlight_valley"
+    "replacement": "terralith:moonlight_valley",
+    "parameters": {
+        "weirdness": {
+            "max_inclusive": 0.5,
+            "min_inclusive": -0.5
+        }
+    }
+    
 }
