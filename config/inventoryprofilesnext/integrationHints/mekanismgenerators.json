@@ -1,0 +1,31 @@
+{
+    "mekanism.generators.client.gui.GuiBioGenerator": {
+        "playerSideOnly": true
+    },
+    "mekanism.generators.client.gui.GuiGasGenerator": {
+        "ignore": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -41,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -29,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -17,
+                "bottom": -36
+            }
+        }
+    },
+    "mekanism.generators.client.gui.GuiHeatGenerator": {
+        "playerSideOnly": true
+    },
+    "mekanism.generators.client.gui.GuiSolarGenerator": {
+        "playerSideOnly": true
+    },
+    "mekanism.generators.client.gui.GuiWindGenerator": {
+        "playerSideOnly": true
+    }
+}

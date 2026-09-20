@@ -1,4 +1,5 @@
 {
+  "configVersion": 1.0,
   "compatibleMode": false,
   "blackList": [
     "minecraft:chat_command_signed",
@@ -26,8 +27,8 @@
   "packetDictionaryMaxDiffRuns": 8,
   "packetDictionaryMaxChangedBytes": 128,
   "chunkReferenceEnabled": true,
-  "chunkReferenceMaxServerEntries": 4096,
-  "chunkReferenceMaxClientCache": 2048,
+  "chunkReferenceMaxServerEntries": 8192,
+  "chunkReferenceMaxClientCache": 8192,
   "chunkReferenceMinBytes": 4096,
   "streaming": false,
   "playersDoNotUseContext": [

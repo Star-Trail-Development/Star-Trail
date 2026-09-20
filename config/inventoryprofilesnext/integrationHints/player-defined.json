@@ -857,8 +857,8 @@
     "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "horizontalOffset": -10,
-                "top": 220
+                "horizontalOffset": 18,
+                "top": 1
             }
         }
     },
@@ -872,6 +872,249 @@
         "ignore": true
     },
     "com.glodblock.github.extendedae.container.pattern.ContainerCraftingPattern": {
+        "ignore": true
+    },
+    "top.theillusivec4.curios.client.gui.CuriosScreen": {
+        "playerSideOnly": true
+    },
+    "top.theillusivec4.curios.common.inventory.container.CuriosContainer": {
+        "ignore": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.FluxGeneratorScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.FluxCellScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.PatternBufferScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.SingularityGeneratorScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.GenesisSynthesizerScreen": {
+        "playerSideOnly": true
+    },
+    "io.github.sapporo1101.appgen.client.gui.SmelterScreen": {
+        "playerSideOnly": true
+    },
+    "net.minecraft.client.gui.screens.inventory.SmithingScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 38
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 38
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 38
+            }
+        }
+    },
+    "net.mehvahdjukaar.supplementaries.client.screens.NoticeBoardScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "net.mehvahdjukaar.supplementaries.client.screens.PulleyScreen": {
+        "playerSideOnly": true
+    },
+    "fuzs.easymagic.client.gui.screens.inventory.ModEnchantmentScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiFactory": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiElectricMachine": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiAdvancedElectricMachine": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiCombiner": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiDigitalMiner": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiTeleporter": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiElectricPump": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiLogisticalSorter": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 50
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 50
+            }
+        }
+    },
+    "mekanism.client.gui.GuiFluidTank": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiSeismicVibrator": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiPrecisionSawmill": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalInfuser": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiRotaryCondensentrator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiFluidicPlenisher": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiSolarNeutronActivator": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiEnergyCube": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiDimensionalStabilizer": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentMixer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiAntiprotonicNucleosynthesizer": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiFormulaicAssemblicator": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiResistiveHeater": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiChemicalTank": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiSecurityDesk": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiLaserAmplifier": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiLaserTractorBeam": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.qio.GuiQIORedstoneAdapter": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.qio.GuiQIOImporter": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.qio.GuiQIOExporter": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.qio.GuiQIODashboard": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.QIODashboardContainer": {
+        "ignore": true
+    },
+    "mekanism.client.gui.qio.GuiQIODriveArray": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.GuiModificationStation": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "bottom": -1
+            },
+            "SORT_COLUMNS": {
+                "bottom": -1
+            },
+            "SORT_ROWS": {
+                "bottom": -1
+            }
+        }
+    },
+    "mekanism.client.gui.machine.GuiFuelwoodHeater": {
+        "playerSideOnly": true
+    },
+    "mekanism.client.gui.machine.GuiOredictionificator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 30
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 30
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 30
+            }
+        }
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "mekanism.client.gui.GuiQuantumEntangloporter": {
+        "ignore": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentExtractor": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
         "ignore": true
     }
 }

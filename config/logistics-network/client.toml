@@ -12,3 +12,29 @@ maxVisibleNodes = 500
 connectedNodeTextures = true
 #GUI theme for logistics node screens: light, dark, redstone, nebula, glass, terminal, pastel, brutalist
 theme = "dark"
+#Show wrench flow connections.
+flowLinesEnabled = true
+#Line width in pixels.
+# Default: 6.0
+# Range: 1.0 ~ 20.0
+flowLineThickness = 6.0
+#Reveal and pulse blocks/second.
+# Default: 3.0
+# Range: 0.1 ~ 60.0
+flowLineSpeed = 3.0
+#Line opacity, including pulses.
+# Default: 0.95
+# Range: 0.05 ~ 1.0
+flowLineOpacity = 0.95
+#Show moving resource pulses.
+flowLinePulses = true
+#Pulse spacing in blocks.
+# Default: 3.0
+# Range: 0.5 ~ 32.0
+flowLinePulseSpacing = 3.0
+#Pulse length in blocks.
+# Default: 0.6
+# Range: 0.1 ~ 8.0
+flowLinePulseLength = 0.6
+#Show connections through blocks.
+flowLinesThroughBlocks = true
