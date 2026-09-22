@@ -1116,5 +1116,11 @@
     },
     "mekanism.common.inventory.container.tile.MekanismTileContainer": {
         "ignore": true
+    },
+    "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerScreen": {
+        "ignore": true
+    },
+    "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerMenu": {
+        "ignore": true
     }
 }

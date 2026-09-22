@@ -38,3 +38,7 @@ flowLinePulseSpacing = 3.0
 flowLinePulseLength = 0.6
 #Show connections through blocks.
 flowLinesThroughBlocks = true
+#Invert the wrench copy/paste controls so right-click pastes and modifier 1 + right-click copies.
+invertCopyPasteControls = false
+#Ask for confirmation before creating a network.
+confirmNetworkCreation = true
