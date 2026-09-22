@@ -1,36 +1,20 @@
-filename = 'integratedmekanism-1.21.1-neoforge-1.1.2-149.jar'
+filename = 'integratedmekanism-1.21.1-neoforge-1.1.3.jar'
 name = 'IntegratedMekanism'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'integratedmekanism-1.21.1-neoforge-1.1.2-149.jar'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'integratedmekanism-1.21.1-neoforge-1.1.3.jar'
 
 [download]
-hash = '39c7d16f07dbdb1680c1dd51f3004a07984aff0f'
+hash = 'a769ea100fb0e6c12745bcf2b5b1b725dd949db0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8823023
+file-id = 8862971
 project-id = 1332544
-
-[[x-prismlauncher-dependencies]]
-addonId = '251389'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '232758'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '889785'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '284332'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '295910'
@@ -45,9 +29,25 @@ addonId = '236307'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '287357'
+addonId = '232758'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '284332'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '251389'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '889785'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = '268560'
 type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '287357'
+type = 'OPTIONAL'

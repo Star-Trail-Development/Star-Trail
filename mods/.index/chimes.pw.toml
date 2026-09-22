@@ -1,18 +1,18 @@
-filename = 'fusion-1.3.15b-neoforge-mc1.21.1.jar'
-name = 'Fusion'
-side = 'server'
+filename = 'Chimes-v2.1.1-1.21.1-NeoForge.jar'
+name = 'Chimes'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Fusion 1.3.15b for NeoForge 1.21.1'
+x-prismlauncher-version-number = 'Chimes-v2.1.1-1.21.1-NeoForge'
 
 [download]
-hash = 'c3284ae904e33ff976ba9dcab79f415a1140fb64'
+hash = '991e81741231b73b2cd3cbe9ab41e73cbe99d7be'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8942891
-project-id = 854949
+file-id = 7573270
+project-id = 350464

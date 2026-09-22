@@ -1,0 +1,21 @@
+filename = 'ldlib2-neoforge-1.21.1-2.2.38-all.jar'
+name = 'LDLib'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LDLib2-1.21.1-2.2.38-neoforge'
+
+[download]
+hash = '902947f8d8a1797abaf2fdb9c95e97b6d1c055fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8777539
+project-id = 626676
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

@@ -1,18 +1,18 @@
-filename = 'kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar'
+filename = 'kaleidoscopecookery-1.5.1-neoforge+mc1.21.1.jar'
 name = 'Kaleidoscope Cookery'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar'
+x-prismlauncher-version-number = 'kaleidoscopecookery-1.5.1-neoforge+mc1.21.1.jar'
 
 [download]
-hash = 'a08a4436ebfebee7b56beb776ea8aada489ee0ab'
+hash = '2d5aca874bd5920d5c716da4f1d500b3f4ab6d56'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8266772
+file-id = 8945532
 project-id = 1309203

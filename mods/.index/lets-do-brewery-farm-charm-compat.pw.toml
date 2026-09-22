@@ -1,25 +1,25 @@
-filename = 'lycheejs-1.21.1-2.2.jar'
-name = 'LycheeJS NeoForge'
+filename = 'letsdo-brewery-neoforge-2.1.11.jar'
+name = "[Let's Do] Brewery - Farm&Charm Compat"
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'lycheejs-1.21.1-2.2.jar'
+x-prismlauncher-version-number = 'Brewery - 2.1.11 - NEOFORGE - 1.21.1'
 
 [download]
-hash = '39cd0a3d4d44c7785a54e225bdfcced0b35e9798'
+hash = 'c6a639dc6f1bad7bb45e27d67c0c00eb80b81246'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8919988
-project-id = 1456917
+file-id = 8932247
+project-id = 1038106
 
 [[x-prismlauncher-dependencies]]
-addonId = '567403'
+addonId = '1038103'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '238086'
+addonId = '419699'
 type = 'REQUIRED'

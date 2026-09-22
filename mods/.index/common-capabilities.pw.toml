@@ -1,19 +1,19 @@
-filename = 'commoncapabilities-1.21.1-neoforge-2.11.5-373.jar'
+filename = 'commoncapabilities-1.21.1-neoforge-2.11.6.jar'
 name = 'CommonCapabilities'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'commoncapabilities-1.21.1-neoforge-2.11.5-373.jar'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'commoncapabilities-1.21.1-neoforge-2.11.6.jar'
 
 [download]
-hash = '5168e554defd7ee6a8ed0cd9651af6b32adb4c3d'
+hash = 'a4e18057d0a67ad1f4456b3fb8fc5e953f59a1f8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8839123
+file-id = 8859298
 project-id = 247007
 
 [[x-prismlauncher-dependencies]]

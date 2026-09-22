@@ -1,21 +1,25 @@
-filename = 'MyNethersDelight-1.21.1-1.10.4.1.jar'
-name = "My Nether's Delight"
+filename = 'synaxis-1.5.0.jar'
+name = 'Synaxis'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'MyNethersDelight-1.21.1-1.10.4.1.jar'
+x-prismlauncher-version-number = 'synaxis-1.5.0.jar'
 
 [download]
-hash = '9c54439d65e77c7b4b711831138f81f3a849ff35'
+hash = '3b3dfa037f4766c00bb78634eb3b4ba1c7575268'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8854319
-project-id = 1003673
+file-id = 8606652
+project-id = 1526348
 
 [[x-prismlauncher-dependencies]]
-addonId = '398521'
+addonId = '1526951'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '626676'
 type = 'REQUIRED'

@@ -1,19 +1,19 @@
-filename = 'flerovium-neoforge-1.21.1-1.1.2-all.jar'
+filename = 'flerovium-neoforge-1.21.1-1.1.3-all.jar'
 name = 'Flerovium'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'flerovium-neoforge-1.21.1-1.1.2-all.jar'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'flerovium-neoforge-1.21.1-1.1.3-all.jar'
 
 [download]
-hash = '31491e08947da57d4af6c48e8d3237cc6d4009c1'
+hash = 'e055a4755b4cf969d25dd2da1d688eea18c65c57'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8430037
+file-id = 8862415
 project-id = 1142875
 
 [[x-prismlauncher-dependencies]]

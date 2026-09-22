@@ -1,0 +1,25 @@
+filename = 'emotecraft-for-MC1.21.1-2.4.12-neoforge.jar'
+name = 'Emotecraft (Forge)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'emotecraft-for-MC1.21.1-2.4.12-neoforge.jar'
+
+[download]
+hash = '1228c7597c4b6cbaec10a090f9b5b471ca9042d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6941989
+project-id = 403422
+
+[[x-prismlauncher-dependencies]]
+addonId = '623373'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '658587'
+type = 'EMBEDDED'

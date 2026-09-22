@@ -1,29 +1,29 @@
-filename = 'integratedcrafting-1.21.1-neoforge-1.7.2.jar'
-name = 'IntegratedCrafting'
+filename = 'sable-photomancy-1.0.1.jar'
+name = 'Sable Photomancy'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'integratedcrafting-1.21.1-neoforge-1.7.2.jar'
+x-prismlauncher-version-number = 'sable-photomancy-1.0.1.jar'
 
 [download]
-hash = '4b4e22e3897c0c9d91cb1e271e8433b9cae50e9a'
+hash = '4f33a1ce8f4c241afe0963d7c96e2d612cc62ee1'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8918452
-project-id = 287357
+file-id = 8606655
+project-id = 1526951
 
 [[x-prismlauncher-dependencies]]
-addonId = '251389'
+addonId = '626676'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '236307'
-type = 'REQUIRED'
+addonId = '1526348'
+type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = '232758'
+addonId = '1312371'
 type = 'REQUIRED'

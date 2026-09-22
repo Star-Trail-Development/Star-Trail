@@ -1,21 +1,21 @@
-filename = 'KeyBindJS-2101-1.1.0.jar'
-name = 'KeyBindJS'
+filename = 'StonecuttingUpgrade-v21.1.0-mc1.21.1-NeoForge.jar'
+name = 'Stonecutting Upgrade'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'KeyBindJS-2101-1.1.0.jar'
+x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] v21.1.0'
 
 [download]
-hash = '044f8fb24eccae89fb8a7647817ca02d372ad2b6'
+hash = 'ebffb6445f6c7e1b52e333256eb18bc24ee221b3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8732154
-project-id = 1212200
+file-id = 8812154
+project-id = 1560725
 
 [[x-prismlauncher-dependencies]]
-addonId = '238086'
+addonId = '495476'
 type = 'REQUIRED'

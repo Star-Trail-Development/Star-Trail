@@ -1,19 +1,19 @@
-filename = 'voicechat-neoforge-1.21.1-2.6.23.jar'
+filename = 'voicechat-neoforge-1.21.1-2.6.24.jar'
 name = 'Simple Voice Chat'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Simple Voice Chat 1.21.1-2.6.23'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Simple Voice Chat 1.21.1-2.6.24'
 
 [download]
-hash = 'e089e5e0499b59f870a0bf91d331e33f25feb0da'
+hash = '436ee200d5192ffda65fcf70c42c086fcdc00826'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8807853
+file-id = 8928478
 project-id = 416089
 
 [[x-prismlauncher-dependencies]]

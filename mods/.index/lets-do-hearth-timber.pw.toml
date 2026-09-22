@@ -1,19 +1,19 @@
-filename = 'letsdo-hearth_and_timber-neoforge-1.0.3.jar'
+filename = 'letsdo-hearth_and_timber-neoforge-1.0.4.jar'
 name = "[Let's Do] Hearth & Timber"
-side = ''
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Hearth & Timber - 1.0.3 - NEOFORGE - 1.21.1'
+x-prismlauncher-version-number = 'Hearth & Timber - 1.0.4 - NEOFORGE - 1.21.1'
 
 [download]
-hash = '98116f4b15c912d57d51886f9bd7470ad7d397da'
+hash = '03d94d1735212ddccc9f9d2f8fbadc2d535a4cb0'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7704753
+file-id = 8918376
 project-id = 1397796
 
 [[x-prismlauncher-dependencies]]

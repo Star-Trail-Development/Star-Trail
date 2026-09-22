@@ -1,0 +1,21 @@
+filename = 'yuushya_modelling-1.21.1-2.4.1.jar'
+name = 'Yuushya Modelling'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'yuushya_modelling-1.21.1-neoforge-2.4.1.jar'
+
+[download]
+hash = 'c067f0939ba6d215f5e9076400e7c7725979dbe3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7972869
+project-id = 899087
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

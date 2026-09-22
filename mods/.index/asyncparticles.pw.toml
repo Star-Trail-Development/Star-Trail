@@ -1,0 +1,25 @@
+filename = 'AsyncParticles-21.1.4.4+1.21.1.jar'
+name = 'AsyncParticles'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'AsyncParticles-21.1.4.4+1.21.1.jar'
+
+[download]
+hash = '725a3bcecf32079b7159ec284231c4cfaedf3302'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8887358
+project-id = 1215753
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'

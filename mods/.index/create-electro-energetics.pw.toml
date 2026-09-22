@@ -1,21 +1,21 @@
-filename = 'obscure_tooltips-neoforge-1.21.1-4.2.5.jar'
-name = 'Obscure Tooltips'
+filename = 'electroenergetics-1.21.1-1.1.1.jar'
+name = 'Create: Electro Energetics'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Obscure Tooltips 4.2.5'
+x-prismlauncher-version-number = 'electroenergetics-1.21.1-1.1.1.jar'
 
 [download]
-hash = '35469a3b86c85e2e535b559280e3a140d1acdc74'
+hash = '57012ecaad1e1b4994878696a4ba81dfdb3488db'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8922038
-project-id = 715660
+file-id = 8345582
+project-id = 1443327
 
 [[x-prismlauncher-dependencies]]
-addonId = '1123977'
+addonId = '328085'
 type = 'REQUIRED'

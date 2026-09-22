@@ -1,21 +1,21 @@
-filename = 'naturalist-2.0.4-neoforge-1.21.1.jar'
-name = 'Naturalist'
+filename = 'letsdo-farm_and_charm-neoforge-1.1.25.jar'
+name = "[Let's Do] Farm & Charm"
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Naturalist 2.0.4 (NeoForge 1.21.1)'
+x-prismlauncher-version-number = 'Farm&Charm - 1.1.25 - NEOFORGE - 1.21.1'
 
 [download]
-hash = 'aada376bae5f5f5b2654ef9e645190c7269d9f08'
+hash = '1f7fb548661bdf4eac776fd4220d295d1c9ba46e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 8932709
-project-id = 627986
+file-id = 8928129
+project-id = 1038103
 
 [[x-prismlauncher-dependencies]]
-addonId = '388172'
+addonId = '419699'
 type = 'REQUIRED'

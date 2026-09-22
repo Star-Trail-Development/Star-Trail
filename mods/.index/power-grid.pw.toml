@@ -1,25 +1,25 @@
-filename = 'MiniEffects-1.21.1-NeoForge-9.1.0.jar'
-name = 'Mini Effects (Neo/Forge)'
-side = ''
+filename = 'powergrid-mc1.21.1-0.6.2.jar'
+name = 'Create: Power Grid'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[NeoForge 1.21.1] 9.1.0'
+x-prismlauncher-version-number = 'Power Grid - 0.6.2 - NeoForge'
 
 [download]
-hash = 'bbe6f8d06b8463bf8a7e9fbe1673fc9e4b08bb28'
+hash = 'e09452dac8202e31f282149d45c49dcdb218bd54'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6681862
-project-id = 502649
+file-id = 8880715
+project-id = 1321420
 
 [[x-prismlauncher-dependencies]]
-addonId = '549404'
+addonId = '419699'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'OPTIONAL'
+addonId = '328085'
+type = 'REQUIRED'
