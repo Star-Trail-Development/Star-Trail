@@ -1,10 +1,10 @@
-filename = 'jei-1.21.1-neoforge-19.54.0.429.jar'
+filename = 'jei-1.21.1-neoforge-19.50.0.414.jar'
 name = 'Just Enough Items (JEI)'
 side = 'both'
 
 [download]
-hash = 'd3acaea7df222faa05598a00e6d6d439da0400fe'
+hash = 'db8b0ffbd19d6bc20fa9afbae0191d0c55efb4c2'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/jei-1.21.1-neoforge-19.54.0.429.jar'
+url = 'https://file.dark2932.cc/files/mods/jei-1.21.1-neoforge-19.50.0.414.jar'

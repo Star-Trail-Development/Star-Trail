@@ -1,10 +1,10 @@
-filename = 'integrateddynamics-1.21.1-neoforge-1.36.0-2089.jar'
+filename = 'integrateddynamics-1.21.1-neoforge-1.37.1-2160.jar'
 name = 'IntegratedDynamics'
 side = 'both'
 
 [download]
-hash = '2b4d48599d29e2dfae2dc537929701bda4329ee5'
+hash = '9a0ef59d5c2f6e55b36ddc45e4ad0f39293332a2'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/integrateddynamics-1.21.1-neoforge-1.36.0-2089.jar'
+url = 'https://file.dark2932.cc/files/mods/integrateddynamics-1.21.1-neoforge-1.37.1-2160.jar'

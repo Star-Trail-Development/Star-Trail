@@ -1,0 +1,10 @@
+filename = 'Chimes-v2.1.1-1.21.1-NeoForge.jar'
+name = 'Chimes'
+side = 'both'
+
+[download]
+hash = '991e81741231b73b2cd3cbe9ab41e73cbe99d7be'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/Chimes-v2.1.1-1.21.1-NeoForge.jar'

@@ -1,10 +1,10 @@
-filename = 'vintageimprovements-1.21.1-0.0.0.7.jar'
+filename = 'vintageimprovements-1.21.1-0.0.0.8.jar'
 name = 'Create: Vintage Improvements'
 side = 'both'
 
 [download]
-hash = 'd6b897125ecd1046bda9eec7a678504375e71603'
+hash = 'c3b4146c766ca7d096bc0a8b3278688c1dcd582b'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/vintageimprovements-1.21.1-0.0.0.7.jar'
+url = 'https://file.dark2932.cc/files/mods/vintageimprovements-1.21.1-0.0.0.8.jar'

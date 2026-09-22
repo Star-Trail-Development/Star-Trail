@@ -1,0 +1,10 @@
+filename = 'immersive_aircraft-1.5.2+1.21.1-neoforge.jar'
+name = 'Immersive Aircraft'
+side = 'both'
+
+[download]
+hash = '6f7dded9292e8bd32feb24082aad2987c72af908'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/immersive_aircraft-1.5.2%2B1.21.1-neoforge.jar'

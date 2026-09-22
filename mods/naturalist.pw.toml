@@ -1,10 +1,10 @@
-filename = 'naturalist-2.0.3-neoforge-1.21.1.jar'
+filename = 'naturalist-2.0.4-neoforge-1.21.1.jar'
 name = 'Naturalist'
 side = 'both'
 
 [download]
-hash = 'addb9794fe723d094ddc622b1234944727a542fa'
+hash = 'aada376bae5f5f5b2654ef9e645190c7269d9f08'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/naturalist-2.0.3-neoforge-1.21.1.jar'
+url = 'https://file.dark2932.cc/files/mods/naturalist-2.0.4-neoforge-1.21.1.jar'

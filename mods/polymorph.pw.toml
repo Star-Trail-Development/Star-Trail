@@ -1,10 +1,10 @@
-filename = 'polymorph-neoforge-1.2.0+1.21.1.jar'
-name = 'Polymorph (Fabric/Forge/Quilt)'
+filename = 'polymorph-neoforge-1.1.0+1.21.1.jar'
+name = 'Polymorph'
 side = 'both'
 
 [download]
-hash = 'fa6c5fa8a21229c85d564b47c73df7160b3bd4df'
+hash = '84f8c539fa326dc723ae62b7a6916d6b01982d07'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/polymorph-neoforge-1.2.0%2B1.21.1.jar'
+url = 'https://file.dark2932.cc/files/mods/polymorph-neoforge-1.1.0%2B1.21.1.jar'

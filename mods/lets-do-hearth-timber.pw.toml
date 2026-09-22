@@ -1,10 +1,10 @@
-filename = 'letsdo-hearth_and_timber-neoforge-1.0.3.jar'
+filename = 'letsdo-hearth_and_timber-neoforge-1.0.4.jar'
 name = "[Let's Do] Hearth & Timber"
 side = 'both'
 
 [download]
-hash = '98116f4b15c912d57d51886f9bd7470ad7d397da'
+hash = '03d94d1735212ddccc9f9d2f8fbadc2d535a4cb0'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/letsdo-hearth_and_timber-neoforge-1.0.3.jar'
+url = 'https://file.dark2932.cc/files/mods/letsdo-hearth_and_timber-neoforge-1.0.4.jar'

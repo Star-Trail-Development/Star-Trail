@@ -1,10 +1,10 @@
-filename = 'logisticsnetworks-1.21.1-1.15.0.jar'
+filename = 'logisticsnetworks-1.21.1-1.16.3.jar'
 name = 'LogisticsNetworks'
 side = 'both'
 
 [download]
-hash = '5783d50acf1aca3ebd98ae3183122aa32011c65e'
+hash = '3cd7b2e7cb50b317f0cbfb4329c575a5e02f44dd'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/logisticsnetworks-1.21.1-1.15.0.jar'
+url = 'https://file.dark2932.cc/files/mods/logisticsnetworks-1.21.1-1.16.3.jar'

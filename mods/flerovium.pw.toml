@@ -1,10 +1,10 @@
-filename = 'flerovium-neoforge-1.21.1-1.1.2-all.jar'
+filename = 'flerovium-neoforge-1.21.1-1.1.3-all.jar'
 name = 'Flerovium'
 side = 'both'
 
 [download]
-hash = '31491e08947da57d4af6c48e8d3237cc6d4009c1'
+hash = 'e055a4755b4cf969d25dd2da1d688eea18c65c57'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/flerovium-neoforge-1.21.1-1.1.2-all.jar'
+url = 'https://file.dark2932.cc/files/mods/flerovium-neoforge-1.21.1-1.1.3-all.jar'

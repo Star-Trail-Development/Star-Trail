@@ -1,10 +1,10 @@
-filename = 'geckolib-neoforge-1.21.1-4.9.2.jar'
+filename = 'geckolib-neoforge-1.21.1-4.9.3.jar'
 name = 'GeckoLib 4'
 side = 'both'
 
 [download]
-hash = '14c64013cadee7d28f3685f94350f9a4d2ec6d86'
+hash = '5cfe835472a5c5457ae9ac192d9d7b317454d5ac'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/geckolib-neoforge-1.21.1-4.9.2.jar'
+url = 'https://file.dark2932.cc/files/mods/geckolib-neoforge-1.21.1-4.9.3.jar'

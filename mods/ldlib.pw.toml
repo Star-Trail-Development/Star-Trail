@@ -1,0 +1,10 @@
+filename = 'ldlib2-neoforge-1.21.1-2.2.38-all.jar'
+name = 'LDLib'
+side = 'both'
+
+[download]
+hash = '902947f8d8a1797abaf2fdb9c95e97b6d1c055fc'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/ldlib2-neoforge-1.21.1-2.2.38-all.jar'

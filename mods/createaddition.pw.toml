@@ -1,10 +1,10 @@
-filename = 'createaddition-1.7.0.jar'
+filename = 'createaddition-1.7.1.jar'
 name = 'Create Crafts & Additions'
 side = 'both'
 
 [download]
-hash = 'fd73ba9809ed6656a8c2aae81c9badb382085657'
+hash = '779c49416643a6c5f176d5d500bf1bcbe75a5d18'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/createaddition-1.7.0.jar'
+url = 'https://file.dark2932.cc/files/mods/createaddition-1.7.1.jar'

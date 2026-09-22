@@ -1,10 +1,10 @@
-filename = 'ExtendedAE-1.21-2.2.36-neoforge.jar'
+filename = 'ExtendedAE-1.21-2.2.38-neoforge.jar'
 name = 'ExtendedAE'
 side = 'both'
 
 [download]
-hash = '35f6e499d4fb457af1cdcb677069a8241b8117c6'
+hash = '286899b9994ed38810b194d8653f5d0cf929c92b'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/ExtendedAE-1.21-2.2.36-neoforge.jar'
+url = 'https://file.dark2932.cc/files/mods/ExtendedAE-1.21-2.2.38-neoforge.jar'

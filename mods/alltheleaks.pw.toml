@@ -1,10 +1,10 @@
-filename = 'alltheleaks-1.1.12+1.21.1-neoforge.jar'
+filename = 'alltheleaks-1.1.13+1.21.1-neoforge.jar'
 name = 'All The Leaks'
 side = 'both'
 
 [download]
-hash = 'd69b9e98e957418ca0ab768b79983e68ffbfcd49'
+hash = 'ea11d23e0f8c48544a269dc7c56f6593cb1cafe2'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/alltheleaks-1.1.12%2B1.21.1-neoforge.jar'
+url = 'https://file.dark2932.cc/files/mods/alltheleaks-1.1.13%2B1.21.1-neoforge.jar'

@@ -1,10 +1,10 @@
-filename = 'YungsApi-1.21.1-NeoForge-5.1.8.jar'
-name = "YUNG's API (NeoForge)"
+filename = 'YungsApi-1.21.1-NeoForge-5.1.9.jar'
+name = "YUNG's API"
 side = 'both'
 
 [download]
-hash = 'eb5757e5cb387553ed4d342e7aecf5b7dcb384a0'
+hash = '2c4b740c8ad27bbcb2a21b85b64f011b809aed91'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/YungsApi-1.21.1-NeoForge-5.1.8.jar'
+url = 'https://file.dark2932.cc/files/mods/YungsApi-1.21.1-NeoForge-5.1.9.jar'

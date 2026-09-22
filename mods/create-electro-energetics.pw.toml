@@ -1,0 +1,10 @@
+filename = 'electroenergetics-1.21.1-1.1.1.jar'
+name = 'Create: Electro Energetics'
+side = 'both'
+
+[download]
+hash = '57012ecaad1e1b4994878696a4ba81dfdb3488db'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/electroenergetics-1.21.1-1.1.1.jar'

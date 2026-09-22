@@ -1,10 +1,10 @@
-filename = 'lycheejs-1.21.1-2.1.jar'
+filename = 'lycheejs-1.21.1-2.2.jar'
 name = 'LycheeJS NeoForge'
 side = 'both'
 
 [download]
-hash = 'e628a1890f2c4836af3baef3418c6714760857af'
+hash = '39cd0a3d4d44c7785a54e225bdfcced0b35e9798'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/lycheejs-1.21.1-2.1.jar'
+url = 'https://file.dark2932.cc/files/mods/lycheejs-1.21.1-2.2.jar'

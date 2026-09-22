@@ -1,0 +1,10 @@
+filename = 'AsyncParticles-21.1.4.4+1.21.1.jar'
+name = 'AsyncParticles'
+side = 'both'
+
+[download]
+hash = '725a3bcecf32079b7159ec284231c4cfaedf3302'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/AsyncParticles-21.1.4.4%2B1.21.1.jar'

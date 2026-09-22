@@ -1,0 +1,10 @@
+filename = 'letsdo-brewery-neoforge-2.1.11.jar'
+name = "[Let's Do] Brewery - Farm&Charm Compat"
+side = 'both'
+
+[download]
+hash = 'c6a639dc6f1bad7bb45e27d67c0c00eb80b81246'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/letsdo-brewery-neoforge-2.1.11.jar'

@@ -1,10 +1,10 @@
-filename = 'kaleidoscope_compat-2.9.7-neoforge+mc1.21.1.jar'
+filename = 'kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.jar'
 name = 'Kaleidoscope Compat'
 side = 'both'
 
 [download]
-hash = 'a69492f0a085eebb37f64e606bf2065aa66badbf'
+hash = '9eec6a3c9c01b022cba3708706b679d8bd6a5cf4'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/kaleidoscope_compat-2.9.7-neoforge%2Bmc1.21.1.jar'
+url = 'https://file.dark2932.cc/files/mods/kaleidoscope_compat-2.9.7-neoforge%2Bmc1.21.1-Patch.jar'

@@ -1,10 +1,10 @@
-filename = 'reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar'
+filename = 'reeses-sodium-options-neoforge-2.2.4+mc1.21.1.jar'
 name = "Reese's Sodium Options"
 side = 'both'
 
 [download]
-hash = '904f815b1f5c48703c354d432fcbc3531022337f'
+hash = 'e9e6d101b31acb51539141937ad5b069ff2ccc4d'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/reeses-sodium-options-neoforge-2.2.3%2Bmc1.21.1.jar'
+url = 'https://file.dark2932.cc/files/mods/reeses-sodium-options-neoforge-2.2.4%2Bmc1.21.1.jar'

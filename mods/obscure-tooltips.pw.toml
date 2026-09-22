@@ -1,10 +1,10 @@
-filename = 'obscure_tooltips-neoforge-1.21.1-4.2.4.jar'
+filename = 'obscure_tooltips-neoforge-1.21.1-4.2.5.jar'
 name = 'Obscure Tooltips'
 side = 'both'
 
 [download]
-hash = '3ff84162783758da0af3bfb67def80d79b442acd'
+hash = '35469a3b86c85e2e535b559280e3a140d1acdc74'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/obscure_tooltips-neoforge-1.21.1-4.2.4.jar'
+url = 'https://file.dark2932.cc/files/mods/obscure_tooltips-neoforge-1.21.1-4.2.5.jar'

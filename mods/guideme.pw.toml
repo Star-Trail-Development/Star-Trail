@@ -1,10 +1,10 @@
-filename = 'guideme-21.1.17.jar'
+filename = 'guideme-21.1.19.jar'
 name = 'GuideME'
 side = 'both'
 
 [download]
-hash = '060e374f578db694a0b8f3ad409bd424cae86359'
+hash = 'e85cd4c266f974dd360c46e8dad7ecf4c7ee96c6'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/guideme-21.1.17.jar'
+url = 'https://file.dark2932.cc/files/mods/guideme-21.1.19.jar'

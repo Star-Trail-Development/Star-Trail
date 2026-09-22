@@ -1,0 +1,10 @@
+filename = 'sable-photomancy-1.0.1.jar'
+name = 'Sable Photomancy'
+side = 'both'
+
+[download]
+hash = '4f33a1ce8f4c241afe0963d7c96e2d612cc62ee1'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/sable-photomancy-1.0.1.jar'

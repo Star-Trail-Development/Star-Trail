@@ -1,10 +1,10 @@
-filename = 'integratedterminals-1.21.1-neoforge-1.9.0-998.jar'
+filename = 'integratedterminals-1.21.1-neoforge-1.10.0.jar'
 name = 'IntegratedTerminals'
 side = 'both'
 
 [download]
-hash = '7ebb7a059c6b56381bd450a889181439086f1019'
+hash = 'dcbf3465e556284698d2f1bd811285226a33fe1b'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/integratedterminals-1.21.1-neoforge-1.9.0-998.jar'
+url = 'https://file.dark2932.cc/files/mods/integratedterminals-1.21.1-neoforge-1.10.0.jar'

@@ -1,10 +1,10 @@
-filename = 'integratedmekanism-1.21.1-neoforge-1.1.2-149.jar'
+filename = 'integratedmekanism-1.21.1-neoforge-1.1.3.jar'
 name = 'IntegratedMekanism'
 side = 'both'
 
 [download]
-hash = '39c7d16f07dbdb1680c1dd51f3004a07984aff0f'
+hash = 'a769ea100fb0e6c12745bcf2b5b1b725dd949db0'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/integratedmekanism-1.21.1-neoforge-1.1.2-149.jar'
+url = 'https://file.dark2932.cc/files/mods/integratedmekanism-1.21.1-neoforge-1.1.3.jar'

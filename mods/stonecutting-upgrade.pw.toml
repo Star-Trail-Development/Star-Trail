@@ -1,0 +1,10 @@
+filename = 'StonecuttingUpgrade-v21.1.0-mc1.21.1-NeoForge.jar'
+name = 'Stonecutting Upgrade'
+side = 'both'
+
+[download]
+hash = 'ebffb6445f6c7e1b52e333256eb18bc24ee221b3'
+hash-format = 'sha1'
+
+mode = 'url'
+url = 'https://file.dark2932.cc/files/mods/StonecuttingUpgrade-v21.1.0-mc1.21.1-NeoForge.jar'

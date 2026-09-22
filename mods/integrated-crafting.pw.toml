@@ -1,10 +1,10 @@
-filename = 'integratedcrafting-1.21.1-neoforge-1.6.0-754.jar'
+filename = 'integratedcrafting-1.21.1-neoforge-1.7.2.jar'
 name = 'IntegratedCrafting'
 side = 'both'
 
 [download]
-hash = '496c33eddfb1fced45028cf0a44587f39d673c34'
+hash = '4b4e22e3897c0c9d91cb1e271e8433b9cae50e9a'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/integratedcrafting-1.21.1-neoforge-1.6.0-754.jar'
+url = 'https://file.dark2932.cc/files/mods/integratedcrafting-1.21.1-neoforge-1.7.2.jar'

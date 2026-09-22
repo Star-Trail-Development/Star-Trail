@@ -1,10 +1,10 @@
-filename = 'kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar'
+filename = 'kaleidoscopecookery-1.5.1-neoforge+mc1.21.1.jar'
 name = 'Kaleidoscope Cookery'
 side = 'both'
 
 [download]
-hash = 'a08a4436ebfebee7b56beb776ea8aada489ee0ab'
+hash = '2d5aca874bd5920d5c716da4f1d500b3f4ab6d56'
 hash-format = 'sha1'
 
 mode = 'url'
-url = 'https://file.dark2932.cc/files/mods/kaleidoscopecookery-1.4.1-neoforge%2Bmc1.21.1.jar'
+url = 'https://file.dark2932.cc/files/mods/kaleidoscopecookery-1.5.1-neoforge%2Bmc1.21.1.jar'
