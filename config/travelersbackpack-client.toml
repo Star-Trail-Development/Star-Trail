@@ -14,7 +14,7 @@
 	#The position of the Overlay on the screen
 	[client.overlay]
 		#Enables tanks and tool slots overlay, while backpack is worn
-		enableOverlay = true
+		enableOverlay = false
 		#Offsets to left side
 		# Default: 20
 		# Range: > -2147483648

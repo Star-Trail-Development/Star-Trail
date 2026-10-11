@@ -10,7 +10,7 @@
 	"jukeboxUseSoundEffect": {
 		"shouldPlay": true,
 		"pitch": 0.8,
-		"volume": 0.75,
+		"volume": 0.3,
 		"id": "jukeboxUse",
 		"soundEvent": "minecraft:block.note_block.basedrum"
 	},
@@ -58,7 +58,7 @@
 	},
 	"plantPotFillSoundEffect": {
 		"pitch": 1.1,
-		"volume": 0.4,
+		"volume": 0.3,
 		"enabledDynamic": true,
 		"id": "plantPotFill",
 		"soundEvent": "minecraft:block.grass.place",
@@ -67,7 +67,7 @@
 	"cakeEatSoundEffect": {
 		"shouldPlay": true,
 		"pitch": 1.2,
-		"volume": 0.7,
+		"volume": 0.5,
 		"id": "cakeEat",
 		"soundEvent": "minecraft:entity.generic.eat"
 	},

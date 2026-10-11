@@ -1122,5 +1122,8 @@
     },
     "com.lowdragmc.lowdraglib2.gui.holder.ModularUIContainerMenu": {
         "ignore": true
+    },
+    "org.cyclops.integratednbt.client.gui.container.ContainerScreenNbtExtractor": {
+        "ignore": true
     }
 }

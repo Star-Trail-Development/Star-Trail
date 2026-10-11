@@ -145,7 +145,7 @@
         "can_replace": [
           "minecraft:lush_caves"
         ],
-        "enabled": true,
+        "enabled": false,
         // Advanced feature! Edit this with caution.
         "parameters": {
           "erosion": {
@@ -269,7 +269,7 @@
         "can_replace": [
           "minecraft:swamp"
         ],
-        "enabled": true,
+        "enabled": false,
         "group": "swamps",
         // Advanced feature! Edit this with caution.
         "parameters": {
@@ -295,7 +295,7 @@
         "can_replace": [
           "minecraft:plains"
         ],
-        "enabled": true,
+        "enabled": false,
         "group": "plains",
         // Advanced feature! Edit this with caution.
         "parameters": {
@@ -404,7 +404,7 @@
         "can_replace": [
           "minecraft:swamp"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 50
       },
@@ -693,7 +693,7 @@
         "can_replace": [
           "minecraft:windswept_forest"
         ],
-        "enabled": true,
+        "enabled": false,
         // By default, all other biomes have a weight of 100.
         "weight": 100
       },

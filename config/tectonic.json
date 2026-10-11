@@ -1,10 +1,10 @@
 {
   "biomes": {
-    "temperature_multiplier": 1.1,
-    "temperature_offset": 0.02,
+    "temperature_multiplier": 1.0,
+    "temperature_offset": -0.030000001192092896,
     "temperature_scale": 0.25,
-    "vegetation_multiplier": 1.1,
-    "vegetation_offset": 0.05,
+    "vegetation_multiplier": 1.0,
+    "vegetation_offset": 0.05000000074505806,
     "vegetation_scale": 0.25
   },
   "caves": {
@@ -39,7 +39,7 @@
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
     "ocean_offset": -0.92,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
-    "ridge_scale": 0.22,
+    "ridge_scale": 0.23999999463558197,
     // Underground rivers under snowy biomes will generate with ice.
     "river_ice": false,
     // Underground rivers will rarely generate with hanging lanterns.

@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 0.8007662892341614,
+    "volume": 0.8045976758003235,
     "useSoundMasterSource": false,
     "scanStepAmount": 100,
     "playSoundWithOffset": true
@@ -130,7 +130,7 @@
     },
     "ocean_deep": {
       "overall": 1,
-      "whale": 1
+      "whale": 0.6005830764770508
     },
     "pale-garden": {
       "overall": 1,
@@ -204,21 +204,21 @@
   },
   "categories": {
     "animal": {
-      "animal": 1,
+      "animal": 0.800000011920929,
       "bird": {
         "bird": 1,
         "bird_day": 1,
         "bird_night": 1
       },
-      "cicadas": 0,
+      "cicadas": 0.2970588207244873,
       "cricket": {
         "cricket": 1,
-        "cricket_day": 1,
-        "cricket_night": 1
+        "cricket_day": 0.10191082954406738,
+        "cricket_night": 0.5
       }
     },
-    "cave": 1,
-    "suspense": 1,
+    "cave": 0.7009063363075256,
+    "suspense": 0.8036254048347473,
     "weather": 1,
     "wind": 0.12094395607709885
   },

@@ -2,12 +2,12 @@
     "type": "lithostitched:replace_partially",
     "dimension": "minecraft:overworld",
     "priority": 1,
-    "targets": "biomeswevegone:weeping_witch_forest",
-    "replacement": "terralith:moonlight_grove",
+    "targets": "minecraft:swamp",
+    "replacement": "regions_unexplored:old_growth_bayou",
     "parameters": {
         "weirdness": {
-            "max_inclusive": 0,
-            "min_inclusive": -0.6
+            "max_inclusive": 0.64,
+            "min_inclusive": 0.0
         }
     }
     

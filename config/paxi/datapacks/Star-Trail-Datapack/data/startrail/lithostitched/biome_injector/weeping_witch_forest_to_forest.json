@@ -6,8 +6,8 @@
     "replacement": "minecraft:forest",
     "parameters": {
         "weirdness": {
-            "max_inclusive": 0.6,
-            "min_inclusive": 0
+            "max_inclusive": 0.56,
+            "min_inclusive": -0.56
         }
     }
     

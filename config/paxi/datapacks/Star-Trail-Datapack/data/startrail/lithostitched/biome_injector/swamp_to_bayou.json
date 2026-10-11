@@ -2,12 +2,12 @@
     "type": "lithostitched:replace_partially",
     "dimension": "minecraft:overworld",
     "priority": 1,
-    "targets": "terralith:yellowstone",
-    "replacement": "terralith:moonlight_valley",
+    "targets": "minecraft:swamp",
+    "replacement": "regions_unexplored:bayou",
     "parameters": {
         "weirdness": {
-            "max_inclusive": 0.5,
-            "min_inclusive": -0.5
+            "max_inclusive": 0.0,
+            "min_inclusive": -0.64
         }
     }
     
