@@ -170,7 +170,7 @@ hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "85ad3423702280ea1d70d25c9e242f6d4c4881a21570bf362fa7c9b9415a5d79"
+hash = "a968b40e148bc8450f186309ece73e2e2a81c5a810e33f161a1f06fc784032ff"
 
 [[files]]
 file = "config/amendments-client.toml"
@@ -378,7 +378,7 @@ hash = "502be841d72947a329e04b5da1e7800616edc3b9d2c252fccee571ac7aa981ee"
 
 [[files]]
 file = "config/biome_replacer.properties"
-hash = "c97f81f7639d5025be1da4e8e61ca6a99ac7d26d13439482c4f9ff46dd1be45b"
+hash = "0d29b96c503532de274df03c0faf0a7212628eaaac74c304c47e2784304a0e2d"
 
 [[files]]
 file = "config/biomeswevegone/misc.json"
@@ -394,7 +394,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "3902cde92c0a4cdc68c7a8a4a69f20752111614dfde1078dcb4ae7e756030d42"
+hash = "09e41d693208d66124d1e938f5db525882455359875f0072dd8179aac16cf5b4"
 
 [[files]]
 file = "config/buildinggadgets2-common.toml"
@@ -414,15 +414,15 @@ hash = "d0accd9879a8d31db8bdb55163dbb1b1668890a4558ac0689f807c6e207d1d99"
 
 [[files]]
 file = "config/chat_tools.json"
-hash = "56dff53dc5370bcdf39a58724fef10127c82fa7de9462f5a18a432ce5d6fb292"
-
-[[files]]
-file = "config/chatimpressiveanimation.json"
-hash = "13fac7ab2025bc4ada007db2a05822bfefa1bcc4b685505ad528e981ad31525c"
+hash = "d4ec25748fff6ed2bdd8138cf1e9ab1c65e9288bffc8a178a0be6d110ab9970c"
 
 [[files]]
 file = "config/chloride-client.toml"
 hash = "d2e04fe68f50047336470342c8e237de386581c39ef1bbdb624e4b64c07a8d5d"
+
+[[files]]
+file = "config/clearwater.jsonc"
+hash = "7da68a1c062b9ece5f7b44b9eb49e8eff9199dbc18e0ed1994f57432accfb681"
 
 [[files]]
 file = "config/colorwheel-client.toml"
@@ -546,15 +546,15 @@ hash = "ca5f84880487d708ffbb27e07e7c73f708d9414f01f0eb40df8c4d72ef4e7df1"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "c3b8281f9e1ecd87f4ba7a8b97b5b66375fe0b7d10fd7088c6481d2f3fcc87cc"
+hash = "7b63d7011eca5f53b8fcf687a11dcee55612f9f4aa5c6e0599d2de665455a9de"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "1853741acea963313f52621604a24a7b86b1670eefcaa9f756d36cc5387c7c35"
+hash = "907611c4fccac121454e378674993b0a24d1ffd85921e95f446f844b76fd9035"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ecf1ff05b5b23cb59b9b9ae49bafd59f636dcea5b4a95e375a43ca29f1156dc1"
+hash = "904ffbf0d3017fe98f80198ec13f0c530cdc922f916dfa20a355a4d8e4d5c522"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -606,7 +606,7 @@ hash = "b132ad48bb74ac34e154b14992136f8eea72008054fa5613a6e5704903571f38"
 
 [[files]]
 file = "config/emotecraft.json"
-hash = "8cfb42df2afa3b8aed623ab5ad0310181693831f55f092ebcef87b299ccc03e6"
+hash = "0487c8c3d6e50ab2508ce4f230ae23e7d570aff33575555abb167257f3d6cec6"
 
 [[files]]
 file = "config/emotecraft_emote_map.json"
@@ -626,7 +626,7 @@ hash = "a0867628abd6f9e052a618e61cab635a2fc04f8b2cbf93419857ba8ecec21e25"
 
 [[files]]
 file = "config/exposure-client.toml"
-hash = "0dc61228d59f64bc42e705ccfd3c9d633f805d836a9cacd669b39ade3be5a1e2"
+hash = "09ffba877764d1de78535974055fee92fef8d70e58ced99d967d00d8d81404ab"
 
 [[files]]
 file = "config/exposure-common.toml"
@@ -662,7 +662,7 @@ hash = "5c98d6579ac2d3c1171d9b22d223fd33bbd89d83dc9a8d7e969c9235cfb38ab0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8dd3f1d71b225961f64b9bb6aa142b681d0b7a0a3455a5b181846b941b634be7"
+hash = "38230d45532258b54f29e381e0f85bd8d3a04b1f117411621d212d8059ee74f9"
 
 [[files]]
 file = "config/farm_and_charm-common.toml"
@@ -810,11 +810,19 @@ hash = "d497843ce8906fe50976dc618a100a329539e6bfbd38e18210d99a5571bf7f7d"
 
 [[files]]
 file = "config/integrateddynamicscompat-common.toml"
-hash = "3ed73212b026fd2cdd028b4ea0df9403358b01bef9df7865150591de57cae2cc"
+hash = "bae57c1191be90f5845b328cffa81a2b6c9ad30672ecc74e51791f3f6bb36c74"
 
 [[files]]
 file = "config/integratedmekanism-common.toml"
 hash = "daa907e67befe39b6af4fe503ae5abbc7555336529664f642312ca6e6a3b98e6"
+
+[[files]]
+file = "config/integratednbt-common.toml"
+hash = "f33aef215a4ab7fe4430dca21bb1d6c95c22ae2ea0f8fb9570c3cc51b3ca830a"
+
+[[files]]
+file = "config/integratedrest-common.toml"
+hash = "12b7eed055d0a982bf1268f657be79735a20a851596ce9eb07b704bea307bc4e"
 
 [[files]]
 file = "config/integratedscripting-common.toml"
@@ -858,7 +866,7 @@ hash = "faed6c19d67d3c221408fc928383911f4e34c6f740929d8b463ea2356aa6edce"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "59f9e948545d759982bb9f1f7792c029e3e9f1dc41ee96d7494e9afece920863"
+hash = "1d34a73680aa202f0a4c5b1896c5a9e7b77b81f28279b4f0bca6c6a13ad821aa"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/pneumaticcraft.json"
@@ -866,7 +874,7 @@ hash = "ec932f2ef198991a172cf8a453d45c691bbc9e514a4f2f7cc0ce38bb64e5a67c"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "42d14c11ec543226a7be5e8c9e4648b0ce664948e9295c6ea1dc86898d89cbf5"
+hash = "ac995fa91b8308a4c2808349963950eb9b3380baa0236ac9296ac076eb3556ba"
 
 [[files]]
 file = "config/inventoryprofilesnext/villager-trading-config-v2.json"
@@ -878,7 +886,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b18f3b35d6231e80e1e9f7c4e362adc8e440a1b711980be11f09dd9611c2fcca"
+hash = "00fe0a455d500b5a26f97a0e252aa1a0865da81687fb093a777292b5ca28a734"
 
 [[files]]
 file = "config/iteminteractions-client.toml"
@@ -926,7 +934,7 @@ hash = "621f44c75d9c9e038e3a9f2c809342b5fc007e15a443b62e299ada1f2b21fb7a"
 
 [[files]]
 file = "config/jei-server.toml"
-hash = "2d28528e1218410df260bd41f717604d8a21d77df38f8c18b15b4378835efc80"
+hash = "378a84f7c20da0ea972d259fcfe1d6ddd3d37a96bda7cd52620745e98f27eb12"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -934,7 +942,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "56fbcc437aef17438495eb26d7d4feaf8b9c6b01f8001af1d4f5f28347ce9ab0"
+hash = "432ed2ebbbcd134dfc4c93399546683643131200cd1d374dba43f49bcc4ebf0e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -942,7 +950,7 @@ hash = "02bcacc419a8ffddfb06faa8ad7f87e9c5b00d84b326760ebb102d924485dfa2"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "278b00243c3f180f16900a7313566fd2c9dccb14930e34b1cb593ab47b8d481f"
+hash = "048c6f4df046e9d87a1262c60f8e42692fa5c0d99ecff509808466d431aebeb8"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -958,11 +966,11 @@ hash = "b6fbdc3a92e50965222079ec185cb4f3dd33cc6c259f1af2e0ee30466ac750a9"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "1c3eb01c0b6e1d090e2bc54aa8fd7545ad71fb62cc0b743cdda89c61bad558ee"
+hash = "894d5015d2aa999ae39f826219d1d8c61242c92a44e7ab30fa9640fefadeff81"
 
 [[files]]
 file = "config/jei_integration_reborn-client.toml"
-hash = "bef470dd8142604875aaa7a29064a5316bf4698b5d7bf21f9c6a36d2d6cc602d"
+hash = "3789fd6803dab30a78824f329465132addd51390ab1ae11921ea28862ca49a65"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1061,6 +1069,10 @@ file = "config/malilib.json"
 hash = "d375c3c93c77e4b9b871477009c2ab6a3564470e839597ee2cf5a0a5218eb9e0"
 
 [[files]]
+file = "config/maps3d-server.properties"
+hash = "7ac4b256374cad3aa9744db24c29abee2dd7051bc556d57437599031f8874bb3"
+
+[[files]]
 file = "config/maxhealthfix.json"
 hash = "f25e0012be339dc6020bc892faea1c9765466a16fd1bb4174c00d885270a9241"
 
@@ -1086,7 +1098,7 @@ hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "d590c19bad37632f9c51dfdaddfc66619ffb320ec6d3d520e37d79a8c597dff4"
+hash = "1b4bbf9f90345052ee7eea96e352286bf2757c88dca0ca16ea137705e0ac1ef9"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1165,12 +1177,8 @@ file = "config/opentogether-server.toml"
 hash = "bdf5a7c9b6131b535342473a756d438db0b228be03bfa6d22a3bbe58617ace54"
 
 [[files]]
-file = "config/overflowingbars-client.toml"
-hash = "37bbb8df722f5abbd7305048007cc0ca5e0a9b84d3229d983a6753f7dbcfae80"
-
-[[files]]
 file = "config/packetfixer.properties"
-hash = "68b488e27bb96624d750c4743633bead1c3377e5b528ea9ecea64e3595b81b90"
+hash = "b662101c0a8e69a88606633f74a070b8f9537b3c56728e98a534c56e5402e79c"
 
 [[files]]
 file = "config/particular-common.toml"
@@ -1269,8 +1277,20 @@ file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/struct
 hash = "01716269239f843a43f5e86e82ec899e6b66538822f88d807bf484c424b62147"
 
 [[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "ffd2d8633a38d739d65029257d522b81a0b6f71562d2068ce413104c71cbb968"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/structure_set/strongholds.json"
+hash = "172823e36c54c41cedb78a1c22673005a8ee708586ce87373490174d027430e1"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/minecraft/worldgen/structure_set/trial_chambers.json"
+hash = "eff8e905c5891f695efcb92f98b79078c9f7542e7e3dc042f2cf47cf900dc868"
+
+[[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/badlands_to_desert.json"
-hash = "3f523d3e671cf09a2ff6e7a9ccaaa06355c97136eec3f7885469ecbfe0ddfd56"
+hash = "ef6692e0783a28bcd87d7e58cad4842c43f9aff642cc7da248ada3ccf35137a4"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/biomes_to_deep_warm_ocean.json"
@@ -1282,7 +1302,7 @@ hash = "cd2ed74d1106e7aac28da389ddf23c70af65b3ecc89644efb0dba8d64fdf328b"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/coral_reef_to_warm_ocean.json"
-hash = "8c47527bf781184a1e82e8f34befd157f2398faf59d7de81aa488730c1fecd3b"
+hash = "06d705bc70dcece51bf8f573c813c56f46f1bc9315ef8094a03d6f8b8002a882"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/frozen_trench_to_deep_frozen_ocean.json"
@@ -1297,8 +1317,16 @@ file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/b
 hash = "16fe6b20522b0355bbe41a38945ebfcda07bccffcbf59a6914dee519d0f6da95"
 
 [[files]]
-file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/mantle_caves_to_prismachasm.json"
-hash = "1026cf162427583e592236e163ff9311f8a04c7ae719fd4edcc59cc54e59cb98"
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/moonlight_valley_to_moonlight_grove.json"
+hash = "e0db246ac39409c25d4950a2878d69377d9a3799c5cd89c3e4ce0a3c900f2ec7"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/swamp_to_bayou.json"
+hash = "e61e9c20f50b7f23d753999992b947003d209106269bbfbcc987ab7f64777a36"
+
+[[files]]
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/swamp_to_old_growth_bayou.json"
+hash = "47b9aaffa328715e3ce144e59f1e01ff52b695fa48a6bbabec28586a791d47f8"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/trench_to_deep_ocean.json"
@@ -1306,15 +1334,11 @@ hash = "490e788cd432f24fa9885d91a5ae38f5b87c955aabe8a269f0b8ad21be32ade9"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/weeping_witch_forest_to_forest.json"
-hash = "50d7ca11f256f6b652d4eab63055785f263a599c75ef8632faf57187ce9485dd"
+hash = "e4dc0735493ffa2c9cddd5eddd05e887f948ca73c83c52b03f28b0625690021a"
 
 [[files]]
-file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/weeping_witch_forest_to_moonlight_grove.json"
-hash = "abd24718f310b03ece6a2b61819acb7e80323533f8e20b012c6f40c45fe2d30e"
-
-[[files]]
-file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/yellowstone_to_moonlight_valley.json"
-hash = "377e7808d7fd5a1cad0ecb37535eac7c10185778678a856c4852975414501e64"
+file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/biome_injector/windswept_gravelly_hills_to_moonlight_valley.json"
+hash = "98e9e42cb9a306bff6df453df82e6da542ad5130d6f630b8db1d1a46a82fd99e"
 
 [[files]]
 file = "config/paxi/datapacks/Star-Trail-Datapack/data/startrail/lithostitched/worldgen_modifier/thermal_vent_cold.json"
@@ -1341,6 +1365,10 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/biomeswevegone/lang/zh_cn.json"
+hash = "c7f20723a6b17d58571b03bf64d5a9b6f42146de93b8187e661731fe000df27c"
+
+[[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/customnpcs/sounds.json"
 hash = "e8632089cb8f4dbb65ff51c2a8635ca359353821a49bae79e7ac51ce906c0cd2"
 
@@ -1349,12 +1377,8 @@ file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/customnpcs/so
 hash = "4acd5c0558427398b683b35aa8b941b5d0c08b63571189350ea66fc69606a96b"
 
 [[files]]
-file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/lang/en_us.json"
-hash = "f21e302067e9b99742767f46f50cffb7a8cbedb3939e3591ded58efd39fca2c1"
-
-[[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/hybrid_aquatic/lang/zh_cn.json"
-hash = "c823c837e1831109a39a0b1ca7e8bc783ac539082997fbbeb1d3c5643feff690"
+hash = "75f0f226245645458f2c06bd1c922c05ecd246dc4e5bc875fce24c38cf911baf"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/integrateddynamics/lang/en_us.json"
@@ -1362,19 +1386,19 @@ hash = "93056830e36677ba953eccd4d09b99b82fce66839b6ad94f9478da0077571a48"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/integrateddynamics/lang/zh_cn.json"
-hash = "3bfeb74c78ad0071275407f44d1a52ded629d15bfbfc4f8944899d30c1111890"
+hash = "ef6a8fa123d0ea4858c10e44dc1190acf58c1cddf2b87d06d2bab22ba5f0e36e"
 
 [[files]]
-file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/regions_unexplored/lang/en_us.json"
-hash = "5c64cc58ace4ec7876f78f3eab0296110b1d2e46161a6214034f4c570db679f2"
+file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/minecraft/lang/zh_cn.json"
+hash = "39ce095356c782fc9a42b0635fdb1f94d465caf13be974565a96a1e3d1620115"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/regions_unexplored/lang/zh_cn.json"
-hash = "414fa4d655e2b6d6df91fda192e95152ac8eae9c41acc4400dafa6c881c85cef"
+hash = "ea705c431b78d3269bd3051c4ad27c9f7c090bab9f2be9337c6552e2f767538c"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/terralith/lang/zh_cn.json"
-hash = "b5010369a721932b886d21745682ce134cc75f8e243a18cd85ce66fd1b638e6b"
+hash = "03eb13b7ef99d63314fd0cb097e3f038fad1c6d0c7f25027e2bf5a216826b529"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/verdant/lang/zh_cn.json"
@@ -1382,7 +1406,7 @@ hash = "788c24b22ff086d36ba4b559dcf0470ea8290666668bb0afba83d954f5663cc4"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/assets/vintageimprovements/lang/zh_cn.json"
-hash = "97d2b0ae566d220b7810a0b4b841f8267a234f5ca0111d046d690987c5814dab"
+hash = "217d40e4997b57261f6d15cd4bb7e1ca97b19a95812388b7b615bf07b8af9ea4"
 
 [[files]]
 file = "config/paxi/resourcepacks/Star-Trail-Resources-Pack/pack.mcmeta"
@@ -1399,6 +1423,14 @@ hash = "c85409271434fd36ac8303205593a58a308538460a7d0c89815bc0c201e35501"
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-server.toml"
 hash = "c8236a676f7771c9096483f7d51ccbbe6368a7b167b2d37955a26458fe2d2a24"
+
+[[files]]
+file = "config/pingwheel.json"
+hash = "6878009a9f7ca2309feb78f6884556493b6752232f7f87e12901dbb6946ab5ea"
+
+[[files]]
+file = "config/pingwheel.server.json"
+hash = "821d5d12d0c096996c82d1a65349ac803adffcc25b89420a146c727fb92b381a"
 
 [[files]]
 file = "config/pipez-server.toml"
@@ -1522,7 +1554,7 @@ hash = "219a24a03c06a9171e1b04e1bd361a9332905dd79d0b94a4c805b4358a41ee1d"
 
 [[files]]
 file = "config/regions_unexplored/common.json"
-hash = "061df52ca67806e929b5dbc429bd6f21bd706ea811b86e8d51fed80f771b0a89"
+hash = "5a9d8b786fc0ee2bc4d4428e67baf70fb60a0fb5c07574b5bbab2b49bda32f9b"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -1574,7 +1606,7 @@ hash = "7722e27f5f4b7698d721fc5c9c4bef8184a32581e6e673ad84d2b97cc986474b"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "1f405a4209be09c4a83c517a789762c3a280349670740680d47487cb530c4215"
+hash = "12d887edb80911fc36561cc2bb294e9716172fea7d27692d9b39d2d769799eaa"
 
 [[files]]
 file = "config/simulated-client.toml"
@@ -1586,7 +1618,7 @@ hash = "74ceaca226933e2471df76e5f6a8b1d0e2e339754419fd7c0c8f37fb3b90d243"
 
 [[files]]
 file = "config/smoothscrolling-client.toml"
-hash = "19c510c55f1f7d9ab8f7dba44ea83d5bdab1dd4001459d4d86d6a9034ac86360"
+hash = "08a37181b037fd1f8ae4c841e81a515a491d6e3ab1c748f754d3bd0e5a14d909"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -1606,7 +1638,7 @@ hash = "5b36aeb152da44539b205ccf3e87f0edf46079f7be97aa677bf53c2f370d62d9"
 
 [[files]]
 file = "config/sounds/chat.json"
-hash = "3c31d9221550f4e8f3d04f9adadcf31ee050b9d1bebd6be3508eebe380ec1f18"
+hash = "061b2fa571bcda6c2d02e42e1c2fa41081573f95f0f808f494ed6858f222d0d7"
 
 [[files]]
 file = "config/sounds/event.json"
@@ -1618,11 +1650,11 @@ hash = "ad4c5fe9811db5595602b39957453cf553ca0ccf0c084db6393caa2f2fa05132"
 
 [[files]]
 file = "config/sounds/ui.json"
-hash = "ad2d93625c17340af17d4f8160853cb2a8db338ebc5e8989c574798039379f56"
+hash = "511fb7091f152a59666c63393344338968afa863eda6b1a4ecbf52b98a3f42aa"
 
 [[files]]
 file = "config/sounds/world.json"
-hash = "f8f1818ba5c8887bd01973839f9a413c1232cc1a1c4be7e5c72250ff2af042e7"
+hash = "8528c7480757c8cc768f60388cc1aad93c9e2fcde98e7a10d8178f97823be683"
 
 [[files]]
 file = "config/stonecuttingupgrade-client.toml"
@@ -1642,7 +1674,7 @@ hash = "68e5a4f2a58df7ea274757dbce5b3cf93764ac41a19f5896d1af7732a69e10a7"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "cf150f18156d5f8d401d297ca6b5eaca944ea432713db9fda6de8fd7ca0f7743"
+hash = "4f1bc0dab538c95c8751afb710a47586e9c598b56ad7bb653d01cde9f647e0cf"
 
 [[files]]
 file = "config/synaxis-server.toml"
@@ -1654,7 +1686,7 @@ hash = "e3677c58e525dddd7bf0c4b448e3196c787f153cdfc5b4be4def718bfe162a1f"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "58bdea238dd710b045e860194c17dbff47ef77fdb7ef5b2e008dc12a8de52256"
+hash = "82e418f25f31cf9e4db25a5abd83bc2e86558bff805f4bb3427e38da1a8b7edf"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -1686,7 +1718,7 @@ hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 
 [[files]]
 file = "config/travelersbackpack-client.toml"
-hash = "e98a90d0c0583810c06b2cd0e2915a88dac0b828be67ce41697ee9555b4975e0"
+hash = "e6eec89cf8856dc0f34a2eeb18364cd4d0f96454e69d56315429ca98e257f432"
 
 [[files]]
 file = "config/travelersbackpack-common.toml"
@@ -1710,7 +1742,7 @@ hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "64d6257eebe7d2cb3d321286832958f58f2a313824606524aba318df1b7aa70d"
+hash = "040f0f39574c854aab5e55016d9321cf8a698c4b39abdcef648c1f7c14b12064"
 
 [[files]]
 file = "config/verdant-client.toml"
@@ -1782,7 +1814,7 @@ hash = "e2b6c72507ba146fcd8d66db03d5ea472f8d439ca10dc75d455d7a3eb94240d3"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "9e47595d7352f8060162fc004a936d3ec25e68833b1d5efb48e9e5a042c537ad"
+hash = "5e91652fb921277d20076b49882a07dd7b783c5303081bac5ddfc4d52dabb496"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
