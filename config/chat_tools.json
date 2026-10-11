@@ -1,5 +1,5 @@
 {
-  "config.version": 2.401,
+  "config.version": 2.40301,
   "general.ChatTools.Enabled": true,
   "general.ShowWelcomeMessageEnabled": false,
   "general.CircuitBreaker.ToastThreshold": 10,
@@ -57,17 +57,21 @@
   "chatkeybindings.Macro.List": [],
   "bubble.Enabled": true,
   "bubble.Lifetime": 8,
-  "bubble.YOffset": 0,
+  "bubble.YOffset": 3,
   "bubble.MaxLineWidth": 190,
   "bubble.List": [
     {
       "address": ".*\\.hypixel\\.net",
       "pattern": "(?<name>\\S+): (?<message>.*)",
+      "partial": false,
+      "profile": false,
       "fallback": false
     },
     {
       "address": "*",
       "pattern": "<(?<name>.*)> (?<message>.*)",
+      "partial": false,
+      "profile": false,
       "fallback": false
     }
   ],
@@ -116,5 +120,7 @@
   "formatter.PreparsePlaceholdersEnabled": false,
   "chatkeybindings.ReviewLastMessageWithUpArrowOnly": false,
   "responder.MinAwaitTimeInMilliseconds": 500,
-  "general.kfc": false
+  "general.kfc": false,
+  "general.ChatAnimation.Enabled": false,
+  "bubble.HideIfInvisibleEnabled": true
 }

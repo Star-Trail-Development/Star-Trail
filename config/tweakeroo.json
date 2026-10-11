@@ -345,7 +345,7 @@
       "keys": ""
     },
     "toggleGrabCursor": {
-      "keys": "F10"
+      "keys": ""
     },
     "toolPick": {
       "keys": ""
@@ -497,13 +497,13 @@
       }
     },
     "disableBossBar": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
         "keys": ""
       }
     },
     "disableBossFog": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
         "keys": ""
       }
@@ -910,7 +910,7 @@
     "tweakHotbarSwap": false,
     "§6tweakInventoryPreview§r": false,
     "tweakItemUnstackingProtection": false,
-    "tweakLavaVisibility": true,
+    "tweakLavaVisibility": false,
     "tweakMapPreview": false,
     "tweakMovementKeysLast": false,
     "tweakPeriodicAttack": false,
@@ -1052,7 +1052,7 @@
       "keys": "X"
     },
     "tweakGammaOverride": {
-      "keys": "F9"
+      "keys": "F10"
     },
     "tweakHandRestock": {
       "keys": ""

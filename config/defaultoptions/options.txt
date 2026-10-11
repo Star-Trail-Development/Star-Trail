@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["teastory_asset_generator","vanilla","fabric","generated/fragmentum_layer","mod_resources","mod/wilderflowers:resourcepacks/wildflowers","moonlight:merged_pack","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","Star-Trail-Resources-Pack","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","obscure_tooltips/packs/vibrant_tooltips"]
-incompatibleResourcePacks:["teastory_asset_generator","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
+resourcePacks:["vanilla","fabric","mod_resources","generated/fragmentum_layer","moonlight:merged_pack","mod/wilderflowers:resourcepacks/wildflowers","obscure_tooltips/packs/vibrant_tooltips","file/Pretty X Smart Pipez.zip","file/Midnighttiggers-FCT-Default_1.20_V8.zip","mod/yuushya:resourcepacks/fusion_combine","file/AE2-1.20.1-Guide-zh_CN_v2.0.zip","file/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip","Star-Trail-Resources-Pack"]
+incompatibleResourcePacks:["file/AE2-1.20.1-Guide-zh_CN_v2.0.zip"]
 lastServer:
 lang:zh_cn
 chatVisibility:0
@@ -88,15 +88,15 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:5
 soundCategory_master:1.0
-soundCategory_music:0.20598591549295775
-soundCategory_record:0.4084507042253521
-soundCategory_weather:0.75
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:0.7570422535211268
-soundCategory_voice:1.0
+soundCategory_music:0.15845070422535212
+soundCategory_record:0.15492957746478872
+soundCategory_weather:0.7517605633802817
+soundCategory_block:0.7570422535211268
+soundCategory_hostile:0.7517605633802817
+soundCategory_neutral:0.7552816901408451
+soundCategory_player:0.7517605633802817
+soundCategory_ambient:0.7552816901408451
+soundCategory_voice:0.5017605633802817
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

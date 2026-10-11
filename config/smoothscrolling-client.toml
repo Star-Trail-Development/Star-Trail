@@ -13,17 +13,17 @@
 	#Chat scroll smoothness. 0 = Off, 1 = Maximum smoothness
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	smoothness = 0.5
+	smoothness = 0.35
 	#Chat opening animation smoothness. 0 = Off, 1 = Maximum smoothness
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	openingSmoothness = 0.5
+	openingSmoothness = 0.38
 
 [creativeScreen]
 	#Creative screen scroll smoothness. 0 = Off, 1 = Maximum smoothness
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	smoothness = 0.5
+	smoothness = 0.4
 
 [entryList]
 	#Entry list scroll smoothness. 0 = Off, 1 = Maximum smoothness

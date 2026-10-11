@@ -14,5 +14,6 @@ world_preview/
 */*.bak
 *.bak
 *.backup*
+iconexporter-common.toml
 observable.json
 xaeropatreon.txt
